@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/jangkyeongjin/portfolio/issues"
   },
-  "homepage": "https://github.com/jangkyeongjin/portfolio#readme"
+  "homepage": "https://github.com/jangkyeongjin/portfolio#readme",
+  "devDependencies": {
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-serve": "^0.1.6"
+  }
 }
