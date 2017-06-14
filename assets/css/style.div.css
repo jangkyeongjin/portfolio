@@ -1,12 +1,4 @@
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
-/* line 1, assets\less\variable.less */
-h1 {
-  border: 1px #F00 solid;
-}
-/* line 2, assets\less\mixin.less */
-h1 {
-  border: 1px #F00 solid;
-}
 /* line 1, assets\less\common.less */
 * {
   margin: 0;
@@ -31,38 +23,71 @@ ul {
 a {
   text-decoration: none;
 }
-/* line 9, assets\less\style.less */
+/* line 8, assets\less\style.less */
+.wrap {
+  width: 1900px;
+  height: 3000px;
+}
+/* line 12, assets\less\style.less */
+.nav {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+}
+/* line 17, assets\less\style.less */
 .logo {
   text-align: center;
 }
-/* line 12, assets\less\style.less */
+/* line 20, assets\less\style.less */
 .menu {
-  width: 100%;
+  width: 1200px;
   height: 50px;
   margin-top: 10px;
-  background: #FF0;
 }
-/* line 18, assets\less\style.less */
+/* line 25, assets\less\style.less */
 .me1 {
   background: url(../images/location.png) 3px center;
   background-repeat: no-repeat;
 }
-/* line 22, assets\less\style.less */
-.menu li i {
-  background: url(../images/down.png) 30px center;
+/* line 29, assets\less\style.less */
+.me2 {
+  background: url(../images/home.png) 3px center;
+  background-repeat: no-repeat;
+}
+/* line 33, assets\less\style.less */
+.me3 {
+  background: url(../images/dinner.png) 3px center;
+  background-repeat: no-repeat;
+}
+/* line 37, assets\less\style.less */
+.me4 {
+  background: url(../images/speech.png) 3px center;
+  background-repeat: no-repeat;
+}
+/* line 41, assets\less\style.less */
+.me1 i,
+.me2 i,
+.me4 i {
+  background: url(../images/down.png) 20px center;
   background-repeat: no-repeat;
   padding-left: 42px;
-  margin-left: 114px;
+  margin-left: 117px;
 }
-/* line 28, assets\less\style.less */
+/* line 47, assets\less\style.less */
+.me3 i {
+  background: url(../images/down.png) center;
+  background-repeat: no-repeat;
+  padding-left: 42px;
+  margin-left: 160px;
+}
+/* line 53, assets\less\style.less */
 .menu ul {
   width: 1200px;
   height: 50px;
-  background: #F00;
   position: relative;
   margin: 0 auto;
 }
-/* line 35, assets\less\style.less */
+/* line 59, assets\less\style.less */
 .menu li {
   width: 274px;
   height: 50px;
@@ -72,19 +97,69 @@ a {
   padding-left: 30px;
   font-size: 13px;
 }
-/* line 44, assets\less\style.less */
-.menu a {
+/* line 68, assets\less\style.less */
+.menu li span {
   color: #32965b;
 }
-/* line 47, assets\less\style.less */
+/* line 71, assets\less\style.less */
 .search {
   width: 80px;
   height: 50px;
   background: #32965b;
   float: right;
 }
-/* line 53, assets\less\style.less */
+/* line 77, assets\less\style.less */
 .search img {
   padding-top: 13px;
   padding-left: 25px;
+}
+/* line 81, assets\less\style.less */
+.main {
+  width: 100%;
+  height: 463px;
+  position: relative;
+}
+/* line 87, assets\less\style.less */
+.main strong {
+  position: absolute;
+  top: 0;
+  color: #FFF;
+  font-size: 40px;
+  margin-left: 340px;
+}
+/* line 94, assets\less\style.less */
+.main span {
+  position: absolute;
+  top: 41px;
+  color: #FFF;
+  font-size: 40px;
+  margin-left: 340px;
+}
+/* line 101, assets\less\style.less */
+.main p {
+  position: absolute;
+  top: 90px;
+  color: #FFF;
+  font-size: 12px;
+  margin-left: 340px;
+}
+/* line 108, assets\less\style.less */
+.section {
+  height: 100%;
+  background: #CC0;
+}
+/* line 113, assets\less\style.less */
+.depth {
+  height: 420px;
+  background: #f06eaa;
+}
+/* line 117, assets\less\style.less */
+.depth h1 {
+  text-align: center;
+  color: #32965b;
+}
+/* line 121, assets\less\style.less */
+.depth p {
+  text-align: center;
+  color: #32965b;
 }
