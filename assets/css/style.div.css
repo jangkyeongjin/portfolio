@@ -119,46 +119,66 @@ a {
   height: 463px;
   position: relative;
 }
-/* line 87, assets\less\style.less */
+/* line 86, assets\less\style.less */
+.main .sun {
+  top: 95px;
+  display: block;
+  width: 440px;
+  height: 4px;
+  background: #FFF;
+}
+/* line 93, assets\less\style.less */
 .main strong {
   position: absolute;
-  top: 0;
+  top: 98px;
   color: #FFF;
-  font-size: 40px;
+  font-size: 48px;
   margin-left: 340px;
 }
-/* line 94, assets\less\style.less */
+/* line 100, assets\less\style.less */
 .main span {
   position: absolute;
-  top: 41px;
+  top: 148px;
   color: #FFF;
-  font-size: 40px;
+  font-size: 48px;
   margin-left: 340px;
 }
-/* line 101, assets\less\style.less */
+/* line 107, assets\less\style.less */
 .main p {
   position: absolute;
-  top: 90px;
+  top: 220px;
   color: #FFF;
-  font-size: 12px;
+  font-size: 15px;
   margin-left: 340px;
 }
-/* line 108, assets\less\style.less */
+/* line 114, assets\less\style.less */
+.main button {
+  position: absolute;
+  top: 310px;
+  margin-left: 340px;
+  border: 0;
+  background: rgba(0, 0, 0, 0);
+  color: #FFF;
+  text-decoration: underline;
+  font-size: 25px;
+}
+/* line 124, assets\less\style.less */
 .section {
   height: 100%;
   background: #CC0;
 }
-/* line 113, assets\less\style.less */
+/* line 129, assets\less\style.less */
 .depth {
   height: 420px;
   background: #f06eaa;
 }
-/* line 117, assets\less\style.less */
+/* line 133, assets\less\style.less */
 .depth h1 {
   text-align: center;
   color: #32965b;
+  margin-top: 52px;
 }
-/* line 121, assets\less\style.less */
+/* line 138, assets\less\style.less */
 .depth p {
   text-align: center;
   color: #32965b;
