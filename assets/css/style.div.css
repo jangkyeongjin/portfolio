@@ -183,3 +183,39 @@ a {
   text-align: center;
   color: #32965b;
 }
+/* line 142, assets\less\style.less */
+.slide {
+  margin-top: 25px;
+  margin-left: 340px;
+  position: relative;
+}
+/* line 147, assets\less\style.less */
+.slide ul {
+  position: relative;
+}
+/* line 150, assets\less\style.less */
+.slide ul:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* line 155, assets\less\style.less */
+.slide li {
+  float: left;
+  margin-left: 12px;
+}
+/* line 159, assets\less\style.less */
+.prev {
+  top: 45%;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+  position: absolute;
+  left: 15px;
+}
+/* line 167, assets\less\style.less */
+.prev img {
+  width: 25px;
+  height: 25px;
+  left: 0;
+}
