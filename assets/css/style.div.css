@@ -164,19 +164,20 @@ a {
 }
 /* line 124, assets\less\style.less */
 .section {
-  height: 100%;
+  width: 100%
+  height:100%;
   background: #CC0;
 }
 /* line 129, assets\less\style.less */
 .depth {
-  height: 420px;
-  background: #f06eaa;
+  width: 100%;
+  height: 500px;
 }
 /* line 133, assets\less\style.less */
 .depth h1 {
   text-align: center;
   color: #32965b;
-  margin-top: 52px;
+  padding-top: 50px;
 }
 /* line 138, assets\less\style.less */
 .depth p {
@@ -185,26 +186,27 @@ a {
 }
 /* line 142, assets\less\style.less */
 .slide {
-  margin-top: 25px;
+  margin-top: 40px;
   margin-left: 340px;
   position: relative;
 }
 /* line 147, assets\less\style.less */
 .slide ul {
+  width: 1206px;
   position: relative;
 }
-/* line 150, assets\less\style.less */
+/* line 151, assets\less\style.less */
 .slide ul:after {
   display: block;
   content: "";
   clear: both;
 }
-/* line 155, assets\less\style.less */
+/* line 156, assets\less\style.less */
 .slide li {
   float: left;
   margin-left: 12px;
 }
-/* line 159, assets\less\style.less */
+/* line 160, assets\less\style.less */
 .prev {
   top: 45%;
   cursor: pointer;
@@ -213,9 +215,39 @@ a {
   position: absolute;
   left: 15px;
 }
-/* line 167, assets\less\style.less */
+/* line 168, assets\less\style.less */
 .prev img {
   width: 25px;
   height: 25px;
   left: 0;
+}
+/* line 173, assets\less\style.less */
+.next {
+  top: 45%;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+  position: absolute;
+  right: 360px;
+}
+/* line 181, assets\less\style.less */
+.next img {
+  width: 25px;
+  height: 25px;
+}
+/* line 185, assets\less\style.less */
+.depth2 {
+  height: 840px;
+  background: #6ef0d9;
+}
+/* line 189, assets\less\style.less */
+.depth2 h1 {
+  text-align: center;
+  color: #32965b;
+  padding-top: 50px;
+}
+/* line 194, assets\less\style.less */
+.depth2 p {
+  text-align: center;
+  color: #32965b;
 }
