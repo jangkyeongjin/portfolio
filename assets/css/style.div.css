@@ -1,4 +1,5 @@
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 /* line 1, assets\less\common.less */
 * {
   margin: 0;
@@ -305,4 +306,22 @@ a {
 .depth3 img {
   margin-left: 340px;
   margin-top: 30px;
+}
+/* line 3, assets\less\subpage.less */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 4, assets\less\subpage.less */
+html,
+body {
+  height: 100%;
+}
+/* line 5, assets\less\subpage.less */
+ul {
+  list-style: none;
+}
+/* line 6, assets\less\subpage.less */
+a {
+  text-decoration: none;
 }
