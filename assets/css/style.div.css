@@ -325,3 +325,55 @@ ul {
 a {
   text-decoration: none;
 }
+/* line 8, assets\less\subpage.less */
+.photo {
+  width: 100%;
+  height: 463px;
+}
+/* line 12, assets\less\subpage.less */
+.photo img {
+  padding-top: 10px;
+  padding-left: 348px;
+}
+/* line 16, assets\less\subpage.less */
+.title {
+  margin-left: 350px;
+  margin-top: 30px;
+}
+/* line 20, assets\less\subpage.less */
+.title span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* line 24, assets\less\subpage.less */
+.title i {
+  font-style: normal;
+}
+/* line 27, assets\less\subpage.less */
+.sub {
+  width: 250px;
+  height: 700px;
+  margin-top: 15px;
+  margin-left: 350px;
+}
+/* line 33, assets\less\subpage.less */
+.sub span {
+  display: block;
+  margin-bottom: 1px;
+  border: 1px #32965b solid;
+  width: 140px;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+  color: #32965b;
+}
+/* line 43, assets\less\subpage.less */
+.sub .in {
+  margin-bottom: 1px;
+  border: 3px #32965b solid;
+  width: 140px;
+  height: 33px;
+  text-align: center;
+  line-height: 28px;
+  color: #32965b;
+}
