@@ -36,7 +36,19 @@ module.exports = function(grunt) {
       spawn: false,
     },
   },
-}
+},
+includes: {
+    dist:{
+      cwd:'src/view',
+      src:['**/*.html'],
+      dest:'dist/view',
+      options:{
+        flatten:true,
+        includePath:'src/view/includes/'
+      }
+    }
+
+  }
   });
 
   // Load the plugin that provides the "uglify" task.
