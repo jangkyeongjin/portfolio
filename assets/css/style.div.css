@@ -51,22 +51,30 @@ a {
   background: url(../images/location.png) 3px center;
   background-repeat: no-repeat;
 }
-/* line 29, assets\less\style.less */
+/* line 28, assets\less\style.less */
+.me1 a {
+  display: block;
+}
+/* line 32, assets\less\style.less */
 .me2 {
   background: url(../images/home.png) 3px center;
   background-repeat: no-repeat;
 }
-/* line 33, assets\less\style.less */
+/* line 35, assets\less\style.less */
+.me2 a {
+  display: block;
+}
+/* line 39, assets\less\style.less */
 .me3 {
   background: url(../images/dinner.png) 3px center;
   background-repeat: no-repeat;
 }
-/* line 37, assets\less\style.less */
+/* line 43, assets\less\style.less */
 .me4 {
   background: url(../images/speech.png) 3px center;
   background-repeat: no-repeat;
 }
-/* line 41, assets\less\style.less */
+/* line 47, assets\less\style.less */
 .me1 i,
 .me2 i,
 .me4 i {
@@ -75,21 +83,21 @@ a {
   padding-left: 42px;
   margin-left: 117px;
 }
-/* line 47, assets\less\style.less */
+/* line 53, assets\less\style.less */
 .me3 i {
   background: url(../images/down.png) center;
   background-repeat: no-repeat;
   padding-left: 42px;
   margin-left: 160px;
 }
-/* line 53, assets\less\style.less */
+/* line 59, assets\less\style.less */
 .menu ul {
   width: 1200px;
   height: 50px;
   position: relative;
   margin: 0 auto;
 }
-/* line 59, assets\less\style.less */
+/* line 65, assets\less\style.less */
 .menu li {
   width: 274px;
   height: 50px;
@@ -98,30 +106,27 @@ a {
   padding-top: 13px;
   padding-left: 30px;
   font-size: 13px;
-}
-/* line 68, assets\less\style.less */
-.menu li span {
   color: #32965b;
 }
-/* line 71, assets\less\style.less */
+/* line 75, assets\less\style.less */
 .search {
   width: 80px;
   height: 50px;
   background: #32965b;
   float: right;
 }
-/* line 77, assets\less\style.less */
+/* line 81, assets\less\style.less */
 .search img {
   padding-top: 13px;
   padding-left: 25px;
 }
-/* line 81, assets\less\style.less */
+/* line 85, assets\less\style.less */
 .main {
   width: 100%;
   height: 463px;
   position: relative;
 }
-/* line 86, assets\less\style.less */
+/* line 90, assets\less\style.less */
 .main .sun {
   top: 95px;
   display: block;
@@ -129,7 +134,7 @@ a {
   height: 4px;
   background: #FFF;
 }
-/* line 93, assets\less\style.less */
+/* line 97, assets\less\style.less */
 .main strong {
   position: absolute;
   top: 98px;
@@ -137,7 +142,7 @@ a {
   font-size: 48px;
   margin-left: 340px;
 }
-/* line 100, assets\less\style.less */
+/* line 104, assets\less\style.less */
 .main span {
   position: absolute;
   top: 148px;
@@ -145,7 +150,7 @@ a {
   font-size: 48px;
   margin-left: 340px;
 }
-/* line 107, assets\less\style.less */
+/* line 111, assets\less\style.less */
 .main p {
   position: absolute;
   top: 220px;
@@ -153,7 +158,7 @@ a {
   font-size: 15px;
   margin-left: 340px;
 }
-/* line 114, assets\less\style.less */
+/* line 118, assets\less\style.less */
 .main button {
   position: absolute;
   top: 310px;
@@ -164,50 +169,50 @@ a {
   text-decoration: underline;
   font-size: 25px;
 }
-/* line 124, assets\less\style.less */
+/* line 128, assets\less\style.less */
 .section {
   width: 100%
   height:100%;
 }
-/* line 128, assets\less\style.less */
+/* line 132, assets\less\style.less */
 .depth {
   width: 100%;
   height: 500px;
 }
-/* line 132, assets\less\style.less */
+/* line 136, assets\less\style.less */
 .depth h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 137, assets\less\style.less */
+/* line 141, assets\less\style.less */
 .depth p {
   text-align: center;
   color: #32965b;
 }
-/* line 141, assets\less\style.less */
+/* line 145, assets\less\style.less */
 .slide {
   margin-top: 40px;
   margin-left: 340px;
   position: relative;
 }
-/* line 146, assets\less\style.less */
+/* line 150, assets\less\style.less */
 .slide ul {
   width: 1206px;
   position: relative;
 }
-/* line 150, assets\less\style.less */
+/* line 154, assets\less\style.less */
 .slide ul:after {
   display: block;
   content: "";
   clear: both;
 }
-/* line 155, assets\less\style.less */
+/* line 159, assets\less\style.less */
 .slide li {
   float: left;
   margin-left: 12px;
 }
-/* line 159, assets\less\style.less */
+/* line 163, assets\less\style.less */
 .prev {
   top: 45%;
   cursor: pointer;
@@ -216,13 +221,13 @@ a {
   position: absolute;
   left: 15px;
 }
-/* line 167, assets\less\style.less */
+/* line 171, assets\less\style.less */
 .prev img {
   width: 25px;
   height: 25px;
   left: 0;
 }
-/* line 172, assets\less\style.less */
+/* line 176, assets\less\style.less */
 .next {
   top: 45%;
   cursor: pointer;
@@ -231,44 +236,44 @@ a {
   position: absolute;
   right: 360px;
 }
-/* line 180, assets\less\style.less */
+/* line 184, assets\less\style.less */
 .next img {
   width: 25px;
   height: 25px;
 }
-/* line 184, assets\less\style.less */
+/* line 188, assets\less\style.less */
 .depth2 {
   height: 900px;
 }
-/* line 187, assets\less\style.less */
+/* line 191, assets\less\style.less */
 .depth2 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 192, assets\less\style.less */
+/* line 196, assets\less\style.less */
 .depth2 p {
   text-align: center;
   color: #32965b;
 }
-/* line 196, assets\less\style.less */
+/* line 200, assets\less\style.less */
 .depth2 ul {
   padding-top: 47px;
   width: 1200px;
   height: 100%;
   margin: 0 auto;
 }
-/* line 202, assets\less\style.less */
+/* line 206, assets\less\style.less */
 .depth2 li {
   float: left;
   margin-left: 13px;
   margin-bottom: 10px;
 }
-/* line 207, assets\less\style.less */
+/* line 211, assets\less\style.less */
 .mint {
   position: relative;
 }
-/* line 210, assets\less\style.less */
+/* line 214, assets\less\style.less */
 .mint h3 {
   font-size: 30px;
   color: #FFF;
@@ -276,7 +281,7 @@ a {
   top: 80px;
   margin-left: 210px;
 }
-/* line 217, assets\less\style.less */
+/* line 221, assets\less\style.less */
 .mint p {
   position: absolute;
   font-size: 14px;
@@ -284,7 +289,7 @@ a {
   top: 120px;
   margin-left: 120px;
 }
-/* line 224, assets\less\style.less */
+/* line 228, assets\less\style.less */
 .mint button {
   position: absolute;
   font-size: 15px;
@@ -293,17 +298,17 @@ a {
   margin-left: 300px;
   border: none;
 }
-/* line 233, assets\less\style.less */
+/* line 237, assets\less\style.less */
 .depth3 {
   height: 700px;
 }
-/* line 236, assets\less\style.less */
+/* line 240, assets\less\style.less */
 .depth3 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 241, assets\less\style.less */
+/* line 245, assets\less\style.less */
 .depth3 img {
   margin-left: 340px;
   margin-top: 30px;
@@ -327,30 +332,24 @@ a {
   text-decoration: none;
 }
 /* line 8, assets\less\subpage.less */
-.photo {
-  width: 100%;
-  height: 463px;
-}
-/* line 12, assets\less\subpage.less */
 .photo img {
   padding-top: 10px;
-  padding-left: 348px;
 }
-/* line 16, assets\less\subpage.less */
+/* line 11, assets\less\subpage.less */
 .title {
   margin-left: 350px;
   margin-top: 30px;
 }
-/* line 20, assets\less\subpage.less */
+/* line 15, assets\less\subpage.less */
 .title span {
   font-weight: bold;
   text-decoration: underline;
 }
-/* line 24, assets\less\subpage.less */
+/* line 19, assets\less\subpage.less */
 .title i {
   font-style: normal;
 }
-/* line 27, assets\less\subpage.less */
+/* line 22, assets\less\subpage.less */
 .sub {
   width: 250px;
   height: 700px;
@@ -358,7 +357,7 @@ a {
   margin-left: 350px;
   float: left;
 }
-/* line 34, assets\less\subpage.less */
+/* line 29, assets\less\subpage.less */
 .sub span {
   display: block;
   margin-bottom: 1px;
@@ -369,7 +368,7 @@ a {
   line-height: 33px;
   color: #32965b;
 }
-/* line 44, assets\less\subpage.less */
+/* line 39, assets\less\subpage.less */
 .sub .in {
   margin-bottom: 1px;
   border: 3px #32965b solid;
@@ -379,15 +378,15 @@ a {
   line-height: 28px;
   color: #32965b;
 }
-/* line 53, assets\less\subpage.less */
+/* line 48, assets\less\subpage.less */
 .picture ul {
-  width: 950px;
-  height: 1200px;
+  width: 1000px;
+  height: 1600px;
   background: #FF0;
   float: left;
   margin-top: 10px;
 }
-/* line 60, assets\less\subpage.less */
+/* line 55, assets\less\subpage.less */
 .picture li {
   width: 390px;
   height: 250px;
@@ -395,7 +394,7 @@ a {
   margin-bottom: 20px;
   margin-left: 20px;
 }
-/* line 67, assets\less\subpage.less */
+/* line 62, assets\less\subpage.less */
 .picture img {
   padding-left: 10px;
   padding-top: 10px;
@@ -420,6 +419,5 @@ a {
 }
 /* line 8, assets\less\hotel.less */
 .hwa {
-  padding-left: 350px;
   padding-top: 10px;
 }
