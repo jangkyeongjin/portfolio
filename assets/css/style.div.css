@@ -1,6 +1,7 @@
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 /* line 1, assets\less\common.less */
 * {
   margin: 0;
@@ -418,6 +419,40 @@ a {
   text-decoration: none;
 }
 /* line 8, assets\less\hotel.less */
+.hwa {
+  padding-top: 10px;
+}
+/* line 11, assets\less\hotel.less */
+.mini {
+  width: 866px;
+  height: 374px;
+  background: #FF0;
+  float: left;
+  margin-top: 10px;
+}
+/* line 21, assets\less\hotel.less */
+.mini img {
+  padding-top: 10px;
+}
+/* line 3, assets\less\subpage2.less */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 4, assets\less\subpage2.less */
+html,
+body {
+  height: 100%;
+}
+/* line 5, assets\less\subpage2.less */
+ul {
+  list-style: none;
+}
+/* line 6, assets\less\subpage2.less */
+a {
+  text-decoration: none;
+}
+/* line 8, assets\less\subpage2.less */
 .hwa {
   padding-top: 10px;
 }
