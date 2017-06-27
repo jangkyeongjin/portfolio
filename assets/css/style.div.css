@@ -392,13 +392,20 @@ a {
   width: 390px;
   height: 250px;
   float: left;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  margin-bottom: 40px;
+  margin-left: 40px;
 }
 /* line 62, assets\less\subpage.less */
 .picture img {
   padding-left: 10px;
-  padding-top: 10px;
+  padding-top: 30px;
+}
+/* line 66, assets\less\subpage.less */
+.picture p {
+  margin-top: 6px;
+  margin-left: 120px;
+  margin-bottom: 40px;
+  text-size: 25px;
 }
 /* line 3, assets\less\hotel.less */
 * {
@@ -433,6 +440,12 @@ a {
 /* line 21, assets\less\hotel.less */
 .mini img {
   padding-top: 10px;
+}
+/* line 24, assets\less\hotel.less */
+.mini .nex {
+  background: #000;
+  top: 135px;
+  right: 0px;
 }
 /* line 3, assets\less\subpage2.less */
 * {
