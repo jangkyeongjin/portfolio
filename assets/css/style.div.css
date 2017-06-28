@@ -405,7 +405,6 @@ a {
   margin-top: 6px;
   margin-left: 120px;
   margin-bottom: 40px;
-  text-size: 25px;
 }
 /* line 3, assets\less\hotel.less */
 * {
@@ -446,6 +445,44 @@ a {
   background: #000;
   top: 135px;
   right: 0px;
+}
+/* line 29, assets\less\hotel.less */
+.slideima img {
+  width: 212px;
+  height: 95px;
+}
+/* line 33, assets\less\hotel.less */
+.main_text h3 {
+  font-size: 24px;
+  color: #807878;
+  margin-top: 10px;
+}
+/* line 38, assets\less\hotel.less */
+.main_text h5 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+/* line 42, assets\less\hotel.less */
+.main_text p {
+  font-size: 15px;
+  margin-top: 30px;
+}
+/* line 46, assets\less\hotel.less */
+.main_text h6 {
+  font-size: 18px;
+  margin-top: 70px;
+  color: #c5d7c3;
+}
+/* line 51, assets\less\hotel.less */
+.info {
+  width: 930px;
+  height: 298px;
+  background: #c8f0c5;
+  margin-top: 40px;
+}
+/* line 57, assets\less\hotel.less */
+.info h2 {
+  color: #32965b;
 }
 /* line 3, assets\less\subpage2.less */
 * {
