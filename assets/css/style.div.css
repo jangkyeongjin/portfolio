@@ -2,6 +2,9 @@
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 /* line 1, assets\less\common.less */
 * {
   margin: 0;
@@ -385,7 +388,7 @@ a {
   height: 1600px;
   background: #FF0;
   float: left;
-  margin-top: 10px;
+  margin-top: 16px;
 }
 /* line 55, assets\less\subpage.less */
 .picture li {
@@ -397,13 +400,13 @@ a {
 }
 /* line 62, assets\less\subpage.less */
 .picture img {
-  padding-left: 10px;
+  padding-left: 40px;
   padding-top: 30px;
 }
 /* line 66, assets\less\subpage.less */
 .picture p {
   margin-top: 6px;
-  margin-left: 120px;
+  margin-left: 165px;
   margin-bottom: 40px;
 }
 /* line 3, assets\less\hotel.less */
@@ -431,7 +434,7 @@ a {
 /* line 11, assets\less\hotel.less */
 .mini {
   width: 866px;
-  height: 374px;
+  height: 100%;
   background: #FF0;
   float: left;
   margin-top: 10px;
@@ -473,16 +476,62 @@ a {
   margin-top: 70px;
   color: #c5d7c3;
 }
-/* line 51, assets\less\hotel.less */
+/* line 53, assets\less\hotel.less */
 .info {
-  width: 930px;
+  width: 866px;
   height: 298px;
   background: #c8f0c5;
-  margin-top: 40px;
+  margin-top: 50px;
 }
-/* line 57, assets\less\hotel.less */
+/* line 58, assets\less\hotel.less */
 .info h2 {
   color: #32965b;
+}
+/* line 61, assets\less\hotel.less */
+.info .ho {
+  width: 400px;
+  height: 250px;
+  float: left;
+  margin-left: 25px;
+  background: #F00;
+}
+/* line 67, assets\less\hotel.less */
+.info .ho .ing {
+  width: 400px;
+  height: 94px;
+  margin-top: 15px;
+  background: #CCC;
+}
+/* line 73, assets\less\hotel.less */
+.info .ho .check {
+  width: 400px;
+  height: 94px;
+  margin-top: 15px;
+  background: #f9ad81;
+}
+/* line 81, assets\less\hotel.less */
+.info .fac {
+  width: 380px;
+  height: 250px;
+  float: left;
+  margin-left: 22px;
+  background: #ed145b;
+}
+/* line 90, assets\less\hotel.less */
+.but {
+  width: 866px;
+  height: 50px;
+  margin-top: 12px;
+  background: #FF0;
+}
+/* line 95, assets\less\hotel.less */
+.but button {
+  width: 140px;
+  height: 50px;
+  font-size: 20px;
+  float: right;
+  background: #32965b;
+  border: 1px solid #000;
 }
 /* line 3, assets\less\subpage2.less */
 * {
@@ -503,6 +552,150 @@ a {
   text-decoration: none;
 }
 /* line 8, assets\less\subpage2.less */
-.hwa {
-  padding-top: 10px;
+.picture2 {
+  width: 1000px;
+  height: 1600px;
+  float: left;
+  margin-top: 16px;
+  background: #ec008c;
+}
+/* line 14, assets\less\subpage2.less */
+.picture2 li {
+  width: 390px;
+  height: 250px;
+  float: left;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+/* line 21, assets\less\subpage2.less */
+.picture2 img {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+/* line 25, assets\less\subpage2.less */
+.picture2 p {
+  margin-top: 6px;
+  margin-left: 165px;
+  margin-bottom: 40px;
+}
+/* line 3, assets\less\hotel2.less */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 4, assets\less\hotel2.less */
+html,
+body {
+  height: 100%;
+}
+/* line 5, assets\less\hotel2.less */
+ul {
+  list-style: none;
+}
+/* line 6, assets\less\hotel2.less */
+a {
+  text-decoration: none;
+}
+/* line 8, assets\less\hotel2.less */
+.subject {
+  width: 866px;
+  height: 100%;
+  background: #F00;
+  float: left;
+  margin-top: 10px;
+}
+/* line 14, assets\less\hotel2.less */
+.subject h2 {
+  font-size: 30px;
+  color: #555555;
+}
+/* line 3, assets\less\subpage3.less */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 4, assets\less\subpage3.less */
+html,
+body {
+  height: 100%;
+}
+/* line 5, assets\less\subpage3.less */
+ul {
+  list-style: none;
+}
+/* line 6, assets\less\subpage3.less */
+a {
+  text-decoration: none;
+}
+/* line 10, assets\less\subpage3.less */
+.picture2 {
+  width: 1000px;
+  height: 1600px;
+  float: left;
+  margin-top: 16px;
+  background: #ec008c;
+}
+/* line 16, assets\less\subpage3.less */
+.picture2 li {
+  width: 390px;
+  height: 250px;
+  float: left;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+/* line 23, assets\less\subpage3.less */
+.picture2 img {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+/* line 28, assets\less\subpage3.less */
+.picture2 p {
+  margin-top: 6px;
+  margin-left: 165px;
+  margin-bottom: 40px;
+}
+/* line 3, assets\less\subpage4.less */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 4, assets\less\subpage4.less */
+html,
+body {
+  height: 100%;
+}
+/* line 5, assets\less\subpage4.less */
+ul {
+  list-style: none;
+}
+/* line 6, assets\less\subpage4.less */
+a {
+  text-decoration: none;
+}
+/* line 10, assets\less\subpage4.less */
+.picture2 {
+  width: 1000px;
+  height: 1600px;
+  float: left;
+  margin-top: 16px;
+  background: #662d91;
+}
+/* line 16, assets\less\subpage4.less */
+.picture2 li {
+  width: 390px;
+  height: 250px;
+  float: left;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+/* line 23, assets\less\subpage4.less */
+.picture2 img {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+/* line 28, assets\less\subpage4.less */
+.picture2 p {
+  margin-top: 6px;
+  margin-left: 165px;
+  margin-bottom: 40px;
 }
