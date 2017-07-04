@@ -618,45 +618,59 @@ a {
   display: block;
   font-size: 20px;
   line-height: 40px;
-  color: ##32965b;
+  color: #32965b;
   text-align: left;
   font-weight: normal;
 }
-/* line 51, assets\less\hotel2.less */
+/* line 41, assets\less\hotel2.less */
+.date .check strong span {
+  display: block;
+}
+/* line 47, assets\less\hotel2.less */
 .room {
   width: 866px;
   height: 138px;
   margin-top: 10px;
   background: #e6ec4b;
 }
-/* line 56, assets\less\hotel2.less */
+/* line 52, assets\less\hotel2.less */
 .room h4 {
   font-size: 20px;
   margin-left: 15px;
 }
-/* line 61, assets\less\hotel2.less */
+/* line 57, assets\less\hotel2.less */
 .imfor {
   width: 866px;
   height: 488px;
   margin-top: 10px;
   background: #662d91;
 }
-/* line 66, assets\less\hotel2.less */
+/* line 62, assets\less\hotel2.less */
 .imfor h4 {
   font-size: 20px;
   margin-left: 15px;
 }
-/* line 71, assets\less\hotel2.less */
+/* line 67, assets\less\hotel2.less */
 .pay {
   width: 866px;
   height: 140px;
   margin-top: 10px;
   background: #d35f19;
 }
-/* line 76, assets\less\hotel2.less */
+/* line 72, assets\less\hotel2.less */
 .pay h4 {
   font-size: 20px;
   margin-left: 15px;
+}
+/* line 77, assets\less\hotel2.less */
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  color: #FFF;
+  float: right;
+  background: #32965b;
+  border: 1px solid #32965b;
 }
 /* line 3, assets\less\subpage3.less */
 * {
