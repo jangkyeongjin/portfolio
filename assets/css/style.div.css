@@ -17,68 +17,63 @@
   padding: 0;
 }
 /* line 4, assets\less\style.less */
-html,
-body {
-  height: 100%;
-}
-/* line 5, assets\less\style.less */
 ul {
   list-style: none;
 }
-/* line 6, assets\less\style.less */
+/* line 5, assets\less\style.less */
 a {
   text-decoration: none;
 }
-/* line 8, assets\less\style.less */
+/* line 7, assets\less\style.less */
 .wrap {
   width: 1900px;
   height: 3000px;
 }
-/* line 12, assets\less\style.less */
+/* line 11, assets\less\style.less */
 .nav {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
 }
-/* line 17, assets\less\style.less */
+/* line 16, assets\less\style.less */
 .logo {
   text-align: center;
 }
-/* line 20, assets\less\style.less */
+/* line 19, assets\less\style.less */
 .menu {
   width: 1200px;
   height: 50px;
   margin-top: 10px;
 }
-/* line 25, assets\less\style.less */
+/* line 24, assets\less\style.less */
 .me1 {
   background: url(../images/location.png) 3px center;
   background-repeat: no-repeat;
 }
-/* line 28, assets\less\style.less */
+/* line 27, assets\less\style.less */
 .me1 a {
   display: block;
 }
-/* line 32, assets\less\style.less */
+/* line 31, assets\less\style.less */
 .me2 {
   background: url(../images/home.png) 3px center;
   background-repeat: no-repeat;
 }
-/* line 35, assets\less\style.less */
+/* line 34, assets\less\style.less */
 .me2 a {
   display: block;
 }
-/* line 39, assets\less\style.less */
+/* line 38, assets\less\style.less */
 .me3 {
   background: url(../images/dinner.png) 3px center;
   background-repeat: no-repeat;
 }
-/* line 43, assets\less\style.less */
+/* line 42, assets\less\style.less */
 .me4 {
   background: url(../images/speech.png) 3px center;
   background-repeat: no-repeat;
 }
-/* line 47, assets\less\style.less */
+/* line 46, assets\less\style.less */
 .me1 i,
 .me2 i,
 .me4 i {
@@ -87,21 +82,21 @@ a {
   padding-left: 42px;
   margin-left: 117px;
 }
-/* line 53, assets\less\style.less */
+/* line 52, assets\less\style.less */
 .me3 i {
   background: url(../images/down.png) center;
   background-repeat: no-repeat;
   padding-left: 42px;
   margin-left: 160px;
 }
-/* line 59, assets\less\style.less */
+/* line 58, assets\less\style.less */
 .menu ul {
   width: 1200px;
   height: 50px;
   position: relative;
   margin: 0 auto;
 }
-/* line 65, assets\less\style.less */
+/* line 64, assets\less\style.less */
 .menu li {
   width: 274px;
   height: 50px;
@@ -112,25 +107,29 @@ a {
   font-size: 13px;
   color: #32965b;
 }
-/* line 75, assets\less\style.less */
+/* line 74, assets\less\style.less */
 .search {
   width: 80px;
   height: 50px;
   background: #32965b;
   float: right;
 }
-/* line 81, assets\less\style.less */
+/* line 80, assets\less\style.less */
 .search img {
   padding-top: 13px;
   padding-left: 25px;
 }
-/* line 85, assets\less\style.less */
+/* line 84, assets\less\style.less */
 .main {
   width: 100%;
   height: 463px;
   position: relative;
 }
-/* line 90, assets\less\style.less */
+/* line 89, assets\less\style.less */
+.main img {
+  width: 100%;
+}
+/* line 92, assets\less\style.less */
 .main .sun {
   top: 95px;
   display: block;
@@ -138,7 +137,7 @@ a {
   height: 4px;
   background: #FFF;
 }
-/* line 97, assets\less\style.less */
+/* line 99, assets\less\style.less */
 .main strong {
   position: absolute;
   top: 98px;
@@ -146,7 +145,7 @@ a {
   font-size: 48px;
   margin-left: 340px;
 }
-/* line 104, assets\less\style.less */
+/* line 106, assets\less\style.less */
 .main span {
   position: absolute;
   top: 148px;
@@ -154,7 +153,7 @@ a {
   font-size: 48px;
   margin-left: 340px;
 }
-/* line 111, assets\less\style.less */
+/* line 113, assets\less\style.less */
 .main p {
   position: absolute;
   top: 220px;
@@ -162,7 +161,7 @@ a {
   font-size: 15px;
   margin-left: 340px;
 }
-/* line 118, assets\less\style.less */
+/* line 120, assets\less\style.less */
 .main button {
   position: absolute;
   top: 310px;
@@ -173,50 +172,50 @@ a {
   text-decoration: underline;
   font-size: 25px;
 }
-/* line 128, assets\less\style.less */
+/* line 130, assets\less\style.less */
 .section {
   width: 100%
   height:100%;
 }
-/* line 132, assets\less\style.less */
+/* line 134, assets\less\style.less */
 .depth {
   width: 100%;
   height: 500px;
 }
-/* line 136, assets\less\style.less */
+/* line 138, assets\less\style.less */
 .depth h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 141, assets\less\style.less */
+/* line 143, assets\less\style.less */
 .depth p {
   text-align: center;
   color: #32965b;
 }
-/* line 145, assets\less\style.less */
+/* line 147, assets\less\style.less */
 .slide {
   margin-top: 40px;
   margin-left: 340px;
   position: relative;
 }
-/* line 150, assets\less\style.less */
+/* line 152, assets\less\style.less */
 .slide ul {
   width: 1206px;
   position: relative;
 }
-/* line 154, assets\less\style.less */
+/* line 156, assets\less\style.less */
 .slide ul:after {
   display: block;
   content: "";
   clear: both;
 }
-/* line 159, assets\less\style.less */
+/* line 161, assets\less\style.less */
 .slide li {
   float: left;
   margin-left: 12px;
 }
-/* line 163, assets\less\style.less */
+/* line 165, assets\less\style.less */
 .prev {
   top: 45%;
   cursor: pointer;
@@ -225,13 +224,13 @@ a {
   position: absolute;
   left: 15px;
 }
-/* line 171, assets\less\style.less */
+/* line 173, assets\less\style.less */
 .prev img {
   width: 25px;
   height: 25px;
   left: 0;
 }
-/* line 176, assets\less\style.less */
+/* line 178, assets\less\style.less */
 .next {
   top: 45%;
   cursor: pointer;
@@ -240,44 +239,43 @@ a {
   position: absolute;
   right: 360px;
 }
-/* line 184, assets\less\style.less */
+/* line 186, assets\less\style.less */
 .next img {
   width: 25px;
   height: 25px;
 }
-/* line 188, assets\less\style.less */
+/* line 190, assets\less\style.less */
 .depth2 {
   height: 900px;
 }
-/* line 191, assets\less\style.less */
+/* line 193, assets\less\style.less */
 .depth2 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 196, assets\less\style.less */
+/* line 198, assets\less\style.less */
 .depth2 p {
   text-align: center;
   color: #32965b;
 }
-/* line 200, assets\less\style.less */
+/* line 202, assets\less\style.less */
 .depth2 ul {
   padding-top: 47px;
   width: 1200px;
-  height: 100%;
   margin: 0 auto;
 }
-/* line 206, assets\less\style.less */
+/* line 207, assets\less\style.less */
 .depth2 li {
   float: left;
   margin-left: 13px;
   margin-bottom: 10px;
 }
-/* line 211, assets\less\style.less */
+/* line 212, assets\less\style.less */
 .mint {
   position: relative;
 }
-/* line 214, assets\less\style.less */
+/* line 215, assets\less\style.less */
 .mint h3 {
   font-size: 30px;
   color: #FFF;
@@ -285,7 +283,7 @@ a {
   top: 80px;
   margin-left: 210px;
 }
-/* line 221, assets\less\style.less */
+/* line 222, assets\less\style.less */
 .mint p {
   position: absolute;
   font-size: 14px;
@@ -293,7 +291,7 @@ a {
   top: 120px;
   margin-left: 120px;
 }
-/* line 228, assets\less\style.less */
+/* line 229, assets\less\style.less */
 .mint button {
   position: absolute;
   font-size: 15px;
@@ -302,17 +300,17 @@ a {
   margin-left: 300px;
   border: none;
 }
-/* line 237, assets\less\style.less */
+/* line 238, assets\less\style.less */
 .depth3 {
   height: 700px;
 }
-/* line 240, assets\less\style.less */
+/* line 241, assets\less\style.less */
 .depth3 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 245, assets\less\style.less */
+/* line 246, assets\less\style.less */
 .depth3 img {
   margin-left: 340px;
   margin-top: 30px;
@@ -323,21 +321,17 @@ a {
   padding: 0;
 }
 /* line 4, assets\less\subpage.less */
-html,
-body {
-  height: 100%;
-}
-/* line 5, assets\less\subpage.less */
 ul {
   list-style: none;
 }
-/* line 6, assets\less\subpage.less */
+/* line 5, assets\less\subpage.less */
 a {
   text-decoration: none;
 }
-/* line 8, assets\less\subpage.less */
+/* line 7, assets\less\subpage.less */
 .photo img {
   padding-top: 10px;
+  width: 100%;
 }
 /* line 11, assets\less\subpage.less */
 .title {
@@ -415,79 +409,78 @@ a {
   padding: 0;
 }
 /* line 4, assets\less\hotel.less */
-html,
-body {
-  height: 100%;
-}
-/* line 5, assets\less\hotel.less */
 ul {
   list-style: none;
 }
-/* line 6, assets\less\hotel.less */
+/* line 5, assets\less\hotel.less */
 a {
   text-decoration: none;
 }
-/* line 8, assets\less\hotel.less */
+/* line 7, assets\less\hotel.less */
 .hwa {
   padding-top: 10px;
 }
-/* line 11, assets\less\hotel.less */
+/* line 10, assets\less\hotel.less */
+.hwa img {
+  width: 100%;
+}
+/* line 13, assets\less\hotel.less */
 .mini {
   width: 866px;
-  height: 100%;
+  height: 1500px;
   background: #FF0;
   float: left;
   margin-top: 10px;
 }
-/* line 21, assets\less\hotel.less */
+/* line 23, assets\less\hotel.less */
 .mini img {
   padding-top: 10px;
 }
-/* line 24, assets\less\hotel.less */
+/* line 26, assets\less\hotel.less */
 .mini .nex {
   background: #000;
   top: 135px;
   right: 0px;
 }
-/* line 29, assets\less\hotel.less */
+/* line 31, assets\less\hotel.less */
 .slideima img {
   width: 212px;
   height: 95px;
 }
-/* line 33, assets\less\hotel.less */
+/* line 35, assets\less\hotel.less */
 .main_text h3 {
   font-size: 24px;
   color: #807878;
   margin-top: 10px;
 }
-/* line 38, assets\less\hotel.less */
+/* line 40, assets\less\hotel.less */
 .main_text h5 {
   font-size: 18px;
   margin-top: 10px;
 }
-/* line 42, assets\less\hotel.less */
+/* line 44, assets\less\hotel.less */
 .main_text p {
   font-size: 15px;
   margin-top: 30px;
 }
-/* line 46, assets\less\hotel.less */
+/* line 48, assets\less\hotel.less */
 .main_text h6 {
   font-size: 18px;
   margin-top: 70px;
   color: #c5d7c3;
 }
-/* line 53, assets\less\hotel.less */
+/* line 55, assets\less\hotel.less */
 .info {
   width: 866px;
   height: 298px;
   background: #c8f0c5;
   margin-top: 50px;
 }
-/* line 58, assets\less\hotel.less */
+/* line 60, assets\less\hotel.less */
 .info h2 {
   color: #32965b;
 }
-/* line 61, assets\less\hotel.less */
+/* line 63, assets\less\hotel.less */
 .info .ho {
   width: 400px;
   height: 250px;
@@ -495,21 +488,21 @@ a {
   margin-left: 25px;
   background: #F00;
 }
-/* line 67, assets\less\hotel.less */
+/* line 69, assets\less\hotel.less */
 .info .ho .ing {
   width: 400px;
   height: 94px;
   margin-top: 15px;
   background: #CCC;
 }
-/* line 73, assets\less\hotel.less */
+/* line 75, assets\less\hotel.less */
 .info .ho .check {
   width: 400px;
   height: 94px;
   margin-top: 15px;
   background: #f9ad81;
 }
-/* line 81, assets\less\hotel.less */
+/* line 83, assets\less\hotel.less */
 .info .fac {
   width: 380px;
   height: 250px;
@@ -517,14 +510,14 @@ a {
   margin-left: 22px;
   background: #ed145b;
 }
-/* line 90, assets\less\hotel.less */
+/* line 92, assets\less\hotel.less */
 .but {
   width: 866px;
   height: 50px;
   margin-top: 12px;
   background: #FF0;
 }
-/* line 95, assets\less\hotel.less */
+/* line 97, assets\less\hotel.less */
 .but button {
   width: 140px;
   height: 50px;
@@ -539,19 +532,14 @@ a {
   padding: 0;
 }
 /* line 4, assets\less\subpage2.less */
-html,
-body {
-  height: 100%;
-}
-/* line 5, assets\less\subpage2.less */
 ul {
   list-style: none;
 }
-/* line 6, assets\less\subpage2.less */
+/* line 5, assets\less\subpage2.less */
 a {
   text-decoration: none;
 }
-/* line 8, assets\less\subpage2.less */
+/* line 7, assets\less\subpage2.less */
 .picture2 {
   width: 1000px;
   height: 1600px;
@@ -559,7 +547,7 @@ a {
   margin-top: 16px;
   background: #ec008c;
 }
-/* line 14, assets\less\subpage2.less */
+/* line 13, assets\less\subpage2.less */
 .picture2 li {
   width: 390px;
   height: 250px;
@@ -567,12 +555,12 @@ a {
   margin-bottom: 40px;
   margin-left: 40px;
 }
-/* line 21, assets\less\subpage2.less */
+/* line 20, assets\less\subpage2.less */
 .picture2 img {
   padding-left: 40px;
   padding-top: 30px;
 }
-/* line 25, assets\less\subpage2.less */
+/* line 24, assets\less\subpage2.less */
 .picture2 p {
   margin-top: 6px;
   margin-left: 165px;
@@ -584,19 +572,14 @@ a {
   padding: 0;
 }
 /* line 4, assets\less\hotel2.less */
-html,
-body {
-  height: 100%;
-}
-/* line 5, assets\less\hotel2.less */
 ul {
   list-style: none;
 }
-/* line 6, assets\less\hotel2.less */
+/* line 5, assets\less\hotel2.less */
 a {
   text-decoration: none;
 }
-/* line 8, assets\less\hotel2.less */
+/* line 7, assets\less\hotel2.less */
 .subject {
   width: 866px;
   height: 100%;
@@ -604,24 +587,24 @@ a {
   float: left;
   margin-top: 10px;
 }
-/* line 14, assets\less\hotel2.less */
+/* line 13, assets\less\hotel2.less */
 .subject h2 {
   font-size: 30px;
   color: #555555;
 }
-/* line 19, assets\less\hotel2.less */
+/* line 18, assets\less\hotel2.less */
 .date {
   width: 866px;
   height: 138px;
   margin-top: 10px;
   background: #0f7e65;
 }
-/* line 24, assets\less\hotel2.less */
+/* line 23, assets\less\hotel2.less */
 .date h4 {
   font-size: 20px;
   margin-left: 15px;
 }
-/* line 28, assets\less\hotel2.less */
+/* line 27, assets\less\hotel2.less */
 .date .check {
   width: 313px;
   height: 55px;
@@ -629,7 +612,7 @@ a {
   position: relative;
   border: 1px #32965b solid;
 }
-/* line 34, assets\less\hotel2.less */
+/* line 33, assets\less\hotel2.less */
 .date .check strong {
   padding: 0 10px 0 45px;
   display: block;
@@ -639,38 +622,38 @@ a {
   text-align: left;
   font-weight: normal;
 }
-/* line 52, assets\less\hotel2.less */
+/* line 51, assets\less\hotel2.less */
 .room {
   width: 866px;
   height: 138px;
   margin-top: 10px;
   background: #e6ec4b;
 }
-/* line 57, assets\less\hotel2.less */
+/* line 56, assets\less\hotel2.less */
 .room h4 {
   font-size: 20px;
   margin-left: 15px;
 }
-/* line 62, assets\less\hotel2.less */
+/* line 61, assets\less\hotel2.less */
 .imfor {
   width: 866px;
   height: 488px;
   margin-top: 10px;
   background: #662d91;
 }
-/* line 67, assets\less\hotel2.less */
+/* line 66, assets\less\hotel2.less */
 .imfor h4 {
   font-size: 20px;
   margin-left: 15px;
 }
-/* line 72, assets\less\hotel2.less */
+/* line 71, assets\less\hotel2.less */
 .pay {
   width: 866px;
   height: 140px;
   margin-top: 10px;
   background: #d35f19;
 }
-/* line 77, assets\less\hotel2.less */
+/* line 76, assets\less\hotel2.less */
 .pay h4 {
   font-size: 20px;
   margin-left: 15px;
@@ -681,19 +664,14 @@ a {
   padding: 0;
 }
 /* line 4, assets\less\subpage3.less */
-html,
-body {
-  height: 100%;
-}
-/* line 5, assets\less\subpage3.less */
 ul {
   list-style: none;
 }
-/* line 6, assets\less\subpage3.less */
+/* line 5, assets\less\subpage3.less */
 a {
   text-decoration: none;
 }
-/* line 10, assets\less\subpage3.less */
+/* line 9, assets\less\subpage3.less */
 .picture2 {
   width: 1000px;
   height: 1600px;
@@ -701,7 +679,7 @@ a {
   margin-top: 16px;
   background: #ec008c;
 }
-/* line 16, assets\less\subpage3.less */
+/* line 15, assets\less\subpage3.less */
 .picture2 li {
   width: 390px;
   height: 250px;
@@ -709,12 +687,12 @@ a {
   margin-bottom: 40px;
   margin-left: 40px;
 }
-/* line 23, assets\less\subpage3.less */
+/* line 22, assets\less\subpage3.less */
 .picture2 img {
   padding-left: 40px;
   padding-top: 30px;
 }
-/* line 28, assets\less\subpage3.less */
+/* line 27, assets\less\subpage3.less */
 .picture2 p {
   margin-top: 6px;
   margin-left: 165px;
@@ -726,19 +704,14 @@ a {
   padding: 0;
 }
 /* line 4, assets\less\subpage4.less */
-html,
-body {
-  height: 100%;
-}
-/* line 5, assets\less\subpage4.less */
 ul {
   list-style: none;
 }
-/* line 6, assets\less\subpage4.less */
+/* line 5, assets\less\subpage4.less */
 a {
   text-decoration: none;
 }
-/* line 10, assets\less\subpage4.less */
+/* line 9, assets\less\subpage4.less */
 .picture2 {
   width: 1000px;
   height: 1600px;
@@ -746,7 +719,7 @@ a {
   margin-top: 16px;
   background: #662d91;
 }
-/* line 16, assets\less\subpage4.less */
+/* line 15, assets\less\subpage4.less */
 .picture2 li {
   width: 390px;
   height: 250px;
@@ -754,12 +727,12 @@ a {
   margin-bottom: 40px;
   margin-left: 40px;
 }
-/* line 23, assets\less\subpage4.less */
+/* line 22, assets\less\subpage4.less */
 .picture2 img {
   padding-left: 40px;
   padding-top: 30px;
 }
-/* line 28, assets\less\subpage4.less */
+/* line 27, assets\less\subpage4.less */
 .picture2 p {
   margin-top: 6px;
   margin-left: 165px;
