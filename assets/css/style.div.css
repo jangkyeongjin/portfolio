@@ -712,7 +712,7 @@ a {
   text-decoration: none;
 }
 /* line 9, assets\less\subpage4.less */
-.picture2 {
+.picture4 {
   width: 1000px;
   height: 1600px;
   float: left;
@@ -720,21 +720,23 @@ a {
   background: #662d91;
 }
 /* line 15, assets\less\subpage4.less */
-.picture2 li {
-  width: 390px;
-  height: 250px;
+.picture4 .text {
+  width: 1000px;
+  height: 80px;
+  background: #ff0;
+}
+/* line 19, assets\less\subpage4.less */
+.picture4 .text p {
   float: left;
-  margin-bottom: 40px;
-  margin-left: 40px;
+  font-size: 18px;
 }
-/* line 22, assets\less\subpage4.less */
-.picture2 img {
-  padding-left: 40px;
-  padding-top: 30px;
-}
-/* line 27, assets\less\subpage4.less */
-.picture2 p {
-  margin-top: 6px;
-  margin-left: 165px;
-  margin-bottom: 40px;
+/* line 23, assets\less\subpage4.less */
+.picture4 .text button {
+  width: 100px;
+  height: 40px;
+  float: right;
+  color: #0f7e65;
+  font-size: 15px;
+  background: none;
+  border: 0;
 }
