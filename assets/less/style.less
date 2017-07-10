@@ -5,8 +5,7 @@ ul{list-style:none;}
 a{text-decoration: none;}
 
 .wrap{
-  width: 1900px;
-  height: 3000px;
+  
 }
 .nav{
  width:1200px;
@@ -82,12 +81,12 @@ a{text-decoration: none;}
   padding-left: 25px;
 }
 .main{
-  width: 100%;
-  height:463px;
+  height: 100%;
+  overflow: hidden;height: 100%;
   position: relative;
 }
 .main img{
-  width: 100%;
+  height: 100%;
 }
 .main .sun{
   top:95px;
@@ -117,14 +116,12 @@ a{text-decoration: none;}
   font-size: 15px;
   margin-left: 340px;
 }
-.main button{
-  width:200px;
-  height: 80px;
+.main a{
+  width:132px;
+  height: 30px;
   position: absolute;
   top:310px;
-  margin-left: 305px;
-  border: 0;
-  background: rgba(0, 0, 0, 0);
+  margin-left: 340px;
   color: #FFF;
   text-decoration: underline;
   font-size: 15px;
@@ -229,12 +226,14 @@ a{text-decoration: none;}
   margin-left: 120px;
 }
 .mint button{
+  height: 40px;
   position: absolute;
   font-size: 15px;
   color:#FFF;
   top:170px;
   margin-left: 270px;
-  border: none;
+  border: 2px #FFF solid;
+  background-color:transparent;
 
 }
 .depth3{
@@ -249,3 +248,66 @@ a{text-decoration: none;}
   margin-left: 340px;
   margin-top: 30px;
 }
+  .footer{
+    width: 100%;
+    height: 200px;
+    background: #32965b;
+    .fooimg{
+      width: 1200px;
+      height: 200px;
+      margin: 0 auto;
+      .right_up{
+        width: 1200px;
+        height: 100px;
+        .one{
+          width: 600px;
+          height: 100px;
+          float: left;
+        }
+        .two{
+          width: 600px;
+          height: 100px;
+          float: left;
+          img{
+            width: 115px;
+            height: 100px;
+            float: right;
+          }
+        }
+      }
+      .right_down{
+        width: 1200px;
+        height: 100px;
+        .sns{
+          width: 600px;
+          height: 100px;
+          float: left;
+          .insta{
+            width:250px;
+            height: 55px;
+
+            img{
+              width: 35px;
+              height: 35px;
+              margin-top: 10px;
+              margin-left: 30px;
+
+            }
+          }
+        }
+        .geol{
+          width: 600px;
+          height: 100px;
+          float: left;
+          p{
+            width: 205px;
+            height: 45px;
+            font-size: 14px;
+            float: right;
+            color: #FFF;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
