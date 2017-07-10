@@ -5,7 +5,7 @@ ul{list-style:none;}
 a{text-decoration: none;}
 
 .wrap{
-  
+
 }
 .nav{
  width:1200px;
@@ -35,8 +35,15 @@ a{text-decoration: none;}
   }
 }
 .me3{
+  display: block;
   background: url(../images/dinner.png)3px center;
   background-repeat: no-repeat;
+  a{
+    background: url(../images/down.png) center;
+    background-repeat: no-repeat;
+    position: inherit;
+  }
+
 }
 .me4{
   background: url(../images/speech.png)3px center;
@@ -49,8 +56,7 @@ a{text-decoration: none;}
   margin-left:117px;
 }
 .me3 i{
-  background: url(../images/down.png) center;
-  background-repeat: no-repeat;
+
   padding-left: 42px;
   margin-left: 160px;
 }
@@ -68,7 +74,8 @@ a{text-decoration: none;}
   padding-top: 13px;
   padding-left:30px;
   font-size: 13px;
-    color: #32965b;
+  color: #32965b;
+  vertical-align: top;
 }
 .search{
   width:80px;
@@ -81,8 +88,9 @@ a{text-decoration: none;}
   padding-left: 25px;
 }
 .main{
+  max-width: 1900px;
   height: 100%;
-  overflow: hidden;height: 100%;
+  overflow: hidden;
   position: relative;
 }
 .main img{
@@ -145,12 +153,12 @@ a{text-decoration: none;}
 }
 .slide{
   margin-top: 40px;
-  margin-left: 340px;
   position: relative;
 }
 .slide ul{
   width: 1206px;
   position: relative;
+  margin: 0 auto;
 }
 .slide ul:after{
   display: block;
@@ -238,6 +246,7 @@ a{text-decoration: none;}
 }
 .depth3{
   height: 700px;
+  text-align: center;
 }
 .depth3 h1{
   text-align: center;
@@ -245,7 +254,6 @@ a{text-decoration: none;}
   padding-top: 50px;
 }
 .depth3 img{
-  margin-left: 340px;
   margin-top: 30px;
 }
   .footer{
