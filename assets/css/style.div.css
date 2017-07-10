@@ -417,15 +417,16 @@ a {
   width: 1200px;
   height: 50px;
   margin-top: 10px;
-  background: #2694ac;
   margin: 0 auto;
 }
-/* line 20, assets\less\subpage.less */
+/* line 19, assets\less\subpage.less */
 .header .menu1 ul {
   width: 1200px;
   height: 50px;
+  background: #f00;
+  margin: 0 auto;
 }
-/* line 24, assets\less\subpage.less */
+/* line 25, assets\less\subpage.less */
 .header .menu1 li {
   width: 274px;
   height: 50px;
@@ -438,12 +439,16 @@ a {
   padding-top: 13px;
   padding-left: 30px;
 }
-/* line 36, assets\less\subpage.less */
+/* line 37, assets\less\subpage.less */
 .header .menu1 .search1 {
   width: 80px;
   height: 50px;
-  background: #32965b;
+  background-color: #32965b;
   float: right;
+  background-image: url(../images/search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: initial;
 }
 /* line 3, assets\less\hotel.less */
 * {
