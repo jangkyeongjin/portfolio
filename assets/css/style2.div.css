@@ -1415,35 +1415,43 @@ a {
 }
 /* line 286, assets\less\subpage4.less */
 .section1 .sect_cont .sub_list .list_q .ques_1 .last {
-  width: 950px;
+  width: 948px;
   height: 40px;
   background: #6ae639;
+  margin-top: 10px;
 }
-/* line 290, assets\less\subpage4.less */
+/* line 291, assets\less\subpage4.less */
 .section1 .sect_cont .sub_list .list_q .ques_1 .last .text_d {
-  width: 475px;
+  width: 473px;
   height: 40px;
   background: #1322e0;
-}
-/* line 294, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .last .text_d p {
   float: left;
+}
+/* line 296, assets\less\subpage4.less */
+.section1 .sect_cont .sub_list .list_q .ques_1 .last .text_d p {
   font-size: 14px;
   color: #d7d7d7;
   margin-left: 5px;
 }
-/* line 305, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .spot {
-  width: 60px;
+/* line 302, assets\less\subpage4.less */
+.section1 .sect_cont .sub_list .list_q .ques_1 .last .spot {
+  width: 473px;
+  height: 40px;
+  background: #F00;
+  float: right;
+}
+/* line 307, assets\less\subpage4.less */
+.section1 .sect_cont .sub_list .list_q .ques_1 .last .spot .icon_2 {
+  width: 25px;
   height: 20px;
   background: #7d4900;
   float: right;
 }
-/* line 310, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .spot .icon_1 {
+/* line 313, assets\less\subpage4.less */
+.section1 .sect_cont .sub_list .list_q .ques_1 .last .spot .num {
   width: 20px;
   height: 18px;
   background: #e38c13;
-  display: block;
-  float: left;
+  font-size: 13px;
+  float: right;
 }
