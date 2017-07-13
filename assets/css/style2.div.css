@@ -1418,7 +1418,7 @@ a {
   width: 948px;
   height: 40px;
   background: #6ae639;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 /* line 291, assets\less\subpage4.less */
 .section1 .sect_cont .sub_list .list_q .ques_1 .last .text_d {
@@ -1432,26 +1432,51 @@ a {
   font-size: 14px;
   color: #d7d7d7;
   margin-left: 5px;
+  margin-top: 15px;
 }
-/* line 302, assets\less\subpage4.less */
+/* line 303, assets\less\subpage4.less */
 .section1 .sect_cont .sub_list .list_q .ques_1 .last .spot {
   width: 473px;
   height: 40px;
   background: #F00;
   float: right;
 }
-/* line 307, assets\less\subpage4.less */
+/* line 308, assets\less\subpage4.less */
 .section1 .sect_cont .sub_list .list_q .ques_1 .last .spot .icon_2 {
   width: 25px;
   height: 20px;
   background: #7d4900;
   float: right;
+  margin-top: 15px;
 }
-/* line 313, assets\less\subpage4.less */
+/* line 315, assets\less\subpage4.less */
 .section1 .sect_cont .sub_list .list_q .ques_1 .last .spot .num {
   width: 20px;
   height: 18px;
   background: #e38c13;
   font-size: 13px;
   float: right;
+  margin-top: 15px;
+}
+/* line 328, assets\less\subpage4.less */
+.section1 .sect_cont .sub_list .pagenext {
+  width: 300px;
+  height: 40px;
+  background: #F00;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+/* line 334, assets\less\subpage4.less */
+.section1 .sect_cont .sub_list .pagenext .number_1 {
+  width: 200px;
+  height: 20px;
+  background: #0ec9f8;
+  font-size: 25px;
+  margin-left: 75px;
+}
+/* line 341, assets\less\subpage4.less */
+.section1 .sect_cont .sub_list .pagenext .number_1 a img {
+  width: 12px;
+  height: 19px;
+  margin-left: 5px;
 }
