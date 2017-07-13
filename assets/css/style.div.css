@@ -2,14 +2,19 @@
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
-@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
-@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
-@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
-/* line 1, assets\less\common.less */
+/* line 3, assets\less\common.less */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+/* line 4, assets\less\common.less */
+ul li {
+  list-style: none;
+}
+/* line 5, assets\less\common.less */
+a {
+  text-decoration: none;
 }
 /* line 3, assets\less\style.less */
 * {
@@ -66,16 +71,19 @@ a {
 }
 /* line 41, assets\less\style.less */
 .me3 a {
-  background: url(../images/down.png) center;
+  background: url(../images/down.png);
   background-repeat: no-repeat;
   position: inherit;
+  display: inline-block;
+  width: 100%;
+  background-position: 208px center;
 }
-/* line 48, assets\less\style.less */
+/* line 51, assets\less\style.less */
 .me4 {
   background: url(../images/speech.png) 3px center;
   background-repeat: no-repeat;
 }
-/* line 52, assets\less\style.less */
+/* line 55, assets\less\style.less */
 .me1 i,
 .me2 i,
 .me4 i {
@@ -84,19 +92,19 @@ a {
   padding-left: 42px;
   margin-left: 117px;
 }
-/* line 58, assets\less\style.less */
+/* line 61, assets\less\style.less */
 .me3 i {
   padding-left: 42px;
   margin-left: 160px;
 }
-/* line 63, assets\less\style.less */
+/* line 66, assets\less\style.less */
 .menu ul {
   width: 1200px;
   height: 50px;
   position: relative;
   margin: 0 auto;
 }
-/* line 69, assets\less\style.less */
+/* line 72, assets\less\style.less */
 .menu li {
   width: 274px;
   height: 50px;
@@ -108,30 +116,30 @@ a {
   color: #32965b;
   vertical-align: top;
 }
-/* line 80, assets\less\style.less */
+/* line 83, assets\less\style.less */
 .search {
   width: 80px;
   height: 50px;
   background: #32965b;
   float: right;
 }
-/* line 86, assets\less\style.less */
+/* line 89, assets\less\style.less */
 .search img {
   padding-top: 13px;
   padding-left: 25px;
 }
-/* line 90, assets\less\style.less */
+/* line 93, assets\less\style.less */
 .main {
   max-width: 1900px;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 96, assets\less\style.less */
+/* line 99, assets\less\style.less */
 .main img {
   height: 100%;
 }
-/* line 99, assets\less\style.less */
+/* line 102, assets\less\style.less */
 .main .sun {
   top: 95px;
   display: block;
@@ -139,7 +147,7 @@ a {
   height: 4px;
   background: #FFF;
 }
-/* line 106, assets\less\style.less */
+/* line 109, assets\less\style.less */
 .main strong {
   position: absolute;
   top: 98px;
@@ -147,7 +155,7 @@ a {
   font-size: 48px;
   margin-left: 340px;
 }
-/* line 113, assets\less\style.less */
+/* line 116, assets\less\style.less */
 .main span {
   position: absolute;
   top: 148px;
@@ -155,7 +163,7 @@ a {
   font-size: 48px;
   margin-left: 340px;
 }
-/* line 120, assets\less\style.less */
+/* line 123, assets\less\style.less */
 .main p {
   position: absolute;
   top: 220px;
@@ -163,7 +171,7 @@ a {
   font-size: 15px;
   margin-left: 340px;
 }
-/* line 127, assets\less\style.less */
+/* line 130, assets\less\style.less */
 .main a {
   width: 132px;
   height: 30px;
@@ -174,110 +182,110 @@ a {
   text-decoration: underline;
   font-size: 15px;
 }
-/* line 137, assets\less\style.less */
+/* line 140, assets\less\style.less */
 .sectional {
   width: 100%
   height:100%;
 }
-/* line 141, assets\less\style.less */
+/* line 144, assets\less\style.less */
 .depth {
   width: 100%;
   height: 500px;
 }
-/* line 145, assets\less\style.less */
+/* line 148, assets\less\style.less */
 .depth h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 150, assets\less\style.less */
+/* line 153, assets\less\style.less */
 .depth p {
   text-align: center;
   color: #32965b;
 }
-/* line 154, assets\less\style.less */
+/* line 157, assets\less\style.less */
 .slide {
   margin-top: 40px;
   position: relative;
 }
-/* line 158, assets\less\style.less */
+/* line 161, assets\less\style.less */
 .slide ul {
   width: 1206px;
   position: relative;
   margin: 0 auto;
 }
-/* line 163, assets\less\style.less */
+/* line 166, assets\less\style.less */
 .slide ul:after {
   display: block;
   content: "";
   clear: both;
 }
-/* line 168, assets\less\style.less */
+/* line 171, assets\less\style.less */
 .slide li {
   float: left;
   margin-left: 12px;
 }
-/* line 172, assets\less\style.less */
+/* line 175, assets\less\style.less */
 .prev {
   top: 45%;
   cursor: pointer;
   background: rgba(0, 0, 0, 0);
   border: 0;
   position: absolute;
-  left: 15px;
+  left: 326px;
 }
-/* line 180, assets\less\style.less */
+/* line 183, assets\less\style.less */
 .prev img {
   width: 25px;
   height: 25px;
   left: 0;
 }
-/* line 185, assets\less\style.less */
+/* line 188, assets\less\style.less */
 .next {
   top: 45%;
   cursor: pointer;
   background: rgba(0, 0, 0, 0);
   border: 0;
   position: absolute;
-  right: 360px;
+  right: 320px;
 }
-/* line 193, assets\less\style.less */
+/* line 196, assets\less\style.less */
 .next img {
   width: 25px;
   height: 25px;
 }
-/* line 197, assets\less\style.less */
+/* line 200, assets\less\style.less */
 .depth2 {
   height: 900px;
 }
-/* line 200, assets\less\style.less */
+/* line 203, assets\less\style.less */
 .depth2 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 205, assets\less\style.less */
+/* line 208, assets\less\style.less */
 .depth2 p {
   text-align: center;
   color: #32965b;
 }
-/* line 209, assets\less\style.less */
+/* line 212, assets\less\style.less */
 .depth2 ul {
   padding-top: 47px;
   width: 1200px;
   margin: 0 auto;
 }
-/* line 214, assets\less\style.less */
+/* line 217, assets\less\style.less */
 .depth2 li {
   float: left;
   margin-left: 13px;
   margin-bottom: 10px;
 }
-/* line 219, assets\less\style.less */
+/* line 222, assets\less\style.less */
 .mint {
   position: relative;
 }
-/* line 222, assets\less\style.less */
+/* line 225, assets\less\style.less */
 .mint h3 {
   font-size: 30px;
   color: #FFF;
@@ -285,7 +293,7 @@ a {
   top: 80px;
   margin-left: 210px;
 }
-/* line 229, assets\less\style.less */
+/* line 232, assets\less\style.less */
 .mint p {
   position: absolute;
   font-size: 14px;
@@ -293,7 +301,7 @@ a {
   top: 120px;
   margin-left: 120px;
 }
-/* line 236, assets\less\style.less */
+/* line 239, assets\less\style.less */
 .mint button {
   height: 40px;
   position: absolute;
@@ -304,86 +312,86 @@ a {
   border: 2px #FFF solid;
   background-color: transparent;
 }
-/* line 247, assets\less\style.less */
+/* line 250, assets\less\style.less */
 .depth3 {
   height: 700px;
   text-align: center;
 }
-/* line 251, assets\less\style.less */
+/* line 254, assets\less\style.less */
 .depth3 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 256, assets\less\style.less */
+/* line 259, assets\less\style.less */
 .depth3 img {
   margin-top: 30px;
 }
-/* line 259, assets\less\style.less */
+/* line 262, assets\less\style.less */
 .footer {
   width: 100%;
   height: 200px;
   background: #32965b;
 }
-/* line 263, assets\less\style.less */
+/* line 266, assets\less\style.less */
 .footer .fooimg {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
 }
-/* line 267, assets\less\style.less */
+/* line 270, assets\less\style.less */
 .footer .fooimg .right_up {
   width: 1200px;
   height: 100px;
 }
-/* line 270, assets\less\style.less */
+/* line 273, assets\less\style.less */
 .footer .fooimg .right_up .one {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 275, assets\less\style.less */
+/* line 278, assets\less\style.less */
 .footer .fooimg .right_up .two {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 279, assets\less\style.less */
+/* line 282, assets\less\style.less */
 .footer .fooimg .right_up .two img {
   width: 115px;
   height: 100px;
   float: right;
 }
-/* line 286, assets\less\style.less */
+/* line 289, assets\less\style.less */
 .footer .fooimg .right_down {
   width: 1200px;
   height: 100px;
 }
-/* line 289, assets\less\style.less */
+/* line 292, assets\less\style.less */
 .footer .fooimg .right_down .sns {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 293, assets\less\style.less */
+/* line 296, assets\less\style.less */
 .footer .fooimg .right_down .sns .insta {
   width: 250px;
   height: 55px;
 }
-/* line 297, assets\less\style.less */
+/* line 300, assets\less\style.less */
 .footer .fooimg .right_down .sns .insta img {
   width: 35px;
   height: 35px;
   margin-top: 10px;
   margin-left: 30px;
 }
-/* line 306, assets\less\style.less */
+/* line 309, assets\less\style.less */
 .footer .fooimg .right_down .geol {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 310, assets\less\style.less */
+/* line 313, assets\less\style.less */
 .footer .fooimg .right_down .geol p {
   width: 205px;
   height: 45px;
@@ -391,64 +399,6 @@ a {
   float: right;
   color: #FFF;
   text-align: center;
-}
-/* line 3, assets\less\subpage.less */
-* {
-  margin: 0;
-  padding: 0;
-}
-/* line 4, assets\less\subpage.less */
-a {
-  text-decoration: none;
-}
-/* line 6, assets\less\subpage.less */
-.header {
-  width: 1200px;
-  height: 200px;
-  margin: 0 auto;
-  background: #FF0;
-}
-/* line 11, assets\less\subpage.less */
-.header .logo1 {
-  text-align: center;
-}
-/* line 14, assets\less\subpage.less */
-.header .menu1 {
-  width: 1200px;
-  height: 50px;
-  margin-top: 10px;
-  margin: 0 auto;
-}
-/* line 19, assets\less\subpage.less */
-.header .menu1 ul {
-  width: 1200px;
-  height: 50px;
-  background: #f00;
-  margin: 0 auto;
-}
-/* line 25, assets\less\subpage.less */
-.header .menu1 li {
-  width: 274px;
-  height: 50px;
-  border: 1px #32965b solid;
-  display: inline-block;
-  margin: 0 auto;
-  font-size: 13px;
-  color: #32965b;
-  vertical-align: top;
-  padding-top: 13px;
-  padding-left: 30px;
-}
-/* line 37, assets\less\subpage.less */
-.header .menu1 .search1 {
-  width: 80px;
-  height: 50px;
-  background-color: #32965b;
-  float: right;
-  background-image: url(../images/search.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: initial;
 }
 /* line 3, assets\less\hotel.less */
 * {
@@ -573,72 +523,6 @@ a {
   background: #32965b;
   border: 1px solid #000;
 }
-/* line 3, assets\less\subpage2.less */
-* {
-  margin: 0;
-  padding: 0;
-}
-/* line 4, assets\less\subpage2.less */
-ul {
-  list-style: none;
-}
-/* line 5, assets\less\subpage2.less */
-a {
-  text-decoration: none;
-}
-/* line 7, assets\less\subpage2.less */
-.section2 {
-  width: 1000px;
-  height: 1600px;
-  background: #ff0;
-  float: left;
-  margin-top: 16px;
-}
-/* line 13, assets\less\subpage2.less */
-.section2 .frank2 {
-  width: 470px;
-  height: 350px;
-  background: #1b1464;
-  float: left;
-  margin-left: 20px;
-  margin-top: 15px;
-}
-/* line 20, assets\less\subpage2.less */
-.section2 .frank2 img {
-  width: 392px;
-  height: 250px;
-  background: #790000;
-  margin-left: 40px;
-  margin-top: 20px;
-}
-/* line 27, assets\less\subpage2.less */
-.section2 .frank2 p {
-  margin-left: 160px;
-  margin-top: 10px;
-}
-/* line 32, assets\less\subpage2.less */
-.section2 .page2 {
-  width: 400px;
-  height: 40px;
-  background: #F00;
-  margin-top: 50px;
-  margin-left: 300px;
-  float: left;
-}
-/* line 39, assets\less\subpage2.less */
-.section2 .page2 .number2 {
-  width: 200px;
-  height: 20px;
-  background: #0ec9f8;
-  font-size: 25px;
-  margin-left: 130px;
-}
-/* line 46, assets\less\subpage2.less */
-.section2 .page2 .number2 a img {
-  width: 12px;
-  height: 19px;
-  margin-left: 5px;
-}
 /* line 3, assets\less\hotel2.less */
 * {
   margin: 0;
@@ -744,230 +628,4 @@ button {
   float: right;
   background: #32965b;
   border: 1px solid #32965b;
-}
-/* line 3, assets\less\subpage3.less */
-* {
-  margin: 0;
-  padding: 0;
-}
-/* line 4, assets\less\subpage3.less */
-ul li {
-  list-style: none;
-}
-/* line 5, assets\less\subpage3.less */
-a {
-  text-decoration: none;
-}
-/* line 7, assets\less\subpage3.less */
-.section3 {
-  width: 1000px;
-  height: 1600px;
-  background: #ff0;
-  float: left;
-  margin-top: 16px;
-}
-/* line 13, assets\less\subpage3.less */
-.section3 .frank3 {
-  width: 470px;
-  height: 350px;
-  background: #1b1464;
-  float: left;
-  margin-left: 20px;
-  margin-top: 15px;
-}
-/* line 20, assets\less\subpage3.less */
-.section3 .frank3 img {
-  width: 392px;
-  height: 250px;
-  background: #790000;
-  margin-left: 40px;
-  margin-top: 20px;
-}
-/* line 27, assets\less\subpage3.less */
-.section3 .frank3 a {
-  list-style: none;
-}
-/* line 29, assets\less\subpage3.less */
-.section3 .frank3 a p {
-  margin-left: 160px;
-  margin-top: 10px;
-}
-/* line 35, assets\less\subpage3.less */
-.section3 .page3 {
-  width: 400px;
-  height: 40px;
-  background: #F00;
-  margin-top: 50px;
-  margin-left: 300px;
-  float: left;
-}
-/* line 42, assets\less\subpage3.less */
-.section3 .page3 .number3 {
-  width: 200px;
-  height: 20px;
-  background: #0ec9f8;
-  font-size: 25px;
-  margin-left: 130px;
-}
-/* line 49, assets\less\subpage3.less */
-.section3 .page3 .number3 a img {
-  width: 12px;
-  height: 19px;
-  margin-left: 5px;
-}
-/* line 3, assets\less\subpage4.less */
-* {
-  margin: 0;
-  padding: 0;
-}
-/* line 4, assets\less\subpage4.less */
-ul li {
-  list-style: none;
-}
-/* line 5, assets\less\subpage4.less */
-a {
-  text-decoration: none;
-}
-/* line 9, assets\less\subpage4.less */
-.picture4 {
-  width: 1000px;
-  height: 1600px;
-  float: left;
-  margin-top: 16px;
-  background: #662d91;
-}
-/* line 15, assets\less\subpage4.less */
-.picture4 .text {
-  width: 1000px;
-  height: 60px;
-  background: #ff0;
-}
-/* line 19, assets\less\subpage4.less */
-.picture4 .text .aa {
-  width: 200px;
-  height: 50px;
-  background: #f00;
-  float: left;
-}
-/* line 24, assets\less\subpage4.less */
-.picture4 .text .aa .icon_1 {
-  width: 24px;
-  height: 24px;
-  background: #e99;
-  display: block;
-  float: left;
-}
-/* line 31, assets\less\subpage4.less */
-.picture4 .text .aa .aainfor {
-  float: left;
-  font-size: 16px;
-  margin-left: 3px;
-}
-/* line 37, assets\less\subpage4.less */
-.picture4 .text button {
-  width: 90px;
-  height: 40px;
-  float: right;
-  color: #0f7e65;
-  font-size: 16px;
-  background: none;
-  border: 1px solid #0f7e65;
-}
-/* line 47, assets\less\subpage4.less */
-.picture4 .list {
-  width: 1000px;
-  height: 1480px;
-  background: #ec008c;
-}
-/* line 51, assets\less\subpage4.less */
-.picture4 .list .ques_1 {
-  width: 1000px;
-  height: 180px;
-  margin-bottom: 5px;
-  background: #0ec9f8;
-  border: 1px solid #e1e1e1;
-}
-/* line 58, assets\less\subpage4.less */
-.picture4 .list .ques_1 .ti h2 {
-  color: #F00;
-  font-size: 17px;
-  float: left;
-  margin-top: 10px;
-  margin-left: 5px;
-}
-/* line 65, assets\less\subpage4.less */
-.picture4 .list .ques_1 .ti h4 {
-  font-size: 17px;
-  float: left;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-/* line 71, assets\less\subpage4.less */
-.picture4 .list .ques_1 .ti span {
-  float: right;
-  margin-top: 10px;
-  margin-right: 5px;
-}
-/* line 77, assets\less\subpage4.less */
-.picture4 .list .ques_1 .geol {
-  width: 1000px;
-  height: 100px;
-  float: left;
-  margin-top: 10px;
-  margin-left: 5px;
-}
-/* line 84, assets\less\subpage4.less */
-.picture4 .list .ques_1 .text_info {
-  width: 500px;
-  height: 100px;
-}
-/* line 87, assets\less\subpage4.less */
-.picture4 .list .ques_1 .text_info p {
-  float: left;
-  font-size: 14px;
-  color: #d7d7d7;
-  margin-left: 5px;
-}
-/* line 94, assets\less\subpage4.less */
-.picture4 .list .ques_1 .spot {
-  width: 60px;
-  height: 20px;
-  background: #7d4900;
-  float: right;
-}
-/* line 99, assets\less\subpage4.less */
-.picture4 .list .ques_1 .spot .icon_2 {
-  width: 20px;
-  height: 18px;
-  background: #e38c13;
-  display: block;
-  float: left;
-}
-/* line 106, assets\less\subpage4.less */
-.picture4 .list .ques_1 .spot .num {
-  float: left;
-  font-size: 13px;
-  margin-left: 5px;
-}
-/* line 114, assets\less\subpage4.less */
-.picture4 .page4 {
-  width: 400px;
-  height: 40px;
-  background: #F00;
-  margin-top: 10px;
-  margin-left: 300px;
-}
-/* line 120, assets\less\subpage4.less */
-.picture4 .page4 .number4 {
-  width: 200px;
-  height: 20px;
-  background: #0ec9f8;
-  font-size: 25px;
-  margin-left: 130px;
-}
-/* line 127, assets\less\subpage4.less */
-.picture4 .page4 .number4 a img {
-  width: 12px;
-  height: 19px;
-  margin-left: 5px;
 }
