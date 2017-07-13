@@ -186,19 +186,19 @@ a {
 }
 /* line 170, assets\less\subpage.less */
 .section1 {
-  width: 1903px;
+  max-width: 1900px;
   background: #7da7d9;
 }
 /* line 173, assets\less\subpage.less */
 .section1 .sub1_pic {
-  width: 1903px;
+  max-width: 1900px;
   height: 563px;
   background: #7d4900;
   margin-top: 10px;
 }
 /* line 178, assets\less\subpage.less */
 .section1 .sub1_pic img {
-  width: 1903px;
+  width: 1900px;
   height: 563px;
 }
 /* line 183, assets\less\subpage.less */

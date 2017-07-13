@@ -232,7 +232,7 @@ a {
   background: rgba(0, 0, 0, 0);
   border: 0;
   position: absolute;
-  left: 326px;
+  left: 130px;
 }
 /* line 183, assets\less\style.less */
 .prev img {
@@ -247,7 +247,7 @@ a {
   background: rgba(0, 0, 0, 0);
   border: 0;
   position: absolute;
-  right: 320px;
+  right: 130px;
 }
 /* line 196, assets\less\style.less */
 .next img {
