@@ -227,12 +227,12 @@ a {
 }
 /* line 175, assets\less\style.less */
 .prev {
-  top: 45%;
+  top: 42%;
   cursor: pointer;
   background: rgba(0, 0, 0, 0);
   border: 0;
   position: absolute;
-  left: 130px;
+  left: -9px;
 }
 /* line 183, assets\less\style.less */
 .prev img {
@@ -242,12 +242,12 @@ a {
 }
 /* line 188, assets\less\style.less */
 .next {
-  top: 45%;
+  top: 42%;
   cursor: pointer;
   background: rgba(0, 0, 0, 0);
   border: 0;
   position: absolute;
-  right: 130px;
+  right: -9px;
 }
 /* line 196, assets\less\style.less */
 .next img {
