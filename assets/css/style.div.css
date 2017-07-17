@@ -227,12 +227,12 @@ a {
 }
 /* line 175, assets\less\style.less */
 .prev {
-  top: 45%;
+  top: 42%;
   cursor: pointer;
   background: rgba(0, 0, 0, 0);
   border: 0;
   position: absolute;
-  left: 130px;
+  left: -9px;
 }
 /* line 183, assets\less\style.less */
 .prev img {
@@ -242,12 +242,12 @@ a {
 }
 /* line 188, assets\less\style.less */
 .next {
-  top: 45%;
+  top: 42%;
   cursor: pointer;
   background: rgba(0, 0, 0, 0);
   border: 0;
   position: absolute;
-  right: 130px;
+  right: -9px;
 }
 /* line 196, assets\less\style.less */
 .next img {
@@ -313,92 +313,51 @@ a {
   background-color: transparent;
 }
 /* line 250, assets\less\style.less */
-.depth3 {
-  height: 700px;
-  text-align: center;
+.lotte .lotte_text {
+  background: #ebebeb;
+  padding: 15px;
+  display: block;
 }
-/* line 254, assets\less\style.less */
-.depth3 h1 {
-  text-align: center;
-  color: #32965b;
-  padding-top: 50px;
+/* line 256, assets\less\style.less */
+.lotte .lotte_text p {
+  font-size: 13px;
+  color: #000;
+  text-align: left;
 }
-/* line 259, assets\less\style.less */
-.depth3 img {
-  margin-top: 30px;
+/* line 261, assets\less\style.less */
+.lotte .lotte_text .i_con {
+  display: block;
 }
-/* line 262, assets\less\style.less */
-.footer {
-  width: 100%;
-  height: 200px;
-  background: #32965b;
+/* line 264, assets\less\style.less */
+.lotte .lotte_text .i_con .map_icon span {
+  font-size: 11px;
+  padding-left: 20px;
+  margin-left: 10px;
+  background-image: url(../images/pla_.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-/* line 266, assets\less\style.less */
-.footer .fooimg {
-  width: 1200px;
-  height: 200px;
-  margin: 0 auto;
-}
-/* line 270, assets\less\style.less */
-.footer .fooimg .right_up {
-  width: 1200px;
-  height: 100px;
-}
-/* line 273, assets\less\style.less */
-.footer .fooimg .right_up .one {
-  width: 600px;
-  height: 100px;
+/* line 276, assets\less\style.less */
+.lotte .lotte_text .i_con .people .peole_text h6 {
   float: left;
+  font-size: 12px;
 }
-/* line 278, assets\less\style.less */
-.footer .fooimg .right_up .two {
-  width: 600px;
-  height: 100px;
-  float: left;
+/* line 280, assets\less\style.less */
+.lotte .lotte_text .i_con .people .peole_text .p_icon {
+  float: right;
 }
 /* line 282, assets\less\style.less */
-.footer .fooimg .right_up .two img {
-  width: 115px;
-  height: 100px;
-  float: right;
+.lotte .lotte_text .i_con .people .peole_text .p_icon img {
+  width: 8px;
+  height: 8px;
 }
-/* line 289, assets\less\style.less */
-.footer .fooimg .right_down {
-  width: 1200px;
-  height: 100px;
+/* line 286, assets\less\style.less */
+.lotte .lotte_text .i_con .people .peole_text .p_icon span {
+  font-size: 8px;
 }
-/* line 292, assets\less\style.less */
-.footer .fooimg .right_down .sns {
-  width: 600px;
-  height: 100px;
-  float: left;
-}
-/* line 296, assets\less\style.less */
-.footer .fooimg .right_down .sns .insta {
-  width: 250px;
-  height: 55px;
-}
-/* line 300, assets\less\style.less */
-.footer .fooimg .right_down .sns .insta img {
-  width: 35px;
-  height: 35px;
-  margin-top: 10px;
-  margin-left: 30px;
-}
-/* line 309, assets\less\style.less */
-.footer .fooimg .right_down .geol {
-  width: 600px;
-  height: 100px;
-  float: left;
-}
-/* line 313, assets\less\style.less */
-.footer .fooimg .right_down .geol p {
-  width: 205px;
-  height: 45px;
-  font-size: 14px;
-  float: right;
-  color: #FFF;
-  text-align: center;
+/* line 290, assets\less\style.less */
+.lotte .lotte_text .i_con .people .peole_text .clear {
+  clear: both;
 }
 /* line 3, assets\less\hotel.less */
 * {

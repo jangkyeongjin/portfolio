@@ -185,24 +185,24 @@ a {
   background-size: initial;
 }
 /* line 170, assets\less\subpage.less */
-.section1 {
-  max-width: 1900px;
+.section1_ {
+  max-width: 1903px;
   background: #7da7d9;
 }
 /* line 173, assets\less\subpage.less */
-.section1 .sub1_pic {
-  max-width: 1900px;
-  height: 563px;
+.section1_ .sub1_pic1 {
+  max-width: 1903px;
+  height: 500px;
   background: #7d4900;
   margin-top: 10px;
 }
 /* line 178, assets\less\subpage.less */
-.section1 .sub1_pic img {
-  width: 1900px;
-  height: 563px;
+.section1_ .sub1_pic1 img {
+  width: 1903px;
+  height: 500px;
 }
 /* line 183, assets\less\subpage.less */
-.section1 .sect_cont {
+.section1_ .sect_cont {
   width: 1200px;
   height: 1600px;
   background: #ce4125;
@@ -210,43 +210,43 @@ a {
   margin-top: 10px;
 }
 /* line 189, assets\less\subpage.less */
-.section1 .sect_cont .sect_menu {
+.section1_ .sect_cont .sect_menu {
   width: 250px;
   height: 1600px;
   background: #2fd0c7;
   float: left;
 }
 /* line 194, assets\less\subpage.less */
-.section1 .sect_cont .sect_menu .sub_title {
+.section1_ .sect_cont .sect_menu .sub_title {
   width: 250px;
   height: 50px;
   background: #ff00ff;
   font-size: 23px;
 }
 /* line 199, assets\less\subpage.less */
-.section1 .sect_cont .sect_menu .sub_title span {
+.section1_ .sect_cont .sect_menu .sub_title span {
   font-weight: bold;
   text-decoration: underline;
 }
 /* line 203, assets\less\subpage.less */
-.section1 .sect_cont .sect_menu .sub_title i {
+.section1_ .sect_cont .sect_menu .sub_title i {
   font-style: normal;
 }
 /* line 207, assets\less\subpage.less */
-.section1 .sect_cont .sect_menu .sub_me {
+.section1_ .sect_cont .sect_menu .sub_me {
   width: 250px;
   height: 250px;
   background: #2e3192;
 }
 /* line 213, assets\less\subpage.less */
-.section1 .sect_cont .sub_list {
+.section1_ .sect_cont .sub_list {
   width: 950px;
   height: 1600px;
   background: #5c896b;
   float: right;
 }
 /* line 218, assets\less\subpage.less */
-.section1 .sect_cont .sub_list .qube {
+.section1_ .sect_cont .sub_list .qube {
   width: 450px;
   height: 345px;
   background: #71ca2f;
@@ -255,7 +255,7 @@ a {
   float: left;
 }
 /* line 225, assets\less\subpage.less */
-.section1 .sect_cont .sub_list .qube img {
+.section1_ .sect_cont .sub_list .qube img {
   width: 392px;
   height: 250px;
   background: #790000;
@@ -263,12 +263,12 @@ a {
   margin-top: 20px;
 }
 /* line 232, assets\less\subpage.less */
-.section1 .sect_cont .sub_list .qube p {
+.section1_ .sect_cont .sub_list .qube p {
   text-align: center;
   margin-top: 15px;
 }
 /* line 237, assets\less\subpage.less */
-.section1 .sect_cont .sub_list .page_remo {
+.section1_ .sect_cont .sub_list .page_remo {
   width: 400px;
   height: 40px;
   background: #1fe5de;
@@ -277,7 +277,7 @@ a {
   margin-left: 280px;
 }
 /* line 244, assets\less\subpage.less */
-.section1 .sect_cont .sub_list .page_remo .number {
+.section1_ .sect_cont .sub_list .page_remo .number {
   width: 200px;
   height: 20px;
   background: #e2903c;
@@ -285,7 +285,7 @@ a {
   margin-left: 130px;
 }
 /* line 251, assets\less\subpage.less */
-.section1 .sect_cont .sub_list .page_remo .number a img {
+.section1_ .sect_cont .sub_list .page_remo .number a img {
   width: 12px;
   height: 19px;
   margin-left: 5px;
@@ -548,24 +548,24 @@ a {
   background-size: initial;
 }
 /* line 170, assets\less\subpage2.less */
-.section1 {
+.section1_1 {
   width: 1903px;
   background: #7da7d9;
 }
 /* line 173, assets\less\subpage2.less */
-.section1 .sub1_pic {
+.section1_1 .sub1_pic {
   width: 1903px;
   height: 563px;
   background: #7d4900;
   margin-top: 10px;
 }
 /* line 178, assets\less\subpage2.less */
-.section1 .sub1_pic img {
+.section1_1 .sub1_pic img {
   width: 1903px;
   height: 563px;
 }
 /* line 183, assets\less\subpage2.less */
-.section1 .sect_cont {
+.section1_1 .sect_cont {
   width: 1200px;
   height: 1600px;
   background: #ce4125;
@@ -573,43 +573,43 @@ a {
   margin-top: 10px;
 }
 /* line 189, assets\less\subpage2.less */
-.section1 .sect_cont .sect_menu {
+.section1_1 .sect_cont .sect_menu {
   width: 250px;
   height: 1600px;
   background: #2fd0c7;
   float: left;
 }
 /* line 194, assets\less\subpage2.less */
-.section1 .sect_cont .sect_menu .sub_title {
+.section1_1 .sect_cont .sect_menu .sub_title {
   width: 250px;
   height: 50px;
   background: #ff00ff;
   font-size: 23px;
 }
 /* line 199, assets\less\subpage2.less */
-.section1 .sect_cont .sect_menu .sub_title span {
+.section1_1 .sect_cont .sect_menu .sub_title span {
   font-weight: bold;
   text-decoration: underline;
 }
 /* line 203, assets\less\subpage2.less */
-.section1 .sect_cont .sect_menu .sub_title i {
+.section1_1 .sect_cont .sect_menu .sub_title i {
   font-style: normal;
 }
 /* line 207, assets\less\subpage2.less */
-.section1 .sect_cont .sect_menu .sub_me {
+.section1_1 .sect_cont .sect_menu .sub_me {
   width: 250px;
   height: 250px;
   background: #2e3192;
 }
 /* line 213, assets\less\subpage2.less */
-.section1 .sect_cont .sub_list {
+.section1_1 .sect_cont .sub_list {
   width: 950px;
   height: 1600px;
   background: #5c896b;
   float: right;
 }
 /* line 218, assets\less\subpage2.less */
-.section1 .sect_cont .sub_list .qube {
+.section1_1 .sect_cont .sub_list .qube {
   width: 450px;
   height: 345px;
   background: #71ca2f;
@@ -618,7 +618,7 @@ a {
   float: left;
 }
 /* line 225, assets\less\subpage2.less */
-.section1 .sect_cont .sub_list .qube img {
+.section1_1 .sect_cont .sub_list .qube img {
   width: 392px;
   height: 250px;
   background: #790000;
@@ -626,12 +626,12 @@ a {
   margin-top: 20px;
 }
 /* line 232, assets\less\subpage2.less */
-.section1 .sect_cont .sub_list .qube p {
+.section1_1 .sect_cont .sub_list .qube p {
   text-align: center;
   margin-top: 15px;
 }
 /* line 237, assets\less\subpage2.less */
-.section1 .sect_cont .sub_list .page_remo {
+.section1_1 .sect_cont .sub_list .page_remo {
   width: 400px;
   height: 40px;
   background: #1fe5de;
@@ -640,7 +640,7 @@ a {
   margin-left: 280px;
 }
 /* line 244, assets\less\subpage2.less */
-.section1 .sect_cont .sub_list .page_remo .number {
+.section1_1 .sect_cont .sub_list .page_remo .number {
   width: 200px;
   height: 20px;
   background: #e2903c;
@@ -648,7 +648,7 @@ a {
   margin-left: 130px;
 }
 /* line 251, assets\less\subpage2.less */
-.section1 .sect_cont .sub_list .page_remo .number a img {
+.section1_1 .sect_cont .sub_list .page_remo .number a img {
   width: 12px;
   height: 19px;
   margin-left: 5px;
@@ -911,24 +911,24 @@ a {
   background-size: initial;
 }
 /* line 170, assets\less\subpage3.less */
-.section1 {
+.section2 {
   width: 1903px;
   background: #7da7d9;
 }
 /* line 173, assets\less\subpage3.less */
-.section1 .sub1_pic {
+.section2 .sub1_pic {
   width: 1903px;
   height: 563px;
   background: #7d4900;
   margin-top: 10px;
 }
 /* line 178, assets\less\subpage3.less */
-.section1 .sub1_pic img {
+.section2 .sub1_pic img {
   width: 1903px;
   height: 563px;
 }
 /* line 183, assets\less\subpage3.less */
-.section1 .sect_cont {
+.section2 .sect_cont {
   width: 1200px;
   height: 1600px;
   background: #ce4125;
@@ -936,43 +936,43 @@ a {
   margin-top: 10px;
 }
 /* line 189, assets\less\subpage3.less */
-.section1 .sect_cont .sect_menu {
+.section2 .sect_cont .sect_menu {
   width: 250px;
   height: 1600px;
   background: #2fd0c7;
   float: left;
 }
 /* line 194, assets\less\subpage3.less */
-.section1 .sect_cont .sect_menu .sub_title {
+.section2 .sect_cont .sect_menu .sub_title {
   width: 250px;
   height: 50px;
   background: #ff00ff;
   font-size: 23px;
 }
 /* line 199, assets\less\subpage3.less */
-.section1 .sect_cont .sect_menu .sub_title span {
+.section2 .sect_cont .sect_menu .sub_title span {
   font-weight: bold;
   text-decoration: underline;
 }
 /* line 203, assets\less\subpage3.less */
-.section1 .sect_cont .sect_menu .sub_title i {
+.section2 .sect_cont .sect_menu .sub_title i {
   font-style: normal;
 }
 /* line 207, assets\less\subpage3.less */
-.section1 .sect_cont .sect_menu .sub_me {
+.section2 .sect_cont .sect_menu .sub_me {
   width: 250px;
   height: 250px;
   background: #2e3192;
 }
 /* line 213, assets\less\subpage3.less */
-.section1 .sect_cont .sub_list {
+.section2 .sect_cont .sub_list {
   width: 950px;
   height: 1600px;
   background: #5c896b;
   float: right;
 }
 /* line 218, assets\less\subpage3.less */
-.section1 .sect_cont .sub_list .qube {
+.section2 .sect_cont .sub_list .qube {
   width: 450px;
   height: 345px;
   background: #71ca2f;
@@ -981,7 +981,7 @@ a {
   float: left;
 }
 /* line 225, assets\less\subpage3.less */
-.section1 .sect_cont .sub_list .qube img {
+.section2 .sect_cont .sub_list .qube img {
   width: 392px;
   height: 250px;
   background: #790000;
@@ -989,12 +989,12 @@ a {
   margin-top: 20px;
 }
 /* line 232, assets\less\subpage3.less */
-.section1 .sect_cont .sub_list .qube p {
+.section2 .sect_cont .sub_list .qube p {
   text-align: center;
   margin-top: 15px;
 }
 /* line 237, assets\less\subpage3.less */
-.section1 .sect_cont .sub_list .page_remo {
+.section2 .sect_cont .sub_list .page_remo {
   width: 400px;
   height: 40px;
   background: #1fe5de;
@@ -1003,7 +1003,7 @@ a {
   margin-left: 280px;
 }
 /* line 244, assets\less\subpage3.less */
-.section1 .sect_cont .sub_list .page_remo .number {
+.section2 .sect_cont .sub_list .page_remo .number {
   width: 200px;
   height: 20px;
   background: #e2903c;
@@ -1011,7 +1011,7 @@ a {
   margin-left: 130px;
 }
 /* line 251, assets\less\subpage3.less */
-.section1 .sect_cont .sub_list .page_remo .number a img {
+.section2 .sect_cont .sub_list .page_remo .number a img {
   width: 12px;
   height: 19px;
   margin-left: 5px;
@@ -1265,24 +1265,24 @@ a {
   background-size: initial;
 }
 /* line 165, assets\less\subpage4.less */
-.section1 {
+.section3 {
   width: 1903px;
   background: #7da7d9;
 }
 /* line 168, assets\less\subpage4.less */
-.section1 .sub1_pic {
+.section3 .sub1_pic {
   width: 1903px;
   height: 563px;
   background: #7d4900;
   margin-top: 10px;
 }
 /* line 173, assets\less\subpage4.less */
-.section1 .sub1_pic img {
+.section3 .sub1_pic img {
   width: 1903px;
   height: 563px;
 }
 /* line 178, assets\less\subpage4.less */
-.section1 .sect_cont {
+.section3 .sect_cont {
   width: 1200px;
   height: 1600px;
   background: #ce4125;
@@ -1290,56 +1290,56 @@ a {
   margin-top: 10px;
 }
 /* line 184, assets\less\subpage4.less */
-.section1 .sect_cont .sect_menu {
+.section3 .sect_cont .sect_menu {
   width: 250px;
   height: 1600px;
   background: #2fd0c7;
   float: left;
 }
 /* line 189, assets\less\subpage4.less */
-.section1 .sect_cont .sect_menu .sub_title {
+.section3 .sect_cont .sect_menu .sub_title {
   width: 250px;
   height: 50px;
   background: #ff00ff;
   font-size: 23px;
 }
 /* line 194, assets\less\subpage4.less */
-.section1 .sect_cont .sect_menu .sub_title span {
+.section3 .sect_cont .sect_menu .sub_title span {
   font-weight: bold;
   text-decoration: underline;
 }
 /* line 198, assets\less\subpage4.less */
-.section1 .sect_cont .sect_menu .sub_title i {
+.section3 .sect_cont .sect_menu .sub_title i {
   font-style: normal;
 }
 /* line 202, assets\less\subpage4.less */
-.section1 .sect_cont .sect_menu .sub_me {
+.section3 .sect_cont .sect_menu .sub_me {
   width: 250px;
   height: 250px;
   background: #2e3192;
 }
 /* line 208, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list {
+.section3 .sect_cont .sub_list {
   width: 950px;
   height: 1600px;
   background: #5c896b;
   float: right;
 }
 /* line 213, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .tt {
+.section3 .sect_cont .sub_list .tt {
   width: 950px;
   height: 50px;
   background: #ff0;
 }
 /* line 217, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .tt .aa {
+.section3 .sect_cont .sub_list .tt .aa {
   width: 200px;
   height: 50px;
   background: #f00;
   float: left;
 }
 /* line 222, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .tt .aa .icon_1 {
+.section3 .sect_cont .sub_list .tt .aa .icon_1 {
   width: 24px;
   height: 24px;
   background: #e99;
@@ -1347,13 +1347,13 @@ a {
   float: left;
 }
 /* line 229, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .tt .aa .aainfor {
+.section3 .sect_cont .sub_list .tt .aa .aainfor {
   float: left;
   font-size: 16px;
   margin-left: 3px;
 }
 /* line 235, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .tt button {
+.section3 .sect_cont .sub_list .tt button {
   width: 90px;
   height: 40px;
   float: right;
@@ -1363,13 +1363,13 @@ a {
   border: 1px solid #0f7e65;
 }
 /* line 245, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q {
+.section3 .sect_cont .sub_list .list_q {
   width: 950px;
   height: 1450px;
   background: #ec008c;
 }
 /* line 249, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 {
+.section3 .sect_cont .sub_list .list_q .ques_1 {
   width: 948px;
   height: 170px;
   margin-bottom: 5px;
@@ -1377,13 +1377,13 @@ a {
   border: 1px solid #e1e1e1;
 }
 /* line 255, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .ti {
+.section3 .sect_cont .sub_list .list_q .ques_1 .ti {
   width: 948px;
   height: 50px;
   background: #d633a6;
 }
 /* line 259, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .ti h2 {
+.section3 .sect_cont .sub_list .list_q .ques_1 .ti h2 {
   color: #F00;
   font-size: 18px;
   float: left;
@@ -1391,58 +1391,58 @@ a {
   margin-left: 5px;
 }
 /* line 266, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .ti h4 {
+.section3 .sect_cont .sub_list .list_q .ques_1 .ti h4 {
   font-size: 17px;
   float: left;
   margin-left: 10px;
   margin-top: 10px;
 }
 /* line 272, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .ti span {
+.section3 .sect_cont .sub_list .list_q .ques_1 .ti span {
   float: right;
   margin-top: 10px;
   margin-right: 5px;
 }
 /* line 278, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .geol {
+.section3 .sect_cont .sub_list .list_q .ques_1 .geol {
   width: 948px;
   height: 50px;
   background: #d46834;
 }
 /* line 282, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .geol p {
+.section3 .sect_cont .sub_list .list_q .ques_1 .geol p {
   margin-left: 5px;
 }
 /* line 286, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .last {
+.section3 .sect_cont .sub_list .list_q .ques_1 .last {
   width: 948px;
   height: 40px;
   background: #6ae639;
   margin-top: 30px;
 }
 /* line 291, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .last .text_d {
+.section3 .sect_cont .sub_list .list_q .ques_1 .last .text_d {
   width: 473px;
   height: 40px;
   background: #1322e0;
   float: left;
 }
 /* line 296, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .last .text_d p {
+.section3 .sect_cont .sub_list .list_q .ques_1 .last .text_d p {
   font-size: 14px;
   color: #d7d7d7;
   margin-left: 5px;
   margin-top: 15px;
 }
 /* line 303, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .last .spot {
+.section3 .sect_cont .sub_list .list_q .ques_1 .last .spot {
   width: 473px;
   height: 40px;
   background: #F00;
   float: right;
 }
 /* line 308, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .last .spot .icon_2 {
+.section3 .sect_cont .sub_list .list_q .ques_1 .last .spot .icon_2 {
   width: 25px;
   height: 20px;
   background: #7d4900;
@@ -1450,7 +1450,7 @@ a {
   margin-top: 15px;
 }
 /* line 315, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .list_q .ques_1 .last .spot .num {
+.section3 .sect_cont .sub_list .list_q .ques_1 .last .spot .num {
   width: 20px;
   height: 18px;
   background: #e38c13;
@@ -1459,7 +1459,7 @@ a {
   margin-top: 15px;
 }
 /* line 328, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .pagenext {
+.section3 .sect_cont .sub_list .pagenext {
   width: 300px;
   height: 40px;
   background: #F00;
@@ -1467,7 +1467,7 @@ a {
   margin-left: 300px;
 }
 /* line 334, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .pagenext .number_1 {
+.section3 .sect_cont .sub_list .pagenext .number_1 {
   width: 200px;
   height: 20px;
   background: #0ec9f8;
@@ -1475,7 +1475,7 @@ a {
   margin-left: 75px;
 }
 /* line 341, assets\less\subpage4.less */
-.section1 .sect_cont .sub_list .pagenext .number_1 a img {
+.section3 .sect_cont .sub_list .pagenext .number_1 a img {
   width: 12px;
   height: 19px;
   margin-left: 5px;
