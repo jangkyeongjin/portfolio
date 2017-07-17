@@ -30,47 +30,47 @@ a {
   text-decoration: none;
 }
 /* line 10, assets\less\style.less */
-.nav {
+.wrap .nav {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
 }
 /* line 15, assets\less\style.less */
-.logo {
+.wrap .logo {
   text-align: center;
 }
 /* line 18, assets\less\style.less */
-.menu {
+.wrap .menu {
   width: 1200px;
   height: 50px;
   margin-top: 10px;
 }
 /* line 23, assets\less\style.less */
-.me1 {
+.wrap .me1 {
   background: url(../images/location.png) 3px center;
   background-repeat: no-repeat;
 }
 /* line 26, assets\less\style.less */
-.me1 a {
+.wrap .me1 a {
   display: block;
 }
 /* line 30, assets\less\style.less */
-.me2 {
+.wrap .me2 {
   background: url(../images/home.png) 3px center;
   background-repeat: no-repeat;
 }
 /* line 33, assets\less\style.less */
-.me2 a {
+.wrap .me2 a {
   display: block;
 }
 /* line 37, assets\less\style.less */
-.me3 {
+.wrap .me3 {
   display: block;
   background: url(../images/dinner.png) 3px center;
   background-repeat: no-repeat;
 }
 /* line 41, assets\less\style.less */
-.me3 a {
+.wrap .me3 a {
   background: url(../images/down.png);
   background-repeat: no-repeat;
   position: inherit;
@@ -79,33 +79,33 @@ a {
   background-position: 208px center;
 }
 /* line 51, assets\less\style.less */
-.me4 {
+.wrap .me4 {
   background: url(../images/speech.png) 3px center;
   background-repeat: no-repeat;
 }
 /* line 55, assets\less\style.less */
-.me1 i,
-.me2 i,
-.me4 i {
+.wrap .me1 i,
+.wrap .me2 i,
+.wrap .me4 i {
   background: url(../images/down.png) 20px center;
   background-repeat: no-repeat;
   padding-left: 42px;
   margin-left: 117px;
 }
 /* line 61, assets\less\style.less */
-.me3 i {
+.wrap .me3 i {
   padding-left: 42px;
   margin-left: 160px;
 }
 /* line 66, assets\less\style.less */
-.menu ul {
+.wrap .menu ul {
   width: 1200px;
   height: 50px;
   position: relative;
   margin: 0 auto;
 }
 /* line 72, assets\less\style.less */
-.menu li {
+.wrap .menu li {
   width: 274px;
   height: 50px;
   border: 1px #32965b solid;
@@ -117,30 +117,30 @@ a {
   vertical-align: top;
 }
 /* line 83, assets\less\style.less */
-.search {
+.wrap .search {
   width: 80px;
   height: 50px;
   background: #32965b;
   float: right;
 }
 /* line 89, assets\less\style.less */
-.search img {
+.wrap .search img {
   padding-top: 13px;
   padding-left: 25px;
 }
 /* line 93, assets\less\style.less */
-.main {
+.wrap .main {
   max-width: 1900px;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
 /* line 99, assets\less\style.less */
-.main img {
+.wrap .main img {
   height: 100%;
 }
 /* line 102, assets\less\style.less */
-.main .sun {
+.wrap .main .sun {
   top: 95px;
   display: block;
   width: 440px;
@@ -148,7 +148,7 @@ a {
   background: #FFF;
 }
 /* line 109, assets\less\style.less */
-.main strong {
+.wrap .main strong {
   position: absolute;
   top: 98px;
   color: #FFF;
@@ -156,7 +156,7 @@ a {
   margin-left: 340px;
 }
 /* line 116, assets\less\style.less */
-.main span {
+.wrap .main span {
   position: absolute;
   top: 148px;
   color: #FFF;
@@ -164,7 +164,7 @@ a {
   margin-left: 340px;
 }
 /* line 123, assets\less\style.less */
-.main p {
+.wrap .main p {
   position: absolute;
   top: 220px;
   color: #FFF;
@@ -172,7 +172,7 @@ a {
   margin-left: 340px;
 }
 /* line 130, assets\less\style.less */
-.main a {
+.wrap .main a {
   width: 132px;
   height: 30px;
   position: absolute;
@@ -183,50 +183,50 @@ a {
   font-size: 15px;
 }
 /* line 140, assets\less\style.less */
-.sectional {
+.wrap .sectional {
   width: 100%
   height:100%;
 }
 /* line 144, assets\less\style.less */
-.depth {
+.wrap .depth {
   width: 100%;
   height: 500px;
 }
 /* line 148, assets\less\style.less */
-.depth h1 {
+.wrap .depth h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
 /* line 153, assets\less\style.less */
-.depth p {
+.wrap .depth p {
   text-align: center;
   color: #32965b;
 }
 /* line 157, assets\less\style.less */
-.slide {
+.wrap .slide {
   margin-top: 40px;
   position: relative;
 }
 /* line 161, assets\less\style.less */
-.slide ul {
+.wrap .slide ul {
   width: 1206px;
   position: relative;
   margin: 0 auto;
 }
 /* line 166, assets\less\style.less */
-.slide ul:after {
+.wrap .slide ul:after {
   display: block;
   content: "";
   clear: both;
 }
 /* line 171, assets\less\style.less */
-.slide li {
+.wrap .slide li {
   float: left;
   margin-left: 12px;
 }
 /* line 175, assets\less\style.less */
-.prev {
+.wrap .prev {
   top: 42%;
   cursor: pointer;
   background: rgba(0, 0, 0, 0);
@@ -235,13 +235,13 @@ a {
   left: -9px;
 }
 /* line 183, assets\less\style.less */
-.prev img {
+.wrap .prev img {
   width: 25px;
   height: 25px;
   left: 0;
 }
 /* line 188, assets\less\style.less */
-.next {
+.wrap .next {
   top: 42%;
   cursor: pointer;
   background: rgba(0, 0, 0, 0);
@@ -250,43 +250,43 @@ a {
   right: -9px;
 }
 /* line 196, assets\less\style.less */
-.next img {
+.wrap .next img {
   width: 25px;
   height: 25px;
 }
 /* line 200, assets\less\style.less */
-.depth2 {
+.wrap .depth2 {
   height: 900px;
 }
 /* line 203, assets\less\style.less */
-.depth2 h1 {
+.wrap .depth2 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
 /* line 208, assets\less\style.less */
-.depth2 p {
+.wrap .depth2 p {
   text-align: center;
   color: #32965b;
 }
 /* line 212, assets\less\style.less */
-.depth2 ul {
+.wrap .depth2 ul {
   padding-top: 47px;
   width: 1200px;
   margin: 0 auto;
 }
 /* line 217, assets\less\style.less */
-.depth2 li {
+.wrap .depth2 li {
   float: left;
   margin-left: 13px;
   margin-bottom: 10px;
 }
 /* line 222, assets\less\style.less */
-.mint {
+.wrap .mint {
   position: relative;
 }
 /* line 225, assets\less\style.less */
-.mint h3 {
+.wrap .mint h3 {
   font-size: 30px;
   color: #FFF;
   position: absolute;
@@ -294,7 +294,7 @@ a {
   margin-left: 210px;
 }
 /* line 232, assets\less\style.less */
-.mint p {
+.wrap .mint p {
   position: absolute;
   font-size: 14px;
   color: #FFF;
@@ -302,7 +302,7 @@ a {
   margin-left: 120px;
 }
 /* line 239, assets\less\style.less */
-.mint button {
+.wrap .mint button {
   height: 40px;
   position: absolute;
   font-size: 15px;
@@ -313,23 +313,23 @@ a {
   background-color: transparent;
 }
 /* line 250, assets\less\style.less */
-.lotte .lotte_text {
+.wrap .lotte .lotte_text {
   background: #ebebeb;
   padding: 15px;
   display: block;
 }
 /* line 256, assets\less\style.less */
-.lotte .lotte_text p {
+.wrap .lotte .lotte_text p {
   font-size: 13px;
   color: #000;
   text-align: left;
 }
 /* line 261, assets\less\style.less */
-.lotte .lotte_text .i_con {
+.wrap .lotte .lotte_text .i_con {
   display: block;
 }
 /* line 264, assets\less\style.less */
-.lotte .lotte_text .i_con .map_icon span {
+.wrap .lotte .lotte_text .i_con .map_icon span {
   font-size: 11px;
   padding-left: 20px;
   margin-left: 10px;
@@ -338,26 +338,132 @@ a {
   background-size: contain;
 }
 /* line 276, assets\less\style.less */
-.lotte .lotte_text .i_con .people .peole_text h6 {
+.wrap .lotte .lotte_text .i_con .people .peole_text h6 {
   float: left;
   font-size: 12px;
+  font-weight: normal;
 }
-/* line 280, assets\less\style.less */
-.lotte .lotte_text .i_con .people .peole_text .p_icon {
+/* line 281, assets\less\style.less */
+.wrap .lotte .lotte_text .i_con .people .peole_text .p_icon {
   float: right;
 }
-/* line 282, assets\less\style.less */
-.lotte .lotte_text .i_con .people .peole_text .p_icon img {
+/* line 283, assets\less\style.less */
+.wrap .lotte .lotte_text .i_con .people .peole_text .p_icon img {
   width: 8px;
   height: 8px;
 }
-/* line 286, assets\less\style.less */
-.lotte .lotte_text .i_con .people .peole_text .p_icon span {
+/* line 287, assets\less\style.less */
+.wrap .lotte .lotte_text .i_con .people .peole_text .p_icon span {
   font-size: 8px;
 }
-/* line 290, assets\less\style.less */
-.lotte .lotte_text .i_con .people .peole_text .clear {
+/* line 291, assets\less\style.less */
+.wrap .lotte .lotte_text .i_con .people .peole_text .clear {
   clear: both;
+}
+/* line 300, assets\less\style.less */
+.wrap .sum .sum_text {
+  background: #ebebeb;
+  padding: 15px;
+  overflow: hidden;
+}
+/* line 306, assets\less\style.less */
+.wrap .sum .sum_text p {
+  font-size: 13px;
+  color: #000;
+  text-align: left;
+}
+/* line 311, assets\less\style.less */
+.wrap .sum .sum_text .sum_icon {
+  display: block;
+}
+/* line 314, assets\less\style.less */
+.wrap .sum .sum_text .sum_icon .sum_location span {
+  font-size: 11px;
+  padding-left: 20px;
+  margin-left: 10px;
+  background-image: url(../images/pla_.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 325, assets\less\style.less */
+.wrap .sum .sum_text .sum_icon .sum_people .sumpeople_text h6 {
+  float: left;
+  font-size: 12px;
+  font-weight: normal;
+}
+/* line 330, assets\less\style.less */
+.wrap .sum .sum_text .sum_icon .sum_people .sumpeople_text .sumpeo_icon {
+  float: right;
+}
+/* line 332, assets\less\style.less */
+.wrap .sum .sum_text .sum_icon .sum_people .sumpeople_text .sumpeo_icon img {
+  width: 8px;
+  height: 8px;
+}
+/* line 336, assets\less\style.less */
+.wrap .sum .sum_text .sum_icon .sum_people .sumpeople_text .sumpeo_icon span {
+  font-size: 8px;
+}
+/* line 347, assets\less\style.less */
+.wrap .jeju .jeju_text {
+  background: #ebebeb;
+  padding: 15px;
+  overflow: hidden;
+}
+/* line 352, assets\less\style.less */
+.wrap .jeju .jeju_text p {
+  font-size: 13px;
+  color: #000;
+  text-align: left;
+}
+/* line 359, assets\less\style.less */
+.wrap .jeju .jeju_text .jeju_icon .jeju_location span {
+  font-size: 11px;
+  padding-left: 20px;
+  margin-left: 10px;
+  background-image: url(../images/pla_.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 370, assets\less\style.less */
+.wrap .jeju .jeju_text .jeju_icon .jeju_people .jejupeople_text h6 {
+  float: left;
+  font-size: 12px;
+  font-weight: normal;
+}
+/* line 375, assets\less\style.less */
+.wrap .jeju .jeju_text .jeju_icon .jeju_people .jejupeople_text .jepeo_icon {
+  float: right;
+}
+/* line 377, assets\less\style.less */
+.wrap .jeju .jeju_text .jeju_icon .jeju_people .jejupeople_text .jepeo_icon img {
+  width: 8px;
+  height: 8px;
+}
+/* line 381, assets\less\style.less */
+.wrap .jeju .jeju_text .jeju_icon .jeju_people .jejupeople_text .jepeo_icon span {
+  font-size: 8px;
+}
+/* line 390, assets\less\style.less */
+.wrap .depth3 {
+  height: 700px;
+  text-align: center;
+}
+/* line 393, assets\less\style.less */
+.wrap .depth3 h1 {
+  text-align: center;
+  color: #32965b;
+  padding-top: 50px;
+}
+/* line 398, assets\less\style.less */
+.wrap .depth3 img {
+  margin-top: 30px;
+}
+/* line 403, assets\less\style.less */
+.wrap .footer_main {
+  width: 100%;
+  height: 200px;
+  background: #32965b;
 }
 /* line 3, assets\less\hotel.less */
 * {
