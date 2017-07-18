@@ -6,7 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Travel</title>
   <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
+  <script>
+      function initMap() {
+        var myLatLng = {lat: 36.382963, lng: 126.770153};
+
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          scrollwheel: false,
+          zoom: 4
+        });
+
+        // Create a marker and set its position.
+        var marker = new google.maps.Marker({
+          map: map,
+          position: myLatLng,
+          title: 'Hello World!'
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41pZnaOYCOVjAzvIOqhHw1bWfqI7f54o&callback=initMap"
+        async defer></script>
 </head>
+
 <body>
   <!--헤더-->
 <div class="wrap">
@@ -43,8 +67,8 @@
   <div class="slide">
     <ul>
       <li><img src="../assets/images/sub.png" alt=""></li>
-      <li><img src="../assets/images/sub.png" alt=""></li>
-      <li><img src="../assets/images/sub.png" alt=""></li>
+      <li><img src="../assets/images/sse.png" alt=""></li>
+      <li><img src="../assets/images/ee.png" alt=""></li> 
       <button class="prev"><img src="../assets/images/left1.png" alt=""></button>
       <button class="next"><img src="../assets/images/right.png" alt=""></button>
     </ul>
@@ -135,7 +159,8 @@
 </div>
   <div class="depth3">
     <h1>WORLD MAP</h1>
-    <img src="../assets/images/map.png" alt="">
+    <div id="map"class="worldmap">
+    </div>
   </div>
   </div>
   <div class="footer_main">
