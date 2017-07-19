@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
   <title>Travel</title>
   <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
   <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
@@ -17,7 +18,6 @@
           scrollwheel: false,
           zoom: 4
         });
-
         // Create a marker and set its position.
         var marker = new google.maps.Marker({
           map: map,
@@ -27,30 +27,46 @@
       }
 
     </script>
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41pZnaOYCOVjAzvIOqhHw1bWfqI7f54o&callback=initMap"
         async defer></script>
 </head>
 
 <body>
   <!--헤더-->
-<div class="wrap">
+<div class="main">
 <div class="nav">
   <div class="logo">
     <a href=""><img src="../assets/images/logo.png" alt=""></a>
   </div>
   <div class="menu">
     <ul>
-    <li class="me1"><a href="subpage.html">ATTRACTION<i></i></a></li>
-    <li class="me2"><a href="subpage2.html">LODGMENT<i></i></a></li>
-    <li class="me3"><a href="subpage3.html">FOOD<a/></li>
-    <li class="me4"><a href="subpage4.html">COMMUNITY<i></i></a></li>
+    <li class="me1"><a href="subpage.html">ATTRACTION</a>
+      <!-- <div class="sl_m">
+        <ul>
+          <li><a href="">Beach &raquo;Pool</a></li>
+          <li><a href="">Gallery&raquo;historic</a></li>
+          <li><a href="">Outdoor Activity</a></li>
+          <li><a href="">Park&raquo;etc</a></li>
+        </ul>
+      </div> -->
+    </li>
+    <li class="me2"><a href="subpage2.html">LODGMENT</a>
+      <!-- <div class="sl_m">
+        <ul>
+          <li><a href=""></a></li>
+        </ul>
+      </div> -->
+    </li>
+    <li class="me3"><a href="subpage3.html">FOOD</li>
+    <li class="me4"><a href="subpage4.html">COMMUNITY</a></li>
     <div class="search">
       <img src="../assets/images/search.png" alt="">
     </div>
   </ul>
 </div>
   </div>
-  <div class="main">
+  <div class="mainy">
     <img src="../assets/images/intro.png" alt="">
     <span class="sun"></span>
     <strong>여자를 위한!</strong>
@@ -68,16 +84,17 @@
     <ul>
       <li><img src="../assets/images/sub.png" alt=""></li>
       <li><img src="../assets/images/sse.png" alt=""></li>
-      <li><img src="../assets/images/ee.png" alt=""></li> 
+      <li><img src="../assets/images/sf.png" alt=""></li>
       <button class="prev"><img src="../assets/images/left1.png" alt=""></button>
       <button class="next"><img src="../assets/images/right.png" alt=""></button>
     </ul>
   </div>
 </div>
+<!-- 키프라임시작 -->
 <div class="depth2">
   <h1>SPECIAL TRAVEL</h1>
   <p>조금은 다르게, 소중한 순간을 위해 떠나세요</p>
-  <ul>
+  <ul class="d2_sec1">
     <li class="mint"><img src="../assets/images/cover.png" alt="">
       <h3>INTO THE BLUE</h3>
       <p>As the heat rises this summer, we've handpicked
@@ -85,8 +102,10 @@
       <button> 더보기</button>
     </li>
     <li><img src="../assets/images/pupple.png" alt=""></li>
-    <li class="lotte"><img src="../assets/images/s.png" alt="">
-      <div class="lotte_text">
+  </ul>
+  <ul class="d2_sec2">
+    <li class="bada"><img src="../assets/images/s.png" alt="">
+      <div class="bada_text">
         <h3>오키나와 스노클링 투어</h3>
         <p>스노클링으로 보내는 시원한 여름 휴가!</p>
         <div class="i_con">
@@ -94,7 +113,7 @@
             <span>오키나와</span>
           </div>
           <div class="people">
-            <div class="peole_text">
+            <div class="people_text">
               <h6>175명의 선택</h6>
               <div class="p_icon">
                 <img src="../assets/images/ss.png" alt="">
@@ -103,47 +122,45 @@
                 <img src="../assets/images/ss.png" alt="">
                 <span>4</span>
               </div>
-              <div class="clear"></div>
             </div>
           </div>
         </div>
     </div>
     </li>
-    <li class="sum"><img src="../assets/images/mann.png" alt="">
-      <div class="sum_text">
+    <li class="bada"><img src="../assets/images/mann.png" alt="">
+      <div class="bada_text">
         <h3>롬복 길리 섬 투어</h3>
       <p>아름다운 길리 섬으로 떠나는 여행!</p>
-      <div class="sum_icon">
-        <div class="sum_location">
+      <div class="i_con">
+        <div class="map_icon">
           <span>롬복</span>
         </div>
-        <div class="sum_people">
-          <div class="sumpeople_text">
+        <div class="people">
+          <div class="people_text">
             <h6>169명의 선택</h6>
-            <div class="sumpeo_icon">
+            <div class="p_icon">
               <img src="../assets/images/ss.png" alt="">
               <img src="../assets/images/ss.png" alt="">
               <img src="../assets/images/ss.png" alt="">
               <span>3</span>
             </div>
-            <!-- clear -->
           </div>
         </div>
       </div>
       </div>
     </li>
-    <li class="jeju"><img src="../assets/images/woman.png" alt="">
-      <div class="jeju_text">
+    <li class="bada"><img src="../assets/images/woman.png" alt="">
+      <div class="bada_text">
         <h3>제주도 스노클링 체험 </h3>
         <p>아름답고 신비로운 제주도 바닷속 탐험</p>
-        <div class="jeju_icon">
-          <div class="jeju_location">
+        <div class="i_con">
+          <div class="map_icon">
             <span>제주도</span>
           </div>
-          <div class="jeju_people">
-            <div class="jejupeople_text">
+          <div class="people">
+            <div class="people_text">
               <h6>170명의 선택</h6>
-              <div class="jepeo_icon">
+              <div class="p_icon">
                 <img src="../assets/images/ss.png" alt="">
                 <img src="../assets/images/ss.png" alt="">
                 <img src="../assets/images/ss.png" alt="">

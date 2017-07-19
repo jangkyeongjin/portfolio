@@ -53,7 +53,7 @@ a {
   color: #32965b;
   list-style: none;
 }
-/* line 41, assets\less\subpage.less */
+/* line 39, assets\less\subpage.less */
 .header .menu1 ul .m1 a {
   font-size: 13px;
   display: block;
@@ -61,7 +61,7 @@ a {
   top: 15px;
   left: 35px;
 }
-/* line 48, assets\less\subpage.less */
+/* line 46, assets\less\subpage.less */
 .header .menu1 ul .m1::before {
   width: 20px;
   height: 20px;
@@ -72,7 +72,7 @@ a {
   left: 10px;
   content: "";
 }
-/* line 58, assets\less\subpage.less */
+/* line 56, assets\less\subpage.less */
 .header .menu1 ul .m1::after {
   width: 12px;
   height: 7px;
@@ -83,7 +83,7 @@ a {
   top: 22px;
   content: "";
 }
-/* line 70, assets\less\subpage.less */
+/* line 68, assets\less\subpage.less */
 .header .menu1 ul .m2 a {
   font-size: 13px;
   display: block;
@@ -91,7 +91,7 @@ a {
   top: 15px;
   left: 316px;
 }
-/* line 77, assets\less\subpage.less */
+/* line 75, assets\less\subpage.less */
 .header .menu1 ul .m2::before {
   width: 20px;
   height: 16px;
@@ -102,7 +102,7 @@ a {
   left: 290px;
   content: "";
 }
-/* line 87, assets\less\subpage.less */
+/* line 85, assets\less\subpage.less */
 .header .menu1 ul .m2::after {
   width: 12px;
   height: 7px;
@@ -113,7 +113,7 @@ a {
   top: 22px;
   content: "";
 }
-/* line 99, assets\less\subpage.less */
+/* line 97, assets\less\subpage.less */
 .header .menu1 ul .m3 a {
   font-size: 13px;
   display: block;
@@ -121,7 +121,7 @@ a {
   top: 15px;
   left: 603px;
 }
-/* line 106, assets\less\subpage.less */
+/* line 104, assets\less\subpage.less */
 .header .menu1 ul .m3::before {
   width: 25px;
   height: 20px;
@@ -132,7 +132,7 @@ a {
   left: 572px;
   content: "";
 }
-/* line 116, assets\less\subpage.less */
+/* line 114, assets\less\subpage.less */
 .header .menu1 ul .m3::after {
   width: 12px;
   height: 7px;
@@ -143,7 +143,7 @@ a {
   top: 22px;
   content: "";
 }
-/* line 128, assets\less\subpage.less */
+/* line 126, assets\less\subpage.less */
 .header .menu1 ul .m4 a {
   font-size: 13px;
   display: block;
@@ -151,7 +151,7 @@ a {
   top: 15px;
   left: 880px;
 }
-/* line 135, assets\less\subpage.less */
+/* line 133, assets\less\subpage.less */
 .header .menu1 ul .m4::before {
   width: 20px;
   height: 20px;
@@ -162,7 +162,7 @@ a {
   left: 855px;
   content: "";
 }
-/* line 145, assets\less\subpage.less */
+/* line 143, assets\less\subpage.less */
 .header .menu1 ul .m4::after {
   width: 12px;
   height: 7px;
@@ -173,7 +173,7 @@ a {
   top: 22px;
   content: "";
 }
-/* line 156, assets\less\subpage.less */
+/* line 154, assets\less\subpage.less */
 .header .menu1 ul .search1 {
   width: 73px;
   height: 50px;
@@ -184,24 +184,24 @@ a {
   background-position: center;
   background-size: initial;
 }
-/* line 170, assets\less\subpage.less */
+/* line 168, assets\less\subpage.less */
 .section1_ {
   max-width: 1903px;
   background: #7da7d9;
 }
-/* line 173, assets\less\subpage.less */
+/* line 171, assets\less\subpage.less */
 .section1_ .sub1_pic1 {
   max-width: 1903px;
   height: 500px;
   background: #7d4900;
   margin-top: 10px;
 }
-/* line 178, assets\less\subpage.less */
+/* line 176, assets\less\subpage.less */
 .section1_ .sub1_pic1 img {
   width: 1903px;
   height: 500px;
 }
-/* line 183, assets\less\subpage.less */
+/* line 181, assets\less\subpage.less */
 .section1_ .sect_cont {
   width: 1200px;
   height: 1600px;
@@ -209,43 +209,43 @@ a {
   margin: 0 auto;
   margin-top: 10px;
 }
-/* line 189, assets\less\subpage.less */
+/* line 187, assets\less\subpage.less */
 .section1_ .sect_cont .sect_menu {
   width: 250px;
   height: 1600px;
   background: #2fd0c7;
   float: left;
 }
-/* line 194, assets\less\subpage.less */
+/* line 192, assets\less\subpage.less */
 .section1_ .sect_cont .sect_menu .sub_title {
   width: 250px;
   height: 50px;
   background: #ff00ff;
   font-size: 23px;
 }
-/* line 199, assets\less\subpage.less */
+/* line 197, assets\less\subpage.less */
 .section1_ .sect_cont .sect_menu .sub_title span {
   font-weight: bold;
   text-decoration: underline;
 }
-/* line 203, assets\less\subpage.less */
+/* line 201, assets\less\subpage.less */
 .section1_ .sect_cont .sect_menu .sub_title i {
   font-style: normal;
 }
-/* line 207, assets\less\subpage.less */
+/* line 205, assets\less\subpage.less */
 .section1_ .sect_cont .sect_menu .sub_me {
   width: 250px;
   height: 250px;
   background: #2e3192;
 }
-/* line 213, assets\less\subpage.less */
+/* line 211, assets\less\subpage.less */
 .section1_ .sect_cont .sub_list {
   width: 950px;
   height: 1600px;
   background: #5c896b;
   float: right;
 }
-/* line 218, assets\less\subpage.less */
+/* line 216, assets\less\subpage.less */
 .section1_ .sect_cont .sub_list .qube {
   width: 450px;
   height: 345px;
@@ -254,7 +254,7 @@ a {
   margin-top: 15px;
   float: left;
 }
-/* line 225, assets\less\subpage.less */
+/* line 223, assets\less\subpage.less */
 .section1_ .sect_cont .sub_list .qube img {
   width: 392px;
   height: 250px;
@@ -262,12 +262,12 @@ a {
   margin-left: 30px;
   margin-top: 20px;
 }
-/* line 232, assets\less\subpage.less */
+/* line 230, assets\less\subpage.less */
 .section1_ .sect_cont .sub_list .qube p {
   text-align: center;
   margin-top: 15px;
 }
-/* line 237, assets\less\subpage.less */
+/* line 235, assets\less\subpage.less */
 .section1_ .sect_cont .sub_list .page_remo {
   width: 400px;
   height: 40px;
@@ -276,7 +276,7 @@ a {
   margin-top: 50px;
   margin-left: 280px;
 }
-/* line 244, assets\less\subpage.less */
+/* line 242, assets\less\subpage.less */
 .section1_ .sect_cont .sub_list .page_remo .number {
   width: 200px;
   height: 20px;
@@ -284,78 +284,78 @@ a {
   font-size: 25px;
   margin-left: 130px;
 }
-/* line 251, assets\less\subpage.less */
+/* line 249, assets\less\subpage.less */
 .section1_ .sect_cont .sub_list .page_remo .number a img {
   width: 12px;
   height: 19px;
   margin-left: 5px;
 }
-/* line 263, assets\less\subpage.less */
+/* line 261, assets\less\subpage.less */
 .footer1 {
   width: 100%;
   height: 200px;
   background: #32965b;
   float: left;
 }
-/* line 268, assets\less\subpage.less */
+/* line 266, assets\less\subpage.less */
 .footer1 .fooimg {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
 }
-/* line 272, assets\less\subpage.less */
+/* line 270, assets\less\subpage.less */
 .footer1 .fooimg .right_up {
   width: 1200px;
   height: 100px;
 }
-/* line 275, assets\less\subpage.less */
+/* line 273, assets\less\subpage.less */
 .footer1 .fooimg .right_up .one {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 280, assets\less\subpage.less */
+/* line 278, assets\less\subpage.less */
 .footer1 .fooimg .right_up .two {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 284, assets\less\subpage.less */
+/* line 282, assets\less\subpage.less */
 .footer1 .fooimg .right_up .two img {
   width: 115px;
   height: 100px;
   float: right;
 }
-/* line 291, assets\less\subpage.less */
+/* line 289, assets\less\subpage.less */
 .footer1 .fooimg .right_down {
   width: 1200px;
   height: 100px;
 }
-/* line 294, assets\less\subpage.less */
+/* line 292, assets\less\subpage.less */
 .footer1 .fooimg .right_down .sns {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 298, assets\less\subpage.less */
+/* line 296, assets\less\subpage.less */
 .footer1 .fooimg .right_down .sns .insta {
   width: 250px;
   height: 55px;
 }
-/* line 301, assets\less\subpage.less */
+/* line 299, assets\less\subpage.less */
 .footer1 .fooimg .right_down .sns .insta img {
   width: 35px;
   height: 35px;
   margin-top: 10px;
   margin-left: 30px;
 }
-/* line 309, assets\less\subpage.less */
+/* line 307, assets\less\subpage.less */
 .footer1 .fooimg .right_down .geol {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 313, assets\less\subpage.less */
+/* line 311, assets\less\subpage.less */
 .footer1 .fooimg .right_down .geol p {
   width: 205px;
   height: 45px;
