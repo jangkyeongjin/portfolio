@@ -210,19 +210,25 @@ a {
   z-index: 1;
   left: 352px;
 }
-/* line 181, assets\less\style.less */
+/* line 177, assets\less\style.less */
+.main .slide_menu .sl_m {
+  width: 272px;
+  height: 200px;
+  border: 1px #32965b solid;
+}
+/* line 183, assets\less\style.less */
 .main .mainy {
   max-width: 1900px;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 186, assets\less\style.less */
+/* line 188, assets\less\style.less */
 .main .mainy img {
   height: 100%;
   margin-top: 6px;
 }
-/* line 190, assets\less\style.less */
+/* line 192, assets\less\style.less */
 .main .mainy .sun {
   top: 95px;
   display: block;
@@ -230,7 +236,7 @@ a {
   height: 4px;
   background: #FFF;
 }
-/* line 197, assets\less\style.less */
+/* line 199, assets\less\style.less */
 .main .mainy strong {
   position: absolute;
   top: 98px;
@@ -238,7 +244,7 @@ a {
   font-size: 48px;
   margin-left: 340px;
 }
-/* line 204, assets\less\style.less */
+/* line 206, assets\less\style.less */
 .main .mainy span {
   position: absolute;
   top: 148px;
@@ -246,7 +252,7 @@ a {
   font-size: 48px;
   margin-left: 340px;
 }
-/* line 211, assets\less\style.less */
+/* line 213, assets\less\style.less */
 .main .mainy p {
   position: absolute;
   top: 220px;
@@ -254,7 +260,7 @@ a {
   font-size: 15px;
   margin-left: 340px;
 }
-/* line 218, assets\less\style.less */
+/* line 220, assets\less\style.less */
 .main .mainy a {
   width: 132px;
   height: 30px;
@@ -265,50 +271,50 @@ a {
   text-decoration: underline;
   font-size: 15px;
 }
-/* line 229, assets\less\style.less */
+/* line 231, assets\less\style.less */
 .main .sectional {
   width: 100%
     height:100%;
 }
-/* line 232, assets\less\style.less */
+/* line 234, assets\less\style.less */
 .main .sectional .depth {
   width: 100%;
   height: 500px;
 }
-/* line 235, assets\less\style.less */
+/* line 237, assets\less\style.less */
 .main .sectional .depth h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 240, assets\less\style.less */
+/* line 242, assets\less\style.less */
 .main .sectional .depth p {
   text-align: center;
   color: #32965b;
 }
-/* line 244, assets\less\style.less */
+/* line 246, assets\less\style.less */
 .main .sectional .depth .slide {
   margin-top: 40px;
   position: relative;
 }
-/* line 247, assets\less\style.less */
+/* line 249, assets\less\style.less */
 .main .sectional .depth .slide ul {
   width: 1206px;
   position: relative;
   margin: 0 auto;
 }
-/* line 251, assets\less\style.less */
+/* line 253, assets\less\style.less */
 .main .sectional .depth .slide ul::after {
   display: block;
   content: "";
   clear: both;
 }
-/* line 257, assets\less\style.less */
+/* line 259, assets\less\style.less */
 .main .sectional .depth .slide li {
   float: left;
   margin-left: 12px;
 }
-/* line 261, assets\less\style.less */
+/* line 263, assets\less\style.less */
 .main .sectional .depth .slide .prev {
   top: 42%;
   cursor: pointer;
@@ -317,13 +323,13 @@ a {
   position: absolute;
   left: -9px;
 }
-/* line 268, assets\less\style.less */
+/* line 270, assets\less\style.less */
 .main .sectional .depth .slide .prev img {
   width: 25px;
   height: 25px;
   left: 0;
 }
-/* line 274, assets\less\style.less */
+/* line 276, assets\less\style.less */
 .main .sectional .depth .slide .next {
   top: 42%;
   cursor: pointer;
@@ -332,44 +338,44 @@ a {
   position: absolute;
   right: -9px;
 }
-/* line 281, assets\less\style.less */
+/* line 283, assets\less\style.less */
 .main .sectional .depth .slide .next img {
   width: 25px;
   height: 25px;
 }
-/* line 288, assets\less\style.less */
+/* line 290, assets\less\style.less */
 .main .sectional .depth2 {
   height: 900px;
 }
-/* line 290, assets\less\style.less */
+/* line 292, assets\less\style.less */
 .main .sectional .depth2 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 295, assets\less\style.less */
+/* line 297, assets\less\style.less */
 .main .sectional .depth2 p {
   text-align: center;
   color: #32965b;
 }
-/* line 299, assets\less\style.less */
+/* line 301, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 {
   width: 1200px;
   height: auto;
   margin: 0 auto;
   padding-top: 47px;
 }
-/* line 304, assets\less\style.less */
+/* line 306, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 li {
   float: left;
   margin-left: 13px;
   margin-bottom: 10px;
 }
-/* line 309, assets\less\style.less */
+/* line 311, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 .mint {
   position: relative;
 }
-/* line 311, assets\less\style.less */
+/* line 313, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 .mint h3 {
   font-size: 30px;
   color: #FFF;
@@ -377,7 +383,7 @@ a {
   top: 80px;
   margin-left: 210px;
 }
-/* line 318, assets\less\style.less */
+/* line 320, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 .mint p {
   position: absolute;
   font-size: 14px;
@@ -385,7 +391,7 @@ a {
   top: 120px;
   margin-left: 120px;
 }
-/* line 325, assets\less\style.less */
+/* line 327, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 .mint button {
   height: 40px;
   position: absolute;
@@ -396,37 +402,37 @@ a {
   border: 2px #FFF solid;
   background-color: transparent;
 }
-/* line 337, assets\less\style.less */
+/* line 339, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 {
   width: 1200px;
   height: auto;
   margin: 0 auto;
   padding-top: 47px;
 }
-/* line 342, assets\less\style.less */
+/* line 344, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 li {
   float: left;
   margin-left: 13px;
   margin-bottom: 10px;
 }
-/* line 348, assets\less\style.less */
+/* line 350, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text {
   background: #ebebeb;
   padding: 15px;
   display: block;
   overflow: hidden;
 }
-/* line 353, assets\less\style.less */
+/* line 355, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text p {
   font-size: 13px;
   color: #000;
   text-align: left;
 }
-/* line 358, assets\less\style.less */
+/* line 360, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con {
   display: block;
 }
-/* line 361, assets\less\style.less */
+/* line 363, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con .map_icon span {
   font-size: 11px;
   padding-left: 20px;
@@ -435,108 +441,108 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
 }
-/* line 372, assets\less\style.less */
+/* line 374, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con .people .people_text h6 {
   margin-top: 5px;
   float: left;
   font-size: 12px;
   font-weight: normal;
 }
-/* line 378, assets\less\style.less */
+/* line 380, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con .people .people_text .p_icon {
   float: right;
 }
-/* line 380, assets\less\style.less */
+/* line 382, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con .people .people_text .p_icon img {
   width: 8px;
   height: 8px;
 }
-/* line 384, assets\less\style.less */
+/* line 386, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con .people .people_text .p_icon span {
   font-size: 8px;
 }
-/* line 395, assets\less\style.less */
+/* line 397, assets\less\style.less */
 .main .sectional .depth3 {
   height: 700px;
   text-align: center;
 }
-/* line 398, assets\less\style.less */
+/* line 400, assets\less\style.less */
 .main .sectional .depth3 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 403, assets\less\style.less */
+/* line 405, assets\less\style.less */
 .main .sectional .depth3 .worldmap {
   width: 1900px;
   height: 500px;
   margin-top: 10px;
 }
-/* line 411, assets\less\style.less */
+/* line 413, assets\less\style.less */
 .main .footer_main {
   width: 100%;
   height: 200px;
   background: #32965b;
 }
-/* line 415, assets\less\style.less */
+/* line 417, assets\less\style.less */
 .main .footer_main .fooimg {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
 }
-/* line 419, assets\less\style.less */
+/* line 421, assets\less\style.less */
 .main .footer_main .fooimg .right_up {
   width: 1200px;
   height: 100px;
 }
-/* line 422, assets\less\style.less */
+/* line 424, assets\less\style.less */
 .main .footer_main .fooimg .right_up .one {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 427, assets\less\style.less */
+/* line 429, assets\less\style.less */
 .main .footer_main .fooimg .right_up .two {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 431, assets\less\style.less */
+/* line 433, assets\less\style.less */
 .main .footer_main .fooimg .right_up .two img {
   width: 115px;
   height: 100px;
   float: right;
 }
-/* line 438, assets\less\style.less */
+/* line 440, assets\less\style.less */
 .main .footer_main .fooimg .right_down {
   width: 1200px;
   height: 100px;
 }
-/* line 441, assets\less\style.less */
+/* line 443, assets\less\style.less */
 .main .footer_main .fooimg .right_down .sns {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 445, assets\less\style.less */
+/* line 447, assets\less\style.less */
 .main .footer_main .fooimg .right_down .sns .insta {
   width: 250px;
   height: 55px;
 }
-/* line 448, assets\less\style.less */
+/* line 450, assets\less\style.less */
 .main .footer_main .fooimg .right_down .sns .insta img {
   width: 35px;
   height: 35px;
   margin-top: 10px;
   margin-left: 30px;
 }
-/* line 456, assets\less\style.less */
+/* line 458, assets\less\style.less */
 .main .footer_main .fooimg .right_down .geol {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 460, assets\less\style.less */
+/* line 462, assets\less\style.less */
 .main .footer_main .fooimg .right_down .geol p {
   width: 205px;
   height: 45px;

@@ -15,14 +15,12 @@ a {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
-  background: #FF0;
 }
 /* line 11, assets\less\subpage.less */
 .header .logo1 {
   text-align: center;
   width: 1200px;
   height: 131px;
-  background: #06f;
 }
 /* line 16, assets\less\subpage.less */
 .header .logo1 a {
@@ -37,7 +35,6 @@ a {
 .header .menu1 {
   width: 1200px;
   height: 50px;
-  background: #f00;
   margin-top: 19px;
 }
 /* line 29, assets\less\subpage.less */
@@ -378,14 +375,12 @@ a {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
-  background: #FF0;
 }
 /* line 11, assets\less\subpage2.less */
 .header .logo1 {
   text-align: center;
   width: 1200px;
   height: 131px;
-  background: #06f;
 }
 /* line 16, assets\less\subpage2.less */
 .header .logo1 a {
@@ -400,7 +395,6 @@ a {
 .header .menu1 {
   width: 1200px;
   height: 50px;
-  background: #f00;
   margin-top: 19px;
 }
 /* line 29, assets\less\subpage2.less */
@@ -741,14 +735,12 @@ a {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
-  background: #FF0;
 }
 /* line 11, assets\less\subpage3.less */
 .header .logo1 {
   text-align: center;
   width: 1200px;
   height: 131px;
-  background: #06f;
 }
 /* line 16, assets\less\subpage3.less */
 .header .logo1 a {
@@ -763,7 +755,6 @@ a {
 .header .menu1 {
   width: 1200px;
   height: 50px;
-  background: #f00;
   margin-top: 19px;
 }
 /* line 29, assets\less\subpage3.less */
