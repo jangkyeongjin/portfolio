@@ -1095,14 +1095,12 @@ a {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
-  background: #FF0;
 }
 /* line 6, assets\less\subpage4.less */
 .header .logo1 {
   text-align: center;
   width: 1200px;
   height: 131px;
-  background: #06f;
 }
 /* line 11, assets\less\subpage4.less */
 .header .logo1 a {
@@ -1117,7 +1115,6 @@ a {
 .header .menu1 {
   width: 1200px;
   height: 50px;
-  background: #f00;
   margin-top: 19px;
 }
 /* line 24, assets\less\subpage4.less */
@@ -1267,13 +1264,11 @@ a {
 /* line 165, assets\less\subpage4.less */
 .section3 {
   width: 1903px;
-  background: #7da7d9;
 }
 /* line 168, assets\less\subpage4.less */
 .section3 .sub1_pic {
   width: 1903px;
   height: 563px;
-  background: #7d4900;
   margin-top: 10px;
 }
 /* line 173, assets\less\subpage4.less */
@@ -1285,7 +1280,6 @@ a {
 .section3 .sect_cont {
   width: 1200px;
   height: 1600px;
-  background: #ce4125;
   margin: 0 auto;
   margin-top: 10px;
 }
@@ -1293,14 +1287,12 @@ a {
 .section3 .sect_cont .sect_menu {
   width: 250px;
   height: 1600px;
-  background: #2fd0c7;
   float: left;
 }
 /* line 189, assets\less\subpage4.less */
 .section3 .sect_cont .sect_menu .sub_title {
   width: 250px;
   height: 50px;
-  background: #ff00ff;
   font-size: 23px;
 }
 /* line 194, assets\less\subpage4.less */
@@ -1316,33 +1308,28 @@ a {
 .section3 .sect_cont .sect_menu .sub_me {
   width: 250px;
   height: 250px;
-  background: #2e3192;
 }
 /* line 208, assets\less\subpage4.less */
 .section3 .sect_cont .sub_list {
   width: 950px;
   height: 1600px;
-  background: #5c896b;
   float: right;
 }
 /* line 213, assets\less\subpage4.less */
 .section3 .sect_cont .sub_list .tt {
   width: 950px;
   height: 50px;
-  background: #ff0;
 }
 /* line 217, assets\less\subpage4.less */
 .section3 .sect_cont .sub_list .tt .aa {
   width: 200px;
   height: 50px;
-  background: #f00;
   float: left;
 }
 /* line 222, assets\less\subpage4.less */
 .section3 .sect_cont .sub_list .tt .aa .icon_1 {
   width: 24px;
   height: 24px;
-  background: #e99;
   display: block;
   float: left;
 }
@@ -1366,21 +1353,18 @@ a {
 .section3 .sect_cont .sub_list .list_q {
   width: 950px;
   height: 1450px;
-  background: #ec008c;
 }
 /* line 249, assets\less\subpage4.less */
 .section3 .sect_cont .sub_list .list_q .ques_1 {
   width: 948px;
   height: 170px;
   margin-bottom: 5px;
-  background: #0ec9f8;
   border: 1px solid #e1e1e1;
 }
 /* line 255, assets\less\subpage4.less */
 .section3 .sect_cont .sub_list .list_q .ques_1 .ti {
   width: 948px;
   height: 50px;
-  background: #d633a6;
 }
 /* line 259, assets\less\subpage4.less */
 .section3 .sect_cont .sub_list .list_q .ques_1 .ti h2 {
@@ -1407,7 +1391,6 @@ a {
 .section3 .sect_cont .sub_list .list_q .ques_1 .geol {
   width: 948px;
   height: 50px;
-  background: #d46834;
 }
 /* line 282, assets\less\subpage4.less */
 .section3 .sect_cont .sub_list .list_q .ques_1 .geol p {
@@ -1417,14 +1400,12 @@ a {
 .section3 .sect_cont .sub_list .list_q .ques_1 .last {
   width: 948px;
   height: 40px;
-  background: #6ae639;
   margin-top: 30px;
 }
 /* line 291, assets\less\subpage4.less */
 .section3 .sect_cont .sub_list .list_q .ques_1 .last .text_d {
   width: 473px;
   height: 40px;
-  background: #1322e0;
   float: left;
 }
 /* line 296, assets\less\subpage4.less */
@@ -1438,14 +1419,12 @@ a {
 .section3 .sect_cont .sub_list .list_q .ques_1 .last .spot {
   width: 473px;
   height: 40px;
-  background: #F00;
   float: right;
 }
 /* line 308, assets\less\subpage4.less */
 .section3 .sect_cont .sub_list .list_q .ques_1 .last .spot .icon_2 {
   width: 25px;
   height: 20px;
-  background: #7d4900;
   float: right;
   margin-top: 15px;
 }
@@ -1453,7 +1432,6 @@ a {
 .section3 .sect_cont .sub_list .list_q .ques_1 .last .spot .num {
   width: 20px;
   height: 18px;
-  background: #e38c13;
   font-size: 13px;
   float: right;
   margin-top: 15px;
@@ -1462,7 +1440,6 @@ a {
 .section3 .sect_cont .sub_list .pagenext {
   width: 300px;
   height: 40px;
-  background: #F00;
   margin-top: 10px;
   margin-left: 300px;
 }
@@ -1470,7 +1447,6 @@ a {
 .section3 .sect_cont .sub_list .pagenext .number_1 {
   width: 200px;
   height: 20px;
-  background: #0ec9f8;
   font-size: 25px;
   margin-left: 75px;
 }
