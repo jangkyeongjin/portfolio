@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box{outline:1px #F00 solid; height:300px; width:500px;  text-align:center;}
+        .box span{
+            border:1px #F00 solid;
+            display:inline-block;
+		      	vertical-align:middle;
+        }
+        .box:before{
+            border:1px #F00 solid;
+            content:"";
+            display:inline-block;
+            vertical-align:middle;
+            height:100%;
+        }
+
+
+
+		/*테이블셀 쓰지 않고 모두 가운데로 가게만들기.*/
+    /*Span_is_available_instead_of_:before_or_:after*/
+    /*pseudo는 상속안됨*/
+    </style>
+</head>
+<body>
+    <div class="box">
+        <span>
+	        Hello World<br/>
+	        Hello World<br/>
+	        Hello World<br/>
+	        gg
+        </span>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .bg{
+        background-image: url(../image/backback.png);
+        background-repeat: no-repeat;
+        background-color: transparent;
+      }
+      .newsBtn{
+        width: 87px;
+        height:29px;
+        border:0;
+        background-position: -1px -116px;
+      }
+      .totalBtn{
+        width: 86px;
+        height:29px;
+        border:0;
+        background-position: -88px -116px;
+      }
+      .majorpress{
+        width: 72px;
+        height:24px;
+        border:0;
+        background-position: -1px  -252px;
+      }
+      .totaleco{
+        width: 67px;
+        height: 25px;
+        border:0;
+        background-position: -1px -276px;
+      }
+      .broadco{
+        width: 67px;
+        height: 25px;
+        border:0;
+        background-position: -1px -304px;
+      }
+      .ennews{
+        width: 51px;
+        height: 25px;
+        border:0;
+        background-position: -1px -328px;
+      }
+      .itit{
+        width: 31px;
+        height: 23px;
+        border:0;
+        background-position: -1px -382px;
+      }
+      .sportsgo{
+        width: 79px;
+        height: 24px;
+        border:0;
+        background-position: -1px -408px;
+      }
+      .magazine{
+        width: 89px;
+        height: 26px;
+        border:0;
+        background-position: -1px -432px;
+      }
+      .local{
+        width: 39px;
+        height: 25px;
+        border:0;
+        background-position: -1px -458px;
+      }
+      .mypressset1{
+        width: 86px;
+        height: 77px;
+        border:0;
+        background-position: -1px -490px;
+      }
+      .mypressset2{
+        width: 84px;
+        height: 77px;
+        border:0;
+        background-position: -93px -490px;
+      }
+      ul{margin:0; padding:0; list-style: none}
+      li{
+        background-image: url(../image/icons.png);
+        background-repeat:no-repeat;
+        padding-left:20px;
+      }
+      /*.icon1{
+        background-position: 0 3px;
+      }
+      .icon2{
+        background-position: 0 -10px;
+      }
+      .icon3{
+        background-position: 0 -44px;
+      }*/
+      .icon4{
+        width: 21px;
+        height: 21px;
+        background-position: -2px -190px;
+
+
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <button tpye="button" class="newsBtn bg"></button><button tpye="button" class="totalBtn bg"></button>
+    <button type="button" class="totaleco bg"></button>
+    <button type="button" class="broadco bg"></button>
+    <button type="button" class="ennews bg"></button>
+    <button type="button" class="itit bg"></button>
+    <button type="button" class="sportsgo bg"></button>
+    <button type="button" class="magazine bg"></button>
+    <button type="button" class="local bg"></button>
+    <button type="button" class="majorpress bg"></button>
+    <button type="button" class="mypressset1 bg"></button>
+    <button type="button" class="mypressset2 bg"></button>
+
+
+
+    <ul>
+      <li class="icon1 ">text</li>
+      <li class="icon2">text</li>
+      <li class="icon3">text</li>
+      <li class="icon4">text</li>
+      <li>text</li>
+    </ul>
+
+
+
+
+  </body>
+</html>
