@@ -290,111 +290,101 @@ a {
   text-decoration: underline;
   font-size: 15px;
 }
-/* line 252, assets\less\style.less */
-.main .sectional {
-  width: 100%
-    height:100%;
-}
 /* line 255, assets\less\style.less */
 .main .sectional .depth {
-  width: 100%;
+  width: 1200px;
   height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
 }
-/* line 258, assets\less\style.less */
+/* line 261, assets\less\style.less */
 .main .sectional .depth h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 263, assets\less\style.less */
+/* line 266, assets\less\style.less */
 .main .sectional .depth p {
   text-align: center;
   color: #32965b;
 }
-/* line 267, assets\less\style.less */
+/* line 270, assets\less\style.less */
 .main .sectional .depth .slide {
   margin-top: 40px;
-  position: relative;
-}
-/* line 270, assets\less\style.less */
-.main .sectional .depth .slide ul {
-  width: 1206px;
-  position: relative;
-  margin: 0 auto;
+  overflow: hidden;
+  position: absolute;
 }
 /* line 274, assets\less\style.less */
-.main .sectional .depth .slide ul::after {
-  display: block;
-  content: "";
-  clear: both;
+.main .sectional .depth .slide ul {
+  width: 1200px;
 }
-/* line 280, assets\less\style.less */
+/* line 285, assets\less\style.less */
 .main .sectional .depth .slide li {
   float: left;
   margin-left: 12px;
 }
-/* line 284, assets\less\style.less */
-.main .sectional .depth .slide .prev {
-  top: 42%;
-  cursor: pointer;
-  background: rgba(0, 0, 0, 0);
-  border: 0;
+/* line 316, assets\less\style.less */
+.main .sectional .depth .dir div {
+  width: 12px;
+  height: 18px;
+  background-image: url(../images/btn_play.png);
+  background-repeat: no-repeat;
   position: absolute;
-  left: -9px;
-}
-/* line 291, assets\less\style.less */
-.main .sectional .depth .slide .prev img {
-  width: 25px;
-  height: 25px;
-  left: 0;
-}
-/* line 297, assets\less\style.less */
-.main .sectional .depth .slide .next {
-  top: 42%;
+  top: 285px;
   cursor: pointer;
-  background: rgba(0, 0, 0, 0);
-  border: 0;
-  position: absolute;
-  right: -9px;
 }
-/* line 304, assets\less\style.less */
-.main .sectional .depth .slide .next img {
-  width: 25px;
-  height: 25px;
+/* line 324, assets\less\style.less */
+.main .sectional .depth .dir div .prev {
+  left: 20px;
+  background-position: 0 0;
 }
-/* line 311, assets\less\style.less */
+/* line 327, assets\less\style.less */
+.main .sectional .depth .dir div .prev :hover {
+  background-position: 0 -36px;
+}
+/* line 331, assets\less\style.less */
+.main .sectional .depth .dir div .next {
+  right: 20px;
+  background-position: -12px 0;
+}
+/* line 334, assets\less\style.less */
+.main .sectional .depth .dir div .next :hover {
+  background-position: -12px -36px;
+}
+/* line 356, assets\less\style.less */
 .main .sectional .depth2 {
   height: 900px;
 }
-/* line 313, assets\less\style.less */
+/* line 358, assets\less\style.less */
 .main .sectional .depth2 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 318, assets\less\style.less */
+/* line 363, assets\less\style.less */
 .main .sectional .depth2 p {
   text-align: center;
   color: #32965b;
 }
-/* line 322, assets\less\style.less */
+/* line 367, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 {
   width: 1200px;
   height: auto;
   margin: 0 auto;
   padding-top: 47px;
 }
-/* line 327, assets\less\style.less */
+/* line 372, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 li {
   float: left;
   margin-left: 13px;
   margin-bottom: 10px;
 }
-/* line 332, assets\less\style.less */
+/* line 377, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 .mint {
   position: relative;
 }
-/* line 334, assets\less\style.less */
+/* line 379, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 .mint h3 {
   font-size: 30px;
   color: #FFF;
@@ -402,7 +392,7 @@ a {
   top: 80px;
   margin-left: 210px;
 }
-/* line 341, assets\less\style.less */
+/* line 386, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 .mint p {
   position: absolute;
   font-size: 14px;
@@ -410,7 +400,7 @@ a {
   top: 120px;
   margin-left: 120px;
 }
-/* line 348, assets\less\style.less */
+/* line 393, assets\less\style.less */
 .main .sectional .depth2 .d2_sec1 .mint button {
   height: 40px;
   position: absolute;
@@ -421,37 +411,37 @@ a {
   border: 2px #FFF solid;
   background-color: transparent;
 }
-/* line 360, assets\less\style.less */
+/* line 405, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 {
   width: 1200px;
   height: auto;
   margin: 0 auto;
   padding-top: 47px;
 }
-/* line 365, assets\less\style.less */
+/* line 410, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 li {
   float: left;
   margin-left: 13px;
   margin-bottom: 10px;
 }
-/* line 371, assets\less\style.less */
+/* line 416, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text {
   background: #ebebeb;
   padding: 15px;
   display: block;
   overflow: hidden;
 }
-/* line 376, assets\less\style.less */
+/* line 421, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text p {
   font-size: 13px;
   color: #000;
   text-align: left;
 }
-/* line 381, assets\less\style.less */
+/* line 426, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con {
   display: block;
 }
-/* line 384, assets\less\style.less */
+/* line 429, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con .map_icon span {
   font-size: 11px;
   padding-left: 20px;
@@ -460,102 +450,102 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
 }
-/* line 395, assets\less\style.less */
+/* line 440, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con .people .people_text h6 {
   margin-top: 5px;
   float: left;
   font-size: 12px;
   font-weight: normal;
 }
-/* line 401, assets\less\style.less */
+/* line 446, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con .people .people_text .p_icon {
   float: right;
 }
-/* line 403, assets\less\style.less */
+/* line 448, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con .people .people_text .p_icon img {
   width: 8px;
   height: 8px;
 }
-/* line 407, assets\less\style.less */
+/* line 452, assets\less\style.less */
 .main .sectional .depth2 .d2_sec2 .bada .bada_text .i_con .people .people_text .p_icon span {
   font-size: 8px;
 }
-/* line 418, assets\less\style.less */
+/* line 463, assets\less\style.less */
 .main .sectional .depth3 {
   height: 700px;
   text-align: center;
 }
-/* line 421, assets\less\style.less */
+/* line 466, assets\less\style.less */
 .main .sectional .depth3 h1 {
   text-align: center;
   color: #32965b;
   padding-top: 50px;
 }
-/* line 434, assets\less\style.less */
+/* line 479, assets\less\style.less */
 .main .footer_main {
   width: 100%;
   height: 200px;
   background: #32965b;
 }
-/* line 438, assets\less\style.less */
+/* line 483, assets\less\style.less */
 .main .footer_main .fooimg {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
 }
-/* line 442, assets\less\style.less */
+/* line 487, assets\less\style.less */
 .main .footer_main .fooimg .right_up {
   width: 1200px;
   height: 100px;
 }
-/* line 445, assets\less\style.less */
+/* line 490, assets\less\style.less */
 .main .footer_main .fooimg .right_up .one {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 450, assets\less\style.less */
+/* line 495, assets\less\style.less */
 .main .footer_main .fooimg .right_up .two {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 454, assets\less\style.less */
+/* line 499, assets\less\style.less */
 .main .footer_main .fooimg .right_up .two img {
   width: 115px;
   height: 100px;
   float: right;
 }
-/* line 461, assets\less\style.less */
+/* line 506, assets\less\style.less */
 .main .footer_main .fooimg .right_down {
   width: 1200px;
   height: 100px;
 }
-/* line 464, assets\less\style.less */
+/* line 509, assets\less\style.less */
 .main .footer_main .fooimg .right_down .sns {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 468, assets\less\style.less */
+/* line 513, assets\less\style.less */
 .main .footer_main .fooimg .right_down .sns .insta {
   width: 250px;
   height: 55px;
 }
-/* line 471, assets\less\style.less */
+/* line 516, assets\less\style.less */
 .main .footer_main .fooimg .right_down .sns .insta img {
   width: 35px;
   height: 35px;
   margin-top: 10px;
   margin-left: 30px;
 }
-/* line 479, assets\less\style.less */
+/* line 524, assets\less\style.less */
 .main .footer_main .fooimg .right_down .geol {
   width: 600px;
   height: 100px;
   float: left;
 }
-/* line 483, assets\less\style.less */
+/* line 528, assets\less\style.less */
 .main .footer_main .fooimg .right_down .geol p {
   width: 205px;
   height: 45px;
