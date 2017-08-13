@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .wrap{border:1px #F00 solid; }
+        .left_box {border:1px #F00 solid;
+            width:200px; height:200px;
+            float:left;
+        }
+        .test_box{
+            border:2px #0F0 solid;
+            margin-top:200px;
+            width:200px; height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="left_box"></div>
+        <div class="left_box"></div>
+        <div class="left_box"></div>
+
+
+    </div>
+    <div class="test_box">sdfsdf</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<style>
+  body{ background: url(http://static.naver.net/newsstand/img/20121231/bg_bd.png); }
+
+  *{margin:0; padding:0;}
+  ul,ol{list-style:none;}
+  a{text-decoration:none; color:#000;}
+  img{vertical-align: top;}
+
+
+  .wrap{outline:1px transparent solid; width:900px; height: 540px; margin: 10px auto; padding: 0 25px; background-image: url(http://static.naver.net/newsstand/img/20121231/bg_panel.png); }
+  header{outline:1px transparent solid; height:110px; margin: 0 30px 15px ; padding: 12px 0 0; border-bottom-style: solid;}
+  section{outline:1px transparent solid; height:394px; margin: 0 30px ;}
+  h1{margin:0; float:left;}
+  header article{float:right; margin-top: 20px;}
+
+  .bg{ background-image: url(../image/llist.png); background-repeat: no-repeat; background-color: transparent;}
+  .llist{ width: 7px; height: 8px; background-position: 0 0 ; padding-top: 2px;}
+  .btng{clear:left; padding: 15px 0 0 0;  font-size: 11px ;}
+
+  .lc{outline:1px transparent solid; width:510px; height: 394px; float:left; }
+  .lt{outline:1px transparent solid; height:auto; margin-bottom: 20px;}
+  .lt .thumb{outline: 1px transparent solid; width: 200px; height: 110px; float:left; }
+  .lt .thumb img{width: 100%; height: 100%;}
+  .lt strong{outline: 1px transparent solid; font-size: 24px; display: block; padding-left: 4px; color:rgb(20, 71, 203); height:34px;}
+  .lt .st_span{outline: 1px transparent solid; font-size: 14px; margin:0 0 10px; ; padding-left: 5px; color: rgb(51, 51, 51); display:block; height:20px;}
+  .lt li + li {outline: 1px transparent solid; height:23px; margin: 0 0 3px 220px; padding-left: 10px ; display: block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size: 13px; }
+  .lt .ltcol span{color:rgb(250, 167, 69);}
+  .lt .ltcol {outline: 1px transparent solid; height: 28px; margin-left: 220px; font-size: 13px; padding-top: 5px; background-color: rgb(235, 235, 235); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-align: center;  }
+  .lb{outline: 1px transparent solid; height:188px; }
+  .lb .lbl{outline: 1px transparent solid; width: 295px; height:auto; font-size: 13px; float:left;}
+  .lb .lbl li{margin-bottom: 5px;}
+  .lb .lbl .lblt{margin-bottom: 12px;}
+  .lb .lbl .lblb{margin-bottom: 12px;}
+  .lb .lbr{outline: 1px transparent solid; width:200px; margin-left: 305px; height: auto;}
+  .lb .lbr .lbr_thumbs{outline: 1px transparent solid; height: auto; width:110%; font-size: 12px;}
+  .lb .lbr .lbr_thumbs ul{outline: 1px transparent solid; width:110%;}
+  .lb .lbr .lbr_thumb1{outline: 1px transparent solid; width:95px; height:114px; margin-right: 10px; font-size: 12px; float:left; overflow:hidden; text-overflow:ellipsis; }
+  .lb .lbr .lbr_thumb2{outline: 1px transparent solid; width:95px; height:114px; margin-right: 10px; font-size: 12px; float:left; overflow:hidden; text-overflow:ellipsis;}
+  .lb .lbr_thumbs .t1_span{outline: 1px transparent solid; width: 95px; height: 30px;}
+  .lb .lbr_thumbs .t2_span{outline: 1px transparent solid; width: 95px; height: 30px;}
+  .lb .lb_imgsize{outline: 1px transparent solid; width: 95px; height: 80px;}
+  .lb .lb_imgsize img{width: 100% ; height:100%;}
+  .lb .lbrb1{outline: 1px transparent solid; height:auto; font-size: 13px; margin-top: 12px; float:left;}
+  .lb .lbrb1 span{color: rgb(77, 180, 224); }
+  .lb .lbrb2{outline: 1px transparent solid; height:auto; font-size: 13px; margin-top: 12px; float:left;}
+  .lb .lbrb2 span{color: rgb(77, 180, 224);}
+  .rc{outline:1px transparent solid; margin-left: 545px; height: 394px; position: relative;}
+  .rc .rt{outline:1px transparent solid; height:170px;}
+  .rc .rt ul{outline:1px transparent solid; width:110%}
+  .rc .rt li{outline:1px transparent solid; width:140px; height: 140px; font-size: 12px; margin-right: 15px; float:left;
+    line-height:14px; text-align:center;  font-weight:bold;}
+  .rc .rt img{width:100%;}
+  .rc .rt span{outline:1px transparent solid; width: 140px; height: 30px; display: block ; margin-top: 5px; }
+  .rc .rb{outline:1px transparent solid; height:auto; margin-top: 18px; }
+  .rc .rb li{margin-bottom: 10px; font-size: 12px; }
+  .rc .rb .second_to_last{ height:33px; width:250px;  font-size:12px;  }
+  .rc .rb .second_to_last span { color:rgb(203, 203, 203); padding-left: 10px; line-height:16px;  padding: 5px 0 0 7px ; display: block;}
+  .rc .rb .stli{outline:1px transparent solid; width: 38px; height: 38px; float:left; margin-right: 7px; }
+  .rc .rb .stli   img {width:100%; height:100%;}
+  .gobtn{outline:1px transparent solid; font-size:11px ; clear:right; position: absolute; right:15px;}
+  .gobtn strong{ color: rgb(28, 104, 184) ;}
+</style>
+</head>
+
+<body>
+  <div class="wrap">
+  <header>
+    <h1><a href=""><img src="http://static.naver.net/newsstand/up/2013/0813/nsd114738777.gif" alt="아이뉴스24"></a></h1>
+    <article><a href=""><img src="http://adcreative.naver.com/ad3/1004/1004874/468_60_01484642590306.jpg" alt="관리?세척?필요없는 초간편가습기"></a></article>
+    <div class="btng">
+      <button>구독하기</button>
+      <button>이용자한마디</button>
+      <button>소셜보내기</button>
+      <span>01-25 07:18편집</span>
+    </div>
+  </header>
+  <section>
+    <div class="lc">
+      <div class="lt">
+        <ul>
+          <li><a href="http://www.inews24.com/php/news_view.php?g_serial=1003422&g_menu=020200">
+            <strong>보안 컨설팅 기업 지정은 미래부 마음대로?</strong>
+            <span class="st_span">관제업체 상시지정과 달리 공고할 때만&#8230;신생 기업엔 장벽</span>
+            <div class="thumb"><img src="http://static.naver.net/newsstand/2017/0125/inews/071955/001.jpg" alt="형광빛파란색 자물쇠 위에 돋보기가 있는 사진"></div>
+            </a>
+          </li>
+          <li class="bg"><a href="">파수닷컴, 에스피에이스 보안컨설팅 사업 25억에 인수</a></li>
+          <li class="bg"><a href="">SK인포섹, 산업제어시스템 보안컨설팅 '출사표'</a></li>
+          <li class="bg"><a href="">미래부 보안컨설팅 지정제 "실효성 없다"</a></li>
+        </ul>
+          <div class="ltcol">
+            <a href="">
+              <span>[칼럼]</span>[이영은] 국산차 '한국인CEO' 3인에 거는 기대 크다
+            </a>
+          </div>
+
+      </div>
+      <div class="lb">
+        <div class="lbl">
+          <div class="lblt">
+            <ul>
+              <li><a href=""><strong>보안 컨설팅 기업 지정은 미래부 마음대로?</strong></a></li>
+              <li><a href="">삼성전자, 무풍에어컨 출시…인공지능 기술 접목</a></li>
+              <li><a href="">애플 아이폰, 中서 현지 업체에 밀려 고전</a></li>
+              <li><a href="">슈프리마, 초고속 지문인식모듈 'SFM6000' 시</a></li>
+            </ul>
+          </div>
+          <div class="lblb">
+            <ul>
+              <li><a href=""><strong>보안 컨설팅 기업 지정은 미래부 마음대로?</strong></a></li>
+              <li><a href="">삼성전자, 무풍에어컨 출시…인공지능 기술 접목</a></li>
+              <li><a href="">애플 아이폰, 中서 현지 업체에 밀려 고전</a></li>
+              <li><a href="">슈프리마, 초고속 지문인식모듈 'SFM6000' 시</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="lbr">
+          <div class="lbr_thumbs">
+            <div class="lbr_thumb1">
+              <ul>
+                <li><a href="http://news.inews24.com/php/news_view.php?g_serial=1003621&g_menu=020531">
+                  <div class="lb_imgsize"><img src="http://static.naver.net/newsstand/2017/0125/inews/145848/004.jpg" alt="하얀 배경에 양옆에 케릭터있고 가운데 원정대라는 글씨가 있는 사진 "></div>
+                  <span class="t1_span">'리니지2 레볼루션' 업뎃 난항…원인은 구글?</span>
+                  </a>
+
+                </li>
+              </ul>
+            </div>
+          <div class="lbr_thumb2">
+            <ul>
+              <li><a href="http://news.inews24.com/php/news_view.php?g_serial=1003621&g_menu=020531">
+                <div class="lb_imgsize"><img src="http://static.naver.net/newsstand/2017/0125/inews/145848/005.jpg" alt="하얀 배경에 양옆에 케릭터있고 가운데 원정대라는 글씨가 있는 사진 "></div>
+                <span class="t2_span">'리니지2 레볼루션' 업뎃 난항…원인은 구글?</span>
+                </a>
+
+              </li>
+            </ul>
+          </div>
+         </div>
+         <div class="lbrb1">
+           <a href="http://news.inews24.com/php/news_view.php?g_serial=1003446&g_menu=022500">
+             <span>[카드뉴스]</span> "수입란 시대 열렸다"…소비자 반응 '제각각'
+           </a>
+         </div>
+         <div class="lbrb2">
+           <a href="http://news.inews24.com/php/news_list.php?g_menu=085936">
+             <span>[스페셜]</span> 2017 ICT 기상도
+           </a>
+         </div>
+       </div> <!--lbr-->
+      </div> <!--lb-->
+    </div> <!--lc-->
+
+    <div class="rc">
+        <div class="rt">
+          <ul>
+            <li><a href="http://news.inews24.com/php/news_view.php?g_serial=1003587&g_menu=020200">
+               <div><img src="http://static.naver.net/newsstand/2017/0125/inews/171953/006.jpg" alt="건물이다"></div>
+               <span>산업銀 차세대시스템, 결국 SK C&#38;C 품으로</span>
+               </a>
+            </li>
+            <li><a href="http://news.inews24.com/php/news_view.php?g_serial=1003587&g_menu=020200">
+               <div><img src="http://static.naver.net/newsstand/2017/0125/inews/171953/007.jpg" alt="파란배경에 사람말하고잇음"></div>
+               <span>이광구 "민영 우리은행, 경영 효율 높일 것"</span>
+               </a>
+            </li>
+          </ul>
+        </div> <!--rt-->
+        <div class="rb">
+            <ul>
+              <li><a href="" style="color:rgb(227, 36, 185)">박한철 "朴 대통령 탄핵심판 결론 3월 13일까지</a></li>
+              <li><a href="">반기문, 연일 보수 의원과 회동 "정치교체해야"</a></li>
+              <li><a href="">남경필, 대선출마 선언 "대한민국 리빌딩하겠다"</a></li>
+              <li><a href=""><strong>4Q 실질GDP 0.4%…6분기 만에 최저(속보)</strong></a></li>
+              <li><a href="">써티컷, 대체투자전문 P2P금융 '비욘드펀드' 출범</a></li>
+              <li><a href="">설연휴 불법대출·투자 피해? 금감원 신고센터 운영</a></li>
+            </ul>
+        <div class="second_to_last">
+          <a href="http://news.inews24.com/php/news_view.php?g_serial=1002282&g_menu=023120">
+            <div class="stli"><img src="http://static.naver.net/newsstand/2017/0125/inews/171953/008.jpg" alt="노란책"></div>
+            <span>[책]4차 산업혁명 대비 '경영을 살리는 IT 2'</span>
+          </a>
+        </div>
+      </div><!--rb-->
+      <a href="http://www.inews24.com/" class="gobtn"><strong>아이뉴스24</strong> 사이트 바로가기</a>
+    </div><!--rc-->
+
+</section>
+
+
+
+</div> <!--wrap-->
+</body>
+</html>

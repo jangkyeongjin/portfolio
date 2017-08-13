@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>08_event_model</title>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<style>
+			html * { margin:0; padding:0; }
+			body { margin-left:300px; margin-top:60px; }
+			#wrapper { width:200px; height:200px; border:1px solid red; background-color: yellow; padding:150px;}
+			#targetBox { width:200px; height:200px; background-color: red; color:#FFFFFF }
+		</style>
+		<script>
+			$(document).ready(function(){
+
+				$('a').click(function(event){
+					console.log(event);
+					// preventDefault();
+				})
+// a는 원래 링크가 걸려있어서 a테그가 동작했는데  한번 누르면 test가 떴다가 바로 사라짐.
+// li눌렀는데도 안에a가 클릭돼서 이벤트 안걸리는 경우가 있음.
+
+
+
+			});
+		</script>
+	</head>
+
+	<body>
+
+		<a href="javascript:void(0)">눌러</a>
+
+	</body>
+</html>

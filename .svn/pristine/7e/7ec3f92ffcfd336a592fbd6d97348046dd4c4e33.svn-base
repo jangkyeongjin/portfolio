@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+  *{margin:0; padding:0;}
+  ul,ol{list-style: none;}
+  a{text-decoration:none; color:#000;}
+  img{vertical-align: top;}
+
+  .ir{text-indent: -9999px; font-size: 0; position:absolute; top:-9999px left:-9999px; }
+
+  .wrap{ width: 990px; margin: 0 auto; height:100%;}
+  .gnb{border-bottom: 1px #000 solid; height: 30px; line-height:30px; font-size:11px; background-color: rgb(245, 245, 245) ;}
+  .gnb img{vertical-align:middle;}
+  .gnb ul li{float:left;}
+  .gnb ul + ul{float:right;}
+
+  header{ height: auto;}
+  h1{margin-top: 31px; display:block; float:left;}
+  .sad{width: 285px; height:auto; margin: 0 auto; float:left; margin-left: 287px; }
+  .sad article{ width: 280px; height: 55px;}
+  .sad article img{width: 100%;}
+  .sad input{ outline: 2px rgba(20, 49, 121, 0.82) solid; width: 242px; height: 20px; float:left; }
+  .searchm {outline: 2px rgba(20, 49, 121, 0.82) solid; width: 38px; height: 24px; float:left; overflow: hidden;}
+  .searchm img{height: 100%;}
+  .musical{ width: 233px; height: 77px; float:right;}
+  .musical img{width: 100%;}
+  header ul { clear:left; }
+  header ul li{  float:left;  margin-bottom: 15px; }
+  header ul li a{ font-size: 13px; color:rgb(125, 125, 125); font-weight: bold;}
+
+  .top_blue{ background-color: rgba(20, 49, 121, 0.82); clear:left; position:relative; }
+  .top_ul{ height: 49px; line-height:49px;}
+  .top_ul li{ height: auto; text-align: center; margin:0 5px; }
+  .top_ul li:first-child{ background-color: rgb(60, 132, 255); height:100%; margin: 0 5px 0 0; }
+  .top_ul a{color: #FFF; font-size:14px; }
+  header .top_ul + span a{ font-size: 10px; position:absolute; right:5px; top:19px; float:right; color:#FFF;}
+  header .top_ul + span bold{font-weight:bold;}
+  .udr_blue{outline: 1px rgb(125, 125, 125) solid; height: 38px; margin-bottom: 15px;}
+  .udr_blue li{line-height:38px; height: 38px; text-align: center; margin-right:3px; margin-bottom: 0; }
+  .udr_blue li:first-child{ height:100%; margin-right: 0 3px 0 0; }
+  .udr_blue span a{ font-size: 11px; margin-top:12px; float:right; }
+  .udr_blue span bold{ color:rgb(0, 90, 226); font-weight: bold;}
+
+  section{ border: 1px rgb(170, 170, 170) solid; width:746px; float:left;}
+  .main_contents{ height: 355px;}
+  section .main_ad{ border: 1px rgb(170, 170, 170) solid; width: 520px; height: 100px;  float:left; margin-bottom:11px;}
+  section .main_ad img{width: 100%;}
+  section .go_party{border: 1px rgb(170, 170, 170) solid; width: 220px; height: 100px; float:right; margin-bottom:11px;}
+  section .go_party img{width: 100%;}
+  /*section .main_contents_four{outline: 1px #F00 solid;}*/
+  section .main_contents_four li{ float:left;}
+  section .main_contents_four li + li img{outline: 1px rgb(170, 170, 170) solid; float:left; margin: 0 0 4px ;}
+  section .main_contents_four li:first-child{ position:relative; height:232px; margin: 0 8px 10px 0;}
+  section .main_contents_four .main_li{ width:335px; height: 70px; margin-bottom: 11px;}
+  section .main_contents_four .main_li div{ margin-left: 120px; width: 220px; height:61px; font-size:11px; text-indent: 8px; font-weight: bold; padding-top: 12px}
+  section .main_contents_four .main_li div span{font-size: 10px; font-weight: normal; padding: 7px 0 7px 8px;}
+
+  section .main_contents_four .main_cover{ position:absolute; width:100%; bottom:0; color:#FFF; background-color:rgba(0,0,0,0.5); text-indent: 5px;}
+  section .main_contents_four .main_cover span{ padding-left:  5px;}
+  section .main_contents_four .main_cover span + span{ position:absolute; right:22px; bottom:25px; font-size: 10px; }
+  section .main_contents_four .main_cover span + span bold{font-weight: bold;}
+  section .main_contents_four .main_cover img{position:absolute; right:12px; bottom:8px;}
+
+  .cyb{ border-top: 1px rgb(125, 125, 125) solid; height: 162px; padding: 10px 0 24px;  }
+  .cyb span{ font-weight:bold; font-size: 9px; color:rgb(125, 125, 125); margin-bottom: 6px}
+  .more{float:right;}
+  .more img{vertical-align:middle}
+  .cyb li{ float:left;  text-align: center; margin: 12px 11px 0 0;}
+  .cyb li:first-child{ float:left; margin-left:0 ;}
+
+
+  /*aside*/
+
+  aside{ margin-left: 751px; }
+  aside .log_in{width: 235px; }
+
+  .log_in{width: 100%;}
+  .log_in fieldset{ height: 99px;}
+  .log_in .bipl{font-size: 10px; text-indent: 14px}
+  .ipl{margin:0 5px 10px 14px; padding-top: 12px ;}
+  .bipl span{float:right; margin-right: 10px ;}
+  .bipl span bold{font-weight: bold;}
+  input[type="checkbox"]{vertical-align:middle;}
+  input[type="text"]{width: 149px; height: 20px; float:left; }
+  input[value="로그인"]{width: 56px; height: 55px; }
+
+  .hot_issue{padding: 7px 10px 0 10px; font-size: 12px; font-weight: bolder; border-bottom: 1px rgb(170, 170, 170) solid ; }
+  .hot_issue .hot_it{ float:right;}
+  .hot_issue div:first-child span{font-weight: normal; }
+  .aside_hot_ul{margin: 5px 0 0 1px;}
+  .aside_hot_ul li{height:75px;}
+
+  .aside_li_1{  padding: 8px 0 8px; height:53px; position:relative; }
+  .aside_li_1 div {  width: 78px; height: 53px; float:right;}
+  .aside_li_1 div img{ width: 100%;}
+
+  .aside_li_1 span{ width:107px; text-align: left; display: block; margin-left:13px; position:relative; top:11px;}
+  .aside_li_1 div + img{ float:left; position:relative; top:14px; }
+
+  .dot{ width: 2px; height: 2px; background-image: url(../image/bbd/icon_news_dot.png); background-repeat: no-repeat; display:inline-block; vertical-align: middle; margin-right: 8px; }
+
+  .aside_news{border-bottom: 1px rgb(170, 170, 170) solid ; height: 187px; padding: 9px 10px 0 10px; font-size: 12px; font-weight: bolder; }
+  .aside_news .aside_news_top{float: right;}
+
+  .aside_news div + span{  width:125px; height: 28px; font-size: 11px;  display: block; font-weight: normal; display: block; margin-left: 90px; padding-top: 11px;}
+  .aside_news_main{ height:56px; margin: 8px 0; }
+  .aside_news_main div{outline: 1px rgb(170, 170, 170) solid ; width: 77px; height: 54px; float:left;}
+  .aside_news_ul li:not(:first-child){ font-size: 11px;}
+  .aside_news_ul{font-weight: normal;}
+  .aside_news_ul li{margin-bottom: 10px;}
+
+  .aside_pop_con{ height: 42px; margin: 11px 0; }
+  .aside_pop_con span{margin-left: 90px; display: block;}
+  .aside_pop_con div{outline: 1px rgb(170, 170, 170) solid ; width: 78px; height: 40px; float:left; overflow: hidden;}
+  .aside_pop_con div img{width: 100%;}
+
+  .aside_my_pop{ margin-bottom: 14px;}
+  .aside_li_my{  margin-top: 10px; height:41px; position:relative; }
+  .aside_li_my div { outline: 1px rgb(170, 170, 170) solid;  width: 78px; height: 41px; float:right;}
+  .aside_li_my div img{ width: 100%;}
+  .aside_li_my span{ width:107px; text-align: left; display: block; margin-left:17px; position:relative; top:4px; }
+  .aside_li_my div + img{ float:left; position:relative; top:7px; }
+
+  .bb_story{outline: 1px rgb(170, 170, 170) solid; width: 213px; margin: 16px 0; position:relative; }
+  .bb_story_cover{ position:absolute; width:100%; height: 25px; bottom:0; color:#FFF; background-color:rgba(0,0,0,0.5); }
+  .bb_story_cover span{ font-size: 11px;  text-indent: 5px; float:left; line-height: 25px;}
+  .bb_story_cover img{ position:absolute; bottom:4px; right:4px; }
+
+  .aside_bb_event{ height:54px; margin: 10px 0 14px;}
+  .aside_bb_event div{outline: 1px rgb(170, 170, 170) solid; width: 78px; height: 54px; float: left;}
+  .aside_bb_event div img{width: 100%; }
+  .aside_bb_event div + span{ height: 54px;  margin-left: 88px ; font-weight: normal; font-size: 11px; display:block;}
+
+  aside .b_sns{ height:94px; padding: 10px 10px 0; font-size: 12px; font-weight: bolder; border-bottom: 1px rgb(170, 170, 170) solid ;}
+  aside .bb_sns{ padding-top: 10px;}
+  aside .bb_sns ul li{margin: 0 3px 5px 0 ; float:left;}
+  footer{width: 990px; height: 450px; border-top: 2px rgb(170, 170, 170) solid ; }
+  .notice{width: 990px;  height:30px; border-bottom: 1px rgb(170, 170, 170) solid ;  text-indent: 13px; display:inline-block; vertical-align: middle;}
+  .noticep{ width: 41px; height: 30px; margin-left:16px ; background-position: 5px 0  ; font-size:11px; background-image: url(../image/bbd/fnotice.png);   background-repeat: no-repeat;   background-position: 0 10px; line-height: 30.8px;}
+  .noticesvc{ width: 70px; height: 30px; margin-right: 4px; font-size:11px; background-image: url(../image/bbd/ftotal_service.png);   background-repeat: no-repeat;   background-position: 0 10px;}
+  .noticearrw{width: 3px; height: 30px; margin-right: 16px; font-size:11px; background-image: url(../image/bbd/footer_arrow-_right_blue.png);   background-repeat: no-repeat;   background-position: 0 13px; }
+
+  .fl{float:left;}
+  .fr{float:right;}
+
+  .foot_lists{border: 1px rgb(170, 170, 170) solid; background-color: rgb(250, 250, 250) ;width: 990px; height: 214px; font-size: 10px; }
+  .foot_lists ul{margin-top: 23px; float:left; width: 122px; height: 191px;}
+  .foot_lists ul{padding-left: 15px;}
+  .foot_lists ul li{margin-bottom: 5px;}
+  .foot_lists ul li:first-child{margin-bottom: 15px;}
+  .foot_lists ul li a{font-weight: lighter;}
+  ul.vertical{
+    background-image: url(../image/bbd/vertical.png);
+    background-repeat: no-repeat;
+    background-position: 0 -3px;
+    }
+.last_footer{ border-bottom: 1px rgb(170, 170, 170) solid ; width: 990px; height: 30px; line-height: 30px;}
+.last_footer ul{ width: 990px; height: 30px; }
+.last_footer ul li{ float:left;  padding: 0 10px 0 8px; height:30px; font-size: 9px; font-weight: lighter;}
+.last_footer ul li a{height: 30px; }
+.list_dot{
+  background-image: url(../image/bbd/list_style_dot.png);
+  background-repeat: no-repeat;
+  background-position: 0 13px;
+  }
+.fqna{
+  background-image: url(../image/bbd/fqna.png); background-repeat: no-repeat; background-position: 0 0;
+  display: inline-block; vertical-align: -2px; padding: 0 4px 0 0 ; width: 40px;  height: 12px;
+  }
+.fqnb{
+  background-image: url(../image/bbd/fcad.png); background-repeat: no-repeat; background-position: 0 0;
+  display: inline-block; vertical-align: -2px; padding: 0 4px 0 0 ; width: 40px;  height: 12px;
+  }
+.fqnc{
+  background-image: url(../image/bbd/fcol.png); background-repeat: no-repeat; background-position: 0 0;
+  display: inline-block; vertical-align: -2px; padding: 0 4px 0 0 ; width: 40px;  height: 12px;
+  }
+.fqnd{
+  background-image: url(../image/bbd/finq.png); background-repeat: no-repeat; background-position: 0 0;
+  display: inline-block; vertical-align: -2px; padding: 0 4px 0 0 ; width: 40px;  height: 12px;
+  }
+.fqne{
+  background-image: url(../image/bbd/fcolc.png); background-repeat: no-repeat; background-position: 0 0;
+  display: inline-block; vertical-align: -2px; padding: 0 4px 0 0 ; width: 40px;  height: 12px;
+  }
+.fqnf{
+  background-image: url(../image/bbd/fcom.png); background-repeat: no-repeat; background-position: 0 0;
+  display: inline-block; vertical-align: -2px; padding: 0 4px 0 0 ; width: 40px;  height: 12px;
+  }
+.fqng{
+  background-image: url(../image/bbd/frep.png); background-repeat: no-repeat; background-position: 0 0;
+  display: inline-block; vertical-align: -2px; padding: 0 4px 0 0 ; width: 40px;  height: 12px;
+  }
+  /*.last_footer ul li:nth-child(2){outline:11px #F00 solid; background-image: url(../image/bbd/fdo.png); }*/
+  .list_dot:last-child img{ vertical-align: -2px; }
+
+  .final-final{width: 990px; height: 173px; }
+  .final-final ul{ width: 990px;  height: 51px; line-height: 51px; position:relative; }
+  .final-final ul li{ float:left;  padding: 0 13px 0 0; height:51px; font-size: 11px; position:relative; left:20%;}
+  .final-final ul li a{height: 51px; font-weight: bolder; color: rgb(54, 54, 54); }
+  .final-final ul li img{ vertical-align: -1px; margin-left: 11px;}
+
+  .final-final p{text-align: center; font-size: 10px; color:rgb(186, 186, 186) ;}
+  .final-final span{display:inline-block; padding: 1.5px 0;}
+  .final-final p span + img{vertical-align: -2px; margin-left: 5px;}
+  .final-final p span img{ margin: 0 6px;   vertical-align: -2px;}
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+  <div class="gnb">
+      <ul>
+        <li><a href=""><img src="../image/bbd/icon_star.png" alt=""> 즐겨찾기&nbsp;&nbsp; </a></li>
+        <li><a href=""><img src="../image/bbd/icon_num10.png" alt=""> 기아&nbsp;K5&nbsp;하이브리드&nbsp;(12년식)&nbsp;</a></li>
+        <li><a href=""><img src="../image/bbd/icon_up.png" alt="">41</a></li>
+      </ul>
+      <ul>
+        <li><a href="">로그인 &nbsp;&#124;&nbsp;</a></li>
+        <li><a href="">회원가입 &nbsp;&#124;&nbsp;</a></li>
+        <li><a href="">마이페이지 <img src="../image/bbd/icon_menu_down.png" alt=""> &nbsp;&#124;&nbsp;</a></li>
+        <li><a href="">쪽지 <span style="color:rgb(34, 97, 180); font-weight: bold;">1</span>&nbsp;&#124;&nbsp;</a></li>
+        <li><a href="">찜한차량 <span style="color:rgb(34, 97, 180); font-weight: bold;">2</span>&nbsp;&#124;&nbsp;</a></li>
+        <li><a href="">고객센터 &nbsp;&#124;&nbsp;</a></li>
+        <li><a href="">전체메뉴 <img src="../image/bbd/icon_menu_down.png" alt=""> &nbsp;&#124;&nbsp;</a></li>
+        <li><a href=""><img src="../image/bbd/icon_phone.png" alt="">&nbsp; 모바일&nbsp;&nbsp;</a></li>
+      </ul>
+    </div>
+
+  <header>
+       <h1><img src="../image/bbd/logo.png" alt=""></h1>
+
+       <div class="sad">
+          <article><img src="../image/bbd/banner_top.png" alt=""></article>
+          <input type="text"/>
+          <div class="searchm"><img src="../image/bbd/searchm.png" alt=""></div>
+       </div>
+
+       <div class="musical"><img src="../image/bbd/musical.png" alt=""></div>
+       <ul>
+         <li><a href="">인기중고토바이&nbsp;&#124;</a></li>
+         <li><a href="">&nbsp;용품장터&nbsp;&#124;</a></li>
+         <li><a href="">&nbsp;협력업체&nbsp;&#124;</a></li>
+         <li><a href="">&nbsp;이벤트</a></li>
+       </ul>
+
+       <div class="top_blue">
+           <ul class="top_ul">
+             <li><a href="">사이버매장&nbsp;&#124;</a></li>
+             <li><a href="">국산중고차&nbsp;&#124;</a></li>
+             <li><a href="">수입중고차&nbsp;&#124;</a></li>
+             <li><a href="">내차팔기&nbsp;&#124;</a></li>
+             <li><a href="">커뮤니티&nbsp;&#124;</a></li>
+             <li><a href="">더보기&nbsp;&#124;</a></li>
+           </ul>
+           <span><a href=""><bold>공지</bold> <img src="" alt=""> 보배드림 어플 업데이트 안내</a></span>
+       </div>
+       <div class="udr_blue">
+          <ul>
+            <li><a href="">국산차매장&nbsp;&#124;</a></li>
+            <li><a href="">수입차매장&nbsp;&#124;</a></li>
+            <li><a href="">승용차매장&nbsp;&#124;</a></li>
+            <li><a href="">스포츠카매장&nbsp;&#124;</a></li>
+            <li><a href="">4륜/suv매장&nbsp;&#124;</a></li>
+            <li><a href="">밴/승합차매장&nbsp;&#124;</a></li>
+            <li><a href="">튜닝카매장&nbsp;&#124;</a></li>
+            <li><a href="">올드카매장&nbsp;&#124;</a></li>
+            <li><a href="">오토갤러리매장&nbsp;&#124;</a></li>
+          </ul>
+          <span><a href="">오늘방문&nbsp;<bold>981,478</bold>&nbsp;&nbsp;어제방문&nbsp;<bold>981,478</bold></a></span>
+       </div>
+    </header>
+  <section>
+      <div class="main_contents">
+        <div class="main_ad">
+          <img src="../image/bbd/main_ad.png" alt="">
+        </div>
+        <div class="go_party">
+          <img src="../image/bbd/go_party.png" alt="">
+        </div>
+
+      <ul class="main_contents_four">
+        <li>
+          <a href="">
+            <img class="audi"src="../image/bbd/main_audi.png" alt="">
+            <div class="main_cover">
+              <cite>사이버매장 특종매물</cite><br/>
+              <span>2013 아우디 R8 5.2 V10 스파이더</span>
+              <span> <bold>2</bold>/3</span>
+              <img src="../image/bbd/both_arrow.png" alt="">
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="main_li">
+              <img src="../image/bbd/main_li_1.png" alt="">
+              <div>
+                중고국산차 특종매물<br/>
+                <span>1988 현대 스텔라 1.5 88형 GLX</span><br/>
+                <span>극 희소. 1988년 올림픽 공식모델!!</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="main_li">
+              <img src="../image/bbd/main_li_2.png" alt="">
+              <div>
+                수입중고차 특종매물<br/>
+                <span>2012 람보르기니 가야르도 LP560-4</span><br/>
+                <span>11.8초 &#8594; 200KM 람보르기니!!</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="main_li">
+              <img src="../image/bbd/main_li_3.png" alt="">
+              <div>
+                오토바이 특종매물<br/>
+                <span>2011 브램모 엠펄즈 R</span><br/>
+                <span>공인연비 !L &#8594; 16.km</span>
+              </div>
+            </div>
+          </a>
+
+        </li>
+      </ul>
+    </div> <!--main_contents-->
+
+
+    <div class="cyb">
+       <strong style="font-size:12px;">사이버매장 신규매몰</strong>
+      <div class="more">
+       <span>더보기</span>
+       <img src="../image/bbd/icon_right_arrow.png" alt="">
+      </div>
+       <ul>
+         <li>
+           <a href="">
+             <div><img src="../image/bbd/cy1.png" alt=""></div>
+             <span>BMW 1M 쿠페 201년식</span><br/>
+             <span>2001년식</span>
+           </a>
+         </li>
+         <li>
+           <a href="">
+             <div><img src="../image/bbd/cy2.png" alt=""></div>
+             <span>렉서스 뉴 ES300H</span><br/>
+             <span>2001년식</span>
+           </a>
+         </li>
+         <li>
+           <a href="">
+             <div><img src="../image/bbd/cy3.png" alt=""></div>
+             <span>람보르기니 가야르도 2001년식</span><br/>
+             <span>2001년식</span>
+           </a>
+         </li>
+         <li>
+           <a href="">
+             <div><img src="../image/bbd/cy4.png" alt=""></div>
+             <span>렉서스 뉴 ES300H</span><br/>
+             <span>2001년식</span>
+           </a>
+         </li>
+         <li>
+           <a href="">
+             <div><img src="../image/bbd/cy5.png" alt=""></div>
+             <span>람보르기니 가야르도 2001년식</span><br/>
+             <span>2001년식</span>
+           </a>
+         </li>
+       </ul>
+   </div> <!--cyber-->
+   <div class="cyb">
+      <strong style="font-size:12px;">사이버매장 신규매몰</strong>
+     <div class="more">
+      <span>더보기</span>
+      <img src="../image/bbd/icon_right_arrow.png" alt="">
+     </div>
+      <ul>
+        <li>
+          <a href="">
+            <div><img src="../image/bbd/dm1.png" alt=""></div>
+            <span>BMW 1M 쿠페 201년식</span><br/>
+            <span>2001년식</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div><img src="../image/bbd/dm2.png" alt=""></div>
+            <span>렉서스 뉴 ES300H</span><br/>
+            <span>2001년식</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div><img src="../image/bbd/dm3.png" alt=""></div>
+            <span>람보르기니 가야르도 2001년식</span><br/>
+            <span>2001년식</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div><img src="../image/bbd/dm4.png" alt=""></div>
+            <span>렉서스 뉴 ES300H</span><br/>
+            <span>2001년식</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div><img src="../image/bbd/dm5.png" alt=""></div>
+            <span>람보르기니 가야르도 2001년식</span><br/>
+            <span>2001년식</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <div class="cyb">
+     <strong style="font-size:12px;">사이버매장 신규매몰</strong>
+    <div class="more">
+     <span>더보기</span>
+     <img src="../image/bbd/icon_right_arrow.png" alt="">
+    </div>
+     <ul>
+       <li>
+         <a href="">
+           <div><img src="../image/bbd/fm1.png" alt=""></div>
+           <span>BMW 1M 쿠페 201년식</span><br/>
+           <span>2001년식</span>
+         </a>
+       </li>
+       <li>
+         <a href="">
+           <div><img src="../image/bbd/fm2.png" alt=""></div>
+           <span>렉서스 뉴 ES300H</span><br/>
+           <span>2001년식</span>
+         </a>
+       </li>
+       <li>
+         <a href="">
+           <div><img src="../image/bbd/fm3.png" alt=""></div>
+           <span>람보르기니 가야르도 2001년식</span><br/>
+           <span>2001년식</span>
+         </a>
+       </li>
+       <li>
+         <a href="">
+           <div><img src="../image/bbd/fm4.png" alt=""></div>
+           <span>렉서스 뉴 ES300H</span><br/>
+           <span>2001년식</span>
+         </a>
+       </li>
+       <li>
+         <a href="">
+           <div><img src="../image/bbd/fm5.png" alt=""></div>
+           <span>람보르기니 가야르도 2001년식</span><br/>
+           <span>2001년식</span>
+         </a>
+       </li>
+     </ul>
+ </div>
+ <div class="cyb">
+    <strong style="font-size:12px;">사이버매장 신규매몰</strong>
+   <div class="more">
+    <span>더보기</span>
+    <img src="../image/bbd/icon_right_arrow.png" alt="">
+   </div>
+    <ul>
+      <li>
+        <a href="">
+          <div><img src="../image/bbd/bk1.png" alt=""></div>
+          <span>BMW 1M 쿠페 201년식</span><br/>
+          <span>2001년식</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div><img src="../image/bbd/bk2.png" alt=""></div>
+          <span>렉서스 뉴 ES300H</span><br/>
+          <span>2001년식</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div><img src="../image/bbd/bk3.png" alt=""></div>
+          <span>람보르기니 가야르도 2001년식</span><br/>
+          <span>2001년식</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div><img src="../image/bbd/bk4.png" alt=""></div>
+          <span>렉서스 뉴 ES300H</span><br/>
+          <span>2001년식</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div><img src="../image/bbd/bk5.png" alt=""></div>
+          <span>람보르기니 가야르도 2001년식</span><br/>
+          <span>2001년식</span>
+        </a>
+      </li>
+    </ul>
+</div>
+<div class="cyb">
+   <strong style="font-size:12px;">사이버매장 신규매몰</strong>
+  <div class="more">
+   <span>더보기</span>
+   <img src="../image/bbd/icon_right_arrow.png" alt="">
+  </div>
+   <ul>
+     <li>
+       <a href="">
+         <div><img src="../image/bbd/ccs1.png" alt=""></div>
+         <span>BMW 1M 쿠페 201년식</span><br/>
+         <span>2001년식</span>
+       </a>
+     </li>
+     <li>
+       <a href="">
+         <div><img src="../image/bbd/ccs2.png" alt=""></div>
+         <span>렉서스 뉴 ES300H</span><br/>
+         <span>2001년식</span>
+       </a>
+     </li>
+     <li>
+       <a href="">
+         <div><img src="../image/bbd/ccs3.png" alt=""></div>
+         <span>람보르기니 가야르도 2001년식</span><br/>
+         <span>2001년식</span>
+       </a>
+     </li>
+     <li>
+       <a href="">
+         <div><img src="../image/bbd/ccs4.png" alt=""></div>
+         <span>렉서스 뉴 ES300H</span><br/>
+         <span>2001년식</span>
+       </a>
+     </li>
+     <li>
+       <a href="">
+         <div><img src="../image/bbd/ccs5.png" alt=""></div>
+         <span>람보르기니 가야르도 2001년식</span><br/>
+         <span>2001년식</span>
+       </a>
+     </li>
+   </ul>
+</div>
+
+
+
+
+  </section>
+  <aside>
+    <div class="log_in">
+        <form action="https://nid.naver.com/nidlogin.login" method="post">
+        <fieldset>
+            <legend class="ir">로그인</legend>
+          <div class="ipl">
+            <input type="text" placeholder="아이디">
+            <input type="text" placeholder="비밀번호">
+            <input type="submit" value="로그인"/>
+          </div>
+          <div class="bipl">
+            <input type="checkbox"> ID저장
+            <span><bold>회원가입</bold>&nbsp;&#124;&nbsp;ID/비밀번호 찾기</span>
+          </div>
+      </fieldset>
+      </form>
+    </div>
+
+    <div class="hot_issue">
+      커뮤니티 핫이슈
+      <div class="hot_it">
+        <img src="../image/bbd/icon_issue_arrow1.png" alt="">
+        1<span>/20</span>
+        <img src="../image/bbd/icon_issue_arrow2.png" alt="">
+      </div>
+      <ul class="aside_hot_ul">
+        <li>
+          <a href="">
+            <div class="aside_li_1">
+               <div><img src="../image/bbd/main_aside_1.png" alt=""></div>
+               <img src="../image/bbd/icon_1.png" alt="" ><span> 길가에 멈춰선 차량 돕는 훈훈한 모습</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="aside_li_1">
+               <div><img src="../image/bbd/main_aside_2.png" alt=""></div>
+               <img src="../image/bbd/icon_2.png" alt="" ><span> 유리를 박살내고 차량용품 싹쓸이</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="aside_li_1">
+               <div><img src="../image/bbd/main_aside_3.png" alt=""></div>
+               <img src="../image/bbd/icon_3.png" alt="" ><span> 짙은안개 고속도로 살벌한 추돌사고</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <div class="aside_news">
+        자동차 뉴스
+        <div class="more">
+         <span>더보기</span>
+         <img src="../image/bbd/icon_right_arrow.png" alt="">
+        </div>
+      <div class="aside_news_ul">
+        <ul>
+          <li>
+            <a href="">
+              <div class="aside_news_main">
+                 <div><img src="../image/bbd/aside_news.png" alt=""></div>
+                 <span> 르노삼성 부산공장 중대형 핵심기지 될 것</span>
+              </div>
+            </a>
+          </li>
+          <li><i class="dot"></i>쌍용 EREV, 전기자동차 2015년 양상</li>
+          <li><i class="dot"></i>[2012 결산] 전자.자동차.철강 등</li>
+          <li><i class="dot"></i>남양연구소 'T-LPDi' 사용화 박차</li>
+          <li><i class="dot"></i>올해들어 수입차 CEO 대거 교체</li>
+        </ul>
+      </div>
+    </div>
+    <div class="hot_issue">
+        커뮤니티 인기글
+        <div class="more">
+           <span><b>더보기</b></span>
+           <img src="../image/bbd/icon_right_arrow.png" alt="">
+        </div>
+        <ul>
+            <li>
+              <a href="">
+                <div class="aside_pop_con">
+                   <div><img src="../image/bbd/cmnt_hot1.png" alt=""></div>
+                   <span> 신호위반 접촉사고 <br/> 망설임없이 바로 도주</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="aside_pop_con">
+                   <div><img src="../image/bbd/cmnt_hot2.png" alt=""></div>
+                   <span> 중앙선을 넘어선 순간 <br/> 대형사고 간신히 모면</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="aside_pop_con">
+                   <div><img src="../image/bbd/cmnt_hot3.png" alt=""></div>
+                   <span> 짙은안개 고속도로 <br/> 살벌한 추돌사고</span>
+                </div>
+              </a>
+            </li>
+        </ul> <!-- 커뮤니티 인기글 -->
+      </div>
+
+      <div class="hot_issue">
+        내차소 인기순위
+        <div class="more">
+           <span><b>더보기</b></span>
+           <img src="../image/bbd/icon_right_arrow.png" alt="">
+        </div>
+        <ul class="aside_my_pop">
+          <li>
+            <a href="">
+              <div class="aside_li_my">
+                 <div><img src="../image/bbd/aside_pop1.png" alt=""></div>
+                 <img src="../image/bbd/icon_blue1.png" alt="" ><span> 270ELISA 님의 <br/>현대 투스카니</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="aside_li_my">
+                 <div><img src="../image/bbd/aside_pop2.png" alt=""></div>
+                 <img src="../image/bbd/icon_2.png" alt="" ><span> 대금이 님의 <br/>현대 뉴 제네시스</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <div class="aside_li_my">
+                 <div><img src="../image/bbd/aside_pop3.png" alt=""></div>
+                 <img src="../image/bbd/icon_3.png" alt="" ><span> 날아라콩떡 님의 <br/>아우디 뉴 A6</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hot_issue">
+        보배드림 이야기
+        <div class="more">
+           <span><b>더보기</b></span>
+           <img src="../image/bbd/icon_right_arrow.png" alt="">
+        </div>
+        <div class="bb_story">
+          <a href="">
+            <img src="../image/bbd/aside_bobae_story.png" alt="">
+            <div class="bb_story_cover">
+              <span>BMW1 시리즈의 가성비</span>
+              <img src="../image/bbd/both_arrow.png" alt="">
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="hot_issue">
+        이벤트 소식
+        <div class="more">
+           <span><b>더보기</b></span>
+           <img src="../image/bbd/icon_right_arrow.png" alt="">
+        </div>
+
+        <div class="aside_bb_event">
+          <a href="">
+            <div><img src="../image/bbd/aside_bobae_event.png" alt=""></div>
+            <span>맨즈박스에 참여한 브랜드 중 마음에 드는 상품을 골라주세요!</span>
+          </a>
+        </div>
+      </div>
+
+        <div class="b_sns">
+          보배드림과 SNS 맺기
+          <div class="bb_sns">
+            <ul>
+              <li><a href=""><img src="../image/bbd/aside_facebook.png" alt=""></a></li>
+              <li><a href=""><img src="../image/bbd/aside_tweeter.png" alt=""></a></li>
+              <li><a href=""><img src="../image/bbd/aside_blog.png" alt=""></a></li>
+              <li><a href=""><img src="../image/bbd/aside_kakao.png" alt=""></a></li>
+              <li><a href=""><img src="../image/bbd/aside_youtube.png" alt=""></a></li>
+              <li><a href=""><img src="../image/bbd/aside_google.png" alt=""></a></li>
+            </ul>
+          </div>
+       </div>
+    </aside>
+    <footer>
+        <div class="notice">
+            <i class="noticep fl"></i>
+            <i class="noticearrw fr"></i>
+            <i class="noticesvc fr"></i>
+        </div>
+        <div class="foot_lists">
+            <ul>
+              <li><a href=""><img src="../image/bbd/fcy.png" alt=""></a></li>
+              <li><a href="">국산차매장</a></li>
+              <li><a href="">수입차매장</a></li>
+              <li><a href="">튜닝카매장</a></li>
+              <li><a href="">승용차매장</a></li>
+              <li><a href="">스포츠카매장</a></li>
+              <li><a href="">4륜/SUV매장</a></li>
+              <li><a href="">벤/승합차차매장</a></li>
+              <li><a href="">오토갤러리매장</a></li>
+            </ul>
+            <ul class="vertical">
+              <li><a href=""><img src="../image/bbd/fdo.png" alt=""></a></li>
+              <li><a href="">전체차량</a></li>
+              <li><a href="">인기차량</a></li>
+              <li><a href="">확인차량</a></li>
+              <li><a href="">경매차량</a></li>
+              <li><a href="">특수/특장차</a></li>
+              <li><a href="">국산차매장</a></li>
+              <li><a href="">중고차시세</a></li>
+              <li><a href="">차종별검색</a></li>
+            </ul>
+            <ul class="vertical">
+              <li><a href=""><img src="../image/bbd/ffo.png" alt=""></a></li>
+              <li><a href="">전체차량</a></li>
+              <li><a href="">인기차량</a></li>
+              <li><a href="">확인차량</a></li>
+              <li><a href="">경매차량</a></li>
+              <li><a href="">특수/특장차</a></li>
+              <li><a href="">국산차매장</a></li>
+              <li><a href="">중고차시세</a></li>
+              <li><a href="">차종별검색</a></li>
+            </ul>
+            <ul class="vertical">
+              <li><a href=""><img src="../image/bbd/fsel.png" alt=""></a></li>
+              <li><a href="">사이버매물등록</a></li>
+              <li><a href="">국산차등록</a></li>
+              <li><a href="">수입차등록</a></li>
+              <li><a href="">매물등록권 구입</a></li>
+            </ul>
+            <ul class="vertical">
+              <li><a href=""><img src="../image/bbd/fbb.png" alt=""></a></li>
+              <li><a href="">베스트글</a></li>
+              <li><a href="">자유게시판</a></li>
+              <li><a href="">질문과 답변</a></li>
+              <li><a href="">시승기</a></li>
+              <li><a href="">내차소개</a></li>
+              <li><a href="">자동차동영상</a></li>
+              <li><a href="">특종사진</a></li>
+              <li><a href="">레이싱모델</a></li>
+            </ul>
+            <ul class="vertical">
+              <li><a href=""><img src="../image/bbd/fco.png" alt=""></a></li>
+              <li><a href="">내차소개</a></li>
+              <li><a href="">자동차동영상</a></li>
+              <li><a href="">특종사진</a></li>
+              <li><a href="">레이싱모델</a></li>
+            </ul>
+            <ul class="vertical">
+              <li><a href=""><img src="../image/bbd/fma.png" alt=""></a></li>
+              <li><a href="">오토바이</a></li>
+              <li><a href="">용품장터</a></li>
+              <li><a href="">부배모델</a></li>
+              <li><a href="">경매차량</a></li>
+              <li><a href="">공매차량</a></li>
+              <li><a href="">이벤트</a></li>
+            </ul>
+        </div> <!--foot_lists-->
+
+        <div class="last_footer">
+          <ul>
+            <li class="list_dot"><a href=""><i class="fqna"></i></a>02-784-2329</li>
+            <li class="list_dot"><a href=""><i class="fqnb"></i></a>02-784-2329</li>
+            <li class="list_dot"><a href=""><i class="fqnc"></i></a>02-784-2329</li>
+            <li class="list_dot"><a href=""><i class="fqnd"></i></a>02-784-2329</li>
+            <li class="list_dot"><a href=""><i class="fqne"></i></a>02-784-2329</li>
+            <li class="list_dot"><a href=""><i class="fqnf"></i></a>02-784-2329</li>
+            <li class="list_dot"><a href=""><i class="fqng"></i></a>장애/오류신고 <img src="../image/bbd/short_vert.png" alt=""> 권리침해신고</li>
+          </ul>
+        </div>
+        <div class="final-final">
+
+        <ul>
+          <li><a href="">회사소개</a><img src="../image/bbd/short_vert.png" alt=""></li>
+          <li><a href="">제휴광고</a><img src="../image/bbd/short_vert.png" alt=""></li>
+          <li><a href="">협력업체신청</a><img src="../image/bbd/short_vert.png" alt=""></li>
+          <li><a href="">인재채용</a><img src="../image/bbd/short_vert.png" alt=""></li>
+          <li><a href="">이용약관</a><img src="../image/bbd/short_vert.png" alt=""></li>
+          <li><a href="">개인정보취급방침</a><img src="../image/bbd/short_vert.png" alt=""></li>
+          <li><a href="">고객센터</a><img src="../image/bbd/short_vert.png" alt=""></li>
+          <li><a href="">사이트맵</a></li>
+        </ul>
+        <p>
+          <span>사업자등록번호 : 117-81-64543 통신판매업신고번호 : 제 2012-서울영등포-0697호</span><img src="../image/bbd/business_information.png" alt=""><br/>
+          <span>주식회사 보배 네트워크<img src="../image/bbd/short_vert.png" alt="">주소 : 서울 영등포구 양평동3가 16 우림E비즈센터 11,12층<img src="../image/bbd/short_vert.png" alt="">대표이사 : 김보배<img src="../image/bbd/short_vert.png" alt="">개인벙보관리책임자:김태형</span><br/>
+          <span>대표전화 : 02-734-2329<img src="../image/bbd/short_vert.png" alt="">대표팩스 : 02-64*9-2329<img src="../image/bbd/short_vert.png" alt="">이메일: bobaedream@bobaeream.co.kr</span><br/>
+          <span>Copyright (c) BOBAENETWORK All rights reserved</span><br/><br/>
+          <span>보배드림은 통신판매중개자이며 차량판매의 당사자가 아닙니다. 따라서 보배드림은 차량 거래검토 및 거래에 대하여 어떤 책임을 지지 않습니다.</span><br/>
+        </p>
+
+        </div>
+
+
+
+    </footer>
+
+  </div> <!--wrap-->
+
+</body>
+</html>

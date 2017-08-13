@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>padding</title>
+    <style>
+      .box{
+        width:200px; height:200px;
+        border:1px #F00 solid;
+        padding:50px;
+        background-color: red;
+        margin:100px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="box">야야야야야야</div>
+
+  </body>
+</html>

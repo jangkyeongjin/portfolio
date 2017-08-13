@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+	.abc{
+		border:1px #F00 solid;
+		width: 50%;
+		height: 200px;
+		float:left;
+		padding:10px;
+		box-sizing: border-box;
+	}
+
+
+	</style>
+	<body>
+		<div class="abc">
+
+		</div>
+		<div class="abc">
+
+		</div>
+
+	</body>
+</html>
